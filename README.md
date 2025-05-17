@@ -1,4 +1,3 @@
-# LLMs-XAI
 # Large Language Model Assisted PowerShell Malware Detection and Explanation
 
 This repository provides the **dataset used in the paper** (including PowerShell scripts, SHAP results, and domain knowledge) as well as **automation scripts** for:
