@@ -18,11 +18,13 @@ Make sure your environment meets the requirements (e.g., Python ≥ 3.8, CUDA-co
 Before running inference, you need to start a local vLLM server with your chosen model.
 
 - Activate your environment
+
   **example**: conda environment named vllm
   ```
   conda activate vllm
   ```
 - Start the server
+
   **example**:
   ```
   python3 -m vllm.entrypoints.openai.api_server --model meta-llama/Llama-3.1-8B-Instruct --tensor-parallel-size 2 --dtype auto
