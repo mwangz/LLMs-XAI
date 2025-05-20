@@ -13,7 +13,7 @@ To install vLLM, please follow the official guide:
 [https://docs.vllm.ai/en/stable/getting_started/installation.html](https://docs.vllm.ai/en/stable/getting_started/installation.html)
 Make sure your environment meets the requirements (e.g., Python ≥ 3.8, CUDA-compatible GPU).
 
-## 2 Launch a vLLM Server with the Model
+## 2. Launch a vLLM Server with the Model
 
 Before running inference, you need to start a local vLLM server with your chosen model.
 
