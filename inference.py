@@ -3,8 +3,8 @@
 import argparse
 import asyncio
 import json
+from openai import AsyncOpenAI
 from tqdm.asyncio import tqdm_asyncio
-from g4f.client import Client
 
 async def main():
     parser = argparse.ArgumentParser(description="Run inference on prompts using OpenAI API.")
@@ -12,16 +12,36 @@ async def main():
     parser.add_argument("output_file", help="Output JSONL file for the responses.")
     parser.add_argument(
         "--model",
-        default= "llama-3.1-8b", #"gemini-1.5-flash","deepseek-chat","mixtral-7b", "llama-3.1-8b", "gpt-4o", didn't work #"mistral-large","o1_preview",
-        help="Model name to use for inference (e.g., 'gpt-4o')."
+        default="/data1/Llama-3.1-Nemotron-8B-Instruct-HF-FP8-dynamic",
+        help="Model name or HuggingFace model path to use for inference."
+    )
+    parser.add_argument(
+        "--temperature",
+        type=float,
+        default=1.0,
+        help="Value from 0 to 2. Lower values make the output more deterministic."
+    )
+    parser.add_argument(
+        "--max_tokens",
+        type=int,
+        default=1024,
+        help="The maximum number of tokens the model is permitted to generate."
     )
     parser.add_argument(
         "--num_reqs",
         type=int,
-        default= 64, # 128, maximum recursion depth exceeded
-        help="Maximum number of concurrent requests." 
+        default=128,
+        help="Maximum number of concurrent requests."
     )
     args = parser.parse_args()
+
+    API_BASE = "http://localhost:8000/v1"
+    API_KEY = "EMPTY"
+
+    client = AsyncOpenAI(
+        api_key=API_KEY,
+        base_url=API_BASE
+    )
 
     semaphore = asyncio.Semaphore(args.num_reqs)
 
@@ -42,20 +62,17 @@ async def main():
                 if role == "assistant" and content is None:
                     # Reached placeholder turn
                     async with semaphore:
-                        client = Client()
-                        response = client.chat.completions.create(
+                        response = await client.chat.completions.create(
                             model=args.model,
+                            temperature=args.temperature,
+                            max_tokens=args.max_tokens,
                             messages=conversation_history
                         )
-                        assistant_content = response.choices[0].message.content
-                        # Update the message content with the assistant's response
-                        messages[idx]["content"] = assistant_content
+                    assistant_message = response.choices[0].message.content
 
-                    # Create a message dictionary for the assistant's reply
-                    assistant_message = {
-                        "role": "assistant",
-                        "content": assistant_content
-                    }
+                    # Update the message content with the assistant's response
+                    messages[idx]["content"] = assistant_message["content"]
+
                     # Append the assistant's message to the conversation history
                     conversation_history.append(assistant_message)
                 else:
@@ -93,8 +110,4 @@ async def main():
     print(f"Responses have been written to {args.output_file}")
 
 if __name__ == "__main__":
-    # to solve the error: RuntimeError: asyncio.run() cannot be called from a running event loop
-    import nest_asyncio
-    nest_asyncio.apply()
-    
     asyncio.run(main())
