@@ -68,11 +68,15 @@ async def main():
                             max_tokens=args.max_tokens,
                             messages=conversation_history
                         )
-                    assistant_message = response.choices[0].message.content
+                        assistant_content = response.choices[0].message.content
+                        # Update the message content with the assistant's response
+                        messages[idx]["content"] = assistant_content
 
-                    # Update the message content with the assistant's response
-                    messages[idx]["content"] = assistant_message["content"]
-
+                    # Create a message dictionary for the assistant's reply
+                    assistant_message = {
+                        "role": "assistant",
+                        "content": assistant_content
+                    }
                     # Append the assistant's message to the conversation history
                     conversation_history.append(assistant_message)
                 else:
