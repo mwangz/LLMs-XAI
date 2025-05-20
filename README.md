@@ -6,6 +6,13 @@ This repository provides the **dataset used in the paper** (including PowerShell
 - Masking malicious code based on model responses
 - Analysis file using VirusTotal
 
+## Installing vLLM
+
+This project uses [vLLM](https://github.com/vllm-project/vllm), an efficient inference engine for large language models.
+To install vLLM, please follow the official guide:
+[https://docs.vllm.ai/en/stable/getting_started/installation.html](https://docs.vllm.ai/en/stable/getting_started/installation.html)
+Make sure your environment meets the requirements (e.g., Python ≥ 3.8, CUDA-compatible GPU).
+
 ## 1. Generate the Prompts
 
 ### 1.1 Code-Only
