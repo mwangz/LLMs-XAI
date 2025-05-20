@@ -6,7 +6,7 @@ This repository provides the **dataset used in the paper** (including PowerShell
 - Masking malicious code based on model responses
 - Analysis file using VirusTotal
 
-## 1. Installing vLLM
+## 1. Install vLLM
 
 This project uses [vLLM](https://github.com/vllm-project/vllm), an efficient inference engine for large language models.
 To install vLLM, please follow the official guide:
@@ -42,7 +42,7 @@ python3 generate_prompts-codeonly-confidence-levels.py <input_powershell_scripts
 python3 generate_prompts-codeonly-confidence-levels.py powershell_scripts/codeonly prompts-codeonly.jsonl
 ```
 
-### 3.2 code+domain knowledge+SHAP
+### 3.2 Code+domain knowledge+SHAP
 ```
 python3 generate_prompts-code-domain-SHAP-confidence.py input_powershell_scripts_path output_prompts_file_name.jsonl
 ```
@@ -91,7 +91,7 @@ python3 mask-malicious-code.py --jsonl_file 'responses-codeonly.jsonl' \
   --severity_level 2 > log-responses-codeonly-confidence-levels-high.txt
 ```
 
-### 5.2 code+domain knowledge+SHAP
+### 5.2 Code+domain knowledge+SHAP
 
 **The main difference from codeonly is the parameter severity_level**
 ```
@@ -125,9 +125,13 @@ Obtain file community scores from [VirusTotal](https://www.virustotal.com/):
 python3 VirusTotal_checker.py your_input_folder
 ```
 **Requires a [VirusTotal](https://www.virustotal.com/) account and API key.**
+
 The script will generate `<your_input_folder>_log.txt` with community scores for each file.
 
 **example**:
 ```
 python3 VirusTotal_checker.py cleaned_scripts_confidence_levels_all
 ```
+
+
+
