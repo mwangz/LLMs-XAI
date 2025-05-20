@@ -6,16 +6,31 @@ This repository provides the **dataset used in the paper** (including PowerShell
 - Masking malicious code based on model responses
 - Analysis file using VirusTotal
 
-## Installing vLLM
+## 1. Installing vLLM
 
 This project uses [vLLM](https://github.com/vllm-project/vllm), an efficient inference engine for large language models.
 To install vLLM, please follow the official guide:
 [https://docs.vllm.ai/en/stable/getting_started/installation.html](https://docs.vllm.ai/en/stable/getting_started/installation.html)
 Make sure your environment meets the requirements (e.g., Python ≥ 3.8, CUDA-compatible GPU).
 
-## 1. Generate the Prompts
+## 2 Launch a vLLM Server with the Model
 
-### 1.1 Code-Only
+Before running inference, you need to start a local vLLM server with your chosen model.
+
+- Activate your environment
+  **example**: conda environment named vllm
+  ```
+  conda activate vllm
+  ```
+- Start the server
+  **example**:
+  ```
+  python3 -m vllm.entrypoints.openai.api_server --model meta-llama/Llama-3.1-8B-Instruct --tensor-parallel-size 2 --dtype auto
+  ```
+
+## 3. Generate the Prompts
+
+### 3.1 Code-Only
 ```
 python3 generate_prompts-codeonly-confidence-levels.py <input_powershell_scripts_path> <output_prompts_file_name>.jsonl
 ```
@@ -25,7 +40,7 @@ python3 generate_prompts-codeonly-confidence-levels.py <input_powershell_scripts
 python3 generate_prompts-codeonly-confidence-levels.py powershell_scripts/codeonly prompts-codeonly.jsonl
 ```
 
-### 1.2 code+domain knowledge+SHAP
+### 3.2 code+domain knowledge+SHAP
 ```
 python3 generate_prompts-code-domain-SHAP-confidence.py input_powershell_scripts_path output_prompts_file_name.jsonl
 ```
@@ -35,7 +50,8 @@ python3 generate_prompts-code-domain-SHAP-confidence.py input_powershell_scripts
 python3 generate_prompts-code-domain-SHAP-confidence.py powershell_scripts/shap-code-domain prompts-shap-code-domain.jsonl
 ```
 
-## 2. Run Inference to Get the Results
+## 4. Run Inference to Get the Results
+
 ```
 python3 inference.py input_prompts_file_name.jsonl output_responses_file_name.jsonl
 ```
@@ -46,9 +62,9 @@ python3 inference.py input_prompts_file_name.jsonl output_responses_file_name.js
 python3 inference.py prompts-codeonly.jsonl responses-codeonly.jsonl
 ```
 
-## 3. Mask Malicious Code
+## 5. Mask Malicious Code
 
-### 3.1 Code-Only
+### 5.1 Code-Only
 ```
 python3 mask-malicious-code.py \
   --jsonl_file 'input_response_file_name.jsonl' \
@@ -73,7 +89,7 @@ python3 mask-malicious-code.py --jsonl_file 'responses-codeonly.jsonl' \
   --severity_level 2 > log-responses-codeonly-confidence-levels-high.txt
 ```
 
-### 3.2 code+domain knowledge+SHAP
+### 5.2 code+domain knowledge+SHAP
 
 **The main difference from codeonly is the parameter severity_level**
 ```
@@ -100,7 +116,7 @@ python3 mask-malicious-code.py --jsonl_file "responses-code-SHAP.jsonl" \
   --severity_level 3 > log-responses-code-domain-shap-confidence-high
 ```
 
-## 4. VirusTotal Community Score
+## 6. VirusTotal Community Score
 
 Obtain file community scores from [VirusTotal](https://www.virustotal.com/):
 ```
