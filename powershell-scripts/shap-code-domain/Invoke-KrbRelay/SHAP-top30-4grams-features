@@ -1,0 +1,32 @@
+
+Sample: invoke-krbrelay
+    openkey closekeys openkey create          SHAP = 0.029543424430
+    openkey openkey closekeys querykey        SHAP = 0.025189565362
+    closekeys openkey closekeys openkey       SHAP = 0.020329669516
+    querykey enumeratekey enumeratekey closekeys  SHAP = 0.019734516205
+    closekeys openkey create queryinformation  SHAP = 0.018763132203
+    openkey querykey enumeratekey enumeratekey  SHAP = 0.011005384042
+    queryvaluekey closekeys openkey closekeys  SHAP = 0.008445933202
+    openkey closekeys openkey querykey        SHAP = 0.008121948178
+    openkey create queryinformation cleanup   SHAP = 0.008119232588
+    create read read create                   SHAP = 0.007175452904
+    close read read read                      SHAP = 0.006970275314
+    openkey openkey closekeys create          SHAP = 0.006179980200
+    read read read read                       SHAP = 0.005999024582
+    openkey openkey closekeys openkey         SHAP = 0.005457953122
+    openkey closekeys create queryinformation  SHAP = 0.005388467450
+    closekeys closekeys queryinformation read  SHAP = 0.004585851683
+    queryvaluekey closekeys closekeys queryinformation  SHAP = 0.004457960854
+    openkey querysecuritykey queryvaluekey closekeys  SHAP = 0.004217480729
+    setinformationkey closekeys closekeys queryvaluekey  SHAP = 0.003611239254
+    closekeys openkey openkey closekeys       SHAP = 0.003527266440
+    closekeys openkey queryvaluekey querykey  SHAP = 0.003474839120
+    openkey openkey openkey closekeys         SHAP = 0.003473096782
+    openkey setinformationkey closekeys closekeys  SHAP = 0.003283717289
+    create read read read                     SHAP = 0.003102693442
+    openkey closekeys openkey closekeys       SHAP = 0.003069334638
+    cleanup close read read                   SHAP = 0.003043047667
+    direnum direnum cleanup close             SHAP = 0.002887844820
+    closekeys queryvaluekey querykey setinformationkey  SHAP = 0.002590008805
+    queryinformation queryinformation queryinformation querykey  SHAP = 0.002541227779
+    queryinformation queryinformation read create  SHAP = 0.002494756431

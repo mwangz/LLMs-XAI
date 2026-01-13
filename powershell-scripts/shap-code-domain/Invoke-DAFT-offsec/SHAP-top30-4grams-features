@@ -1,0 +1,33 @@
+
+Sample: invoke-daft
+    openkey closekeys openkey create          SHAP = 0.028528727250
+    querykey enumeratekey enumeratekey closekeys  SHAP = 0.022295499284
+    openkey openkey closekeys querykey        SHAP = 0.021928414186
+    closekeys openkey create queryinformation  SHAP = 0.021719687626
+    closekeys openkey closekeys openkey       SHAP = 0.018510230444
+    openkey openkey closekeys openkey         SHAP = 0.016126760616
+    openkey querykey enumeratekey enumeratekey  SHAP = 0.012092203621
+    queryvaluekey closekeys openkey closekeys  SHAP = 0.008489863356
+    create read read create                   SHAP = 0.007074105939
+    openkey create queryinformation cleanup   SHAP = 0.006947690141
+    openkey openkey closekeys create          SHAP = 0.006824515331
+    openkey closekeys openkey querykey        SHAP = 0.006063540618
+    close read read read                      SHAP = 0.005970770800
+    openkey closekeys create queryinformation  SHAP = 0.005669239523
+    create closekeys openkey closekeys        SHAP = 0.004654789778
+    closekeys closekeys queryinformation read  SHAP = 0.004643838967
+    closekeys openkey queryvaluekey querykey  SHAP = 0.004379532740
+    openkey setinformationkey closekeys closekeys  SHAP = 0.003688625794
+    openkey openkey openkey closekeys         SHAP = 0.003641216226
+    queryvaluekey create createnewfile queryinformation  SHAP = 0.003570924621
+    openkey queryvaluekey create createnewfile  SHAP = 0.003377429050
+    create read read read                     SHAP = 0.003123328116
+    close closekeys closekeys closekeys       SHAP = 0.003069096350
+    setinformationkey closekeys closekeys queryvaluekey  SHAP = 0.002708269201
+    create queryinformation queryinformation cleanup  SHAP = 0.002609427196
+    closekeys setinformationkey queryvaluekey closekeys  SHAP = 0.002568364534
+    cleanup close create create               SHAP = 0.002521728196
+    imageunload create close createnewfile    SHAP = 0.002499946825
+    close create create create                SHAP = 0.002409658910
+    queryvaluekey queryvaluekey closekeys cleanup  SHAP = 0.002360631694
+

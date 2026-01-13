@@ -1,0 +1,32 @@
+
+Sample: get-userinfo
+    close create create imageload             SHAP = 0.011058182391
+    create read read create                   SHAP = 0.009251222703
+    openkey openkey closekeys querykey        SHAP = 0.007957056679
+    queryinformation cleanup close read       SHAP = 0.006400822669
+    close read read read                      SHAP = 0.005756823393
+    cleanup close read read                   SHAP = 0.005710015406
+    close imageunload imageunload imageunload  SHAP = 0.005365833285
+    imageload cleanup close imageunload       SHAP = 0.004829603174
+    imageload queryinformation cleanup close  SHAP = 0.003704442467
+    close create create querysecurity         SHAP = 0.003484151485
+    imageunload imageunload imageunload threadstop  SHAP = 0.003350478702
+    cleanup close imageunload imageunload     SHAP = 0.003171037430
+    imageload close create cleanup            SHAP = 0.003117543388
+    queryinformation cleanup imageload close  SHAP = 0.002935328174
+    queryinformation imageload cleanup close  SHAP = 0.002847367297
+    create read read read                     SHAP = 0.002586277482
+    create queryinformation cleanup imageload  SHAP = 0.002423893981
+    close create imageload queryinformation   SHAP = 0.002238719422
+    read read read create                     SHAP = 0.002166635833
+    queryinformation queryinformation read create  SHAP = 0.002163870508
+    openkey closekeys openkey openkey         SHAP = 0.002145757892
+    read read create queryinformation         SHAP = 0.002025913276
+    queryinformation imageload create imageload  SHAP = 0.001982065337
+    close create cleanup queryinformation     SHAP = 0.001968670416
+    closekeys openkey queryvaluekey querykey  SHAP = 0.001967561363
+    close imageunload cleanup close           SHAP = 0.001961718693
+    read create create querysecurity          SHAP = 0.001906135299
+    openkey closekeys create queryinformation  SHAP = 0.001903768426
+    closekeys queryvaluekey closekeys create  SHAP = 0.001709585783
+    cleanup close cleanup close               SHAP = 0.001704659931

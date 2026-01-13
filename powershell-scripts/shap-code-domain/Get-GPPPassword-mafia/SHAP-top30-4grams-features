@@ -1,0 +1,32 @@
+
+Sample: get-gpppassword
+    openkey closekeys openkey create          SHAP = 0.023353869390
+    openkey openkey closekeys querykey        SHAP = 0.018588929699
+    closekeys openkey closekeys openkey       SHAP = 0.016325820920
+    openkey closekeys openkey closekeys       SHAP = 0.011860490618
+    openkey closekeys openkey querykey        SHAP = 0.008850968703
+    queryvaluekey closekeys openkey closekeys  SHAP = 0.006617591935
+    closekeys queryvaluekey closekeys create  SHAP = 0.005568235923
+    openkey querysecuritykey queryvaluekey closekeys  SHAP = 0.005512300771
+    openkey create queryinformation cleanup   SHAP = 0.004873535136
+    close openkey closekeys openkey           SHAP = 0.004066753132
+    openkey openkey closekeys create          SHAP = 0.003135953635
+    create read read read                     SHAP = 0.002856750237
+    closekeys openkey openkey closekeys       SHAP = 0.002847391043
+    closekeys openkey querykey closekeys      SHAP = 0.002608330286
+    closekeys queryvaluekey imageload imageload  SHAP = 0.002606827263
+    closekeys openkey queryvaluekey querykey  SHAP = 0.002507992467
+    close create read namecreate              SHAP = 0.002428994614
+    queryvaluekey create queryinformation cleanup  SHAP = 0.002351169631
+    openkey queryvaluekey queryvaluekey closekeys  SHAP = 0.002244519894
+    queryvaluekey closekeys closekeys queryinformation  SHAP = 0.002164664552
+    closekeys closekeys queryinformation read  SHAP = 0.002110911770
+    openkey openkey queryvaluekey queryvaluekey  SHAP = 0.002065168936
+    openkey querysecuritykey queryvaluekey queryvaluekey  SHAP = 0.002051817510
+    querysecuritykey queryvaluekey closekeys queryvaluekey  SHAP = 0.002030514087
+    openkey openkey openkey queryvaluekey     SHAP = 0.001979911349
+    openkey queryvaluekey openkey closekeys   SHAP = 0.001970537002
+    read create queryinformation queryinformation  SHAP = 0.001886957114
+    closekeys closekeys openkey openkey       SHAP = 0.001811253300
+    querykey openkey queryvaluekey setinformationkey  SHAP = 0.001732301418
+    closekeys openkey querykey enumeratekey   SHAP = 0.001690607277

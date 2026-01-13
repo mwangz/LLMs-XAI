@@ -1,0 +1,33 @@
+
+
+Sample: out-encodedasciicommand
+    openkey openkey closekeys querykey        SHAP = 0.012763507258
+    read create queryinformation queryinformation  SHAP = 0.009496611236
+    create read read create                   SHAP = 0.008145846514
+    close read read read                      SHAP = 0.007417312401
+    read read read read                       SHAP = 0.006585464166
+    queryinformation cleanup close read       SHAP = 0.006326800010
+    closekeys openkey queryvaluekey querykey  SHAP = 0.005538098879
+    openkey closekeys openkey closekeys       SHAP = 0.004791633188
+    queryvaluekey querykey openkey setinformationkey  SHAP = 0.004559403844
+    create queryinformation queryinformation cleanup  SHAP = 0.004389879379
+    cleanup close read read                   SHAP = 0.004299652193
+    close read create queryinformation        SHAP = 0.003988471682
+    create read read read                     SHAP = 0.003987995097
+    setinformationkey queryvaluekey queryvaluekey queryvaluekey  SHAP = 0.003887339552
+    queryinformation queryinformation cleanup close  SHAP = 0.003658362868
+    queryvaluekey closekeys closekeys queryinformation  SHAP = 0.003546229588
+    openkey read read create                  SHAP = 0.003245052698
+    openkey openkey queryvaluekey queryvaluekey  SHAP = 0.003226551883
+    openkey openkey querykey querykey         SHAP = 0.003179589593
+    read read datasent datasent               SHAP = 0.003091369575
+    read read create queryinformation         SHAP = 0.002871456239
+    direnum direnum direnum cleanup           SHAP = 0.002824549510
+    queryinformation queryinformation read create  SHAP = 0.002726373947
+    datareceived read read read               SHAP = 0.002660663177
+    close create create querysecurity         SHAP = 0.002584136034
+    direnum direnum cleanup close             SHAP = 0.002569340654
+    closekeys closekeys queryinformation read  SHAP = 0.002534799405
+    closekeys read read read                  SHAP = 0.002474632224
+    queryvaluekey closekeys queryinformation read  SHAP = 0.002371516739
+    datasent datasent read read               SHAP = 0.002354353202

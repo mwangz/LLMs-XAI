@@ -1,0 +1,32 @@
+
+Sample: get-vaultcredential
+    openkey closekeys openkey create          SHAP = 0.025159204007
+    openkey openkey closekeys querykey        SHAP = 0.022573985284
+    closekeys openkey closekeys openkey       SHAP = 0.020531252302
+    closekeys openkey create queryinformation  SHAP = 0.019447479504
+    openkey openkey closekeys openkey         SHAP = 0.012376047607
+    openkey closekeys openkey querykey        SHAP = 0.010171955821
+    queryvaluekey closekeys openkey closekeys  SHAP = 0.009868477808
+    openkey create queryinformation cleanup   SHAP = 0.008265727409
+    openkey openkey openkey closekeys         SHAP = 0.007356829516
+    openkey openkey closekeys create          SHAP = 0.007245923057
+    closekeys queryvaluekey closekeys create  SHAP = 0.006809743729
+    openkey closekeys create queryinformation  SHAP = 0.005750085439
+    close read read read                      SHAP = 0.005211592502
+    openkey querysecuritykey queryvaluekey closekeys  SHAP = 0.004094042701
+    closekeys openkey queryvaluekey querykey  SHAP = 0.004007188974
+    read create queryinformation queryinformation  SHAP = 0.003976497170
+    queryvaluekey closekeys closekeys queryinformation  SHAP = 0.003424143539
+    closekeys closekeys queryinformation read  SHAP = 0.003246773527
+    cleanup close read read                   SHAP = 0.003127344624
+    openkey closekeys closekeys queryvaluekey  SHAP = 0.003100981573
+    create queryinformation queryinformation cleanup  SHAP = 0.003074258812
+    openkey closekeys openkey closekeys       SHAP = 0.002860166957
+    create read read read                     SHAP = 0.002747128011
+    querysecuritykey queryvaluekey closekeys queryvaluekey  SHAP = 0.002687170316
+    openkey closekeys openkey openkey         SHAP = 0.002677756798
+    create create direnum direnum             SHAP = 0.002652036750
+    direnum direnum direnum cleanup           SHAP = 0.002522282217
+    direnum cleanup close create              SHAP = 0.002477567163
+    queryvaluekey closekeys closekeys enumeratekey  SHAP = 0.002473450769
+    read read read create                     SHAP = 0.002259590476

@@ -1,0 +1,32 @@
+
+Sample: get-system
+    openkey closekeys openkey create          SHAP = 0.025125276085
+    openkey openkey closekeys querykey        SHAP = 0.020891773431
+    closekeys openkey create queryinformation  SHAP = 0.020062364415
+    openkey openkey closekeys openkey         SHAP = 0.018268988746
+    closekeys openkey closekeys openkey       SHAP = 0.016910536528
+    openkey closekeys openkey querykey        SHAP = 0.011523726910
+    closekeys openkey create cleanup          SHAP = 0.007885489064
+    openkey closekeys queryvaluekey imageload  SHAP = 0.007212951408
+    queryvaluekey closekeys openkey closekeys  SHAP = 0.007039061343
+    queryvaluekey openkey openkey closekeys   SHAP = 0.006566432109
+    closekeys queryvaluekey imageload imageload  SHAP = 0.005606148585
+    openkey openkey openkey closekeys         SHAP = 0.005326876045
+    openkey openkey closekeys create          SHAP = 0.005207275876
+    openkey closekeys create queryinformation  SHAP = 0.004893271572
+    queryvaluekey imageload imageload imageload  SHAP = 0.004736721276
+    closekeys queryvaluekey closekeys create  SHAP = 0.004634665228
+    closekeys openkey querykey closekeys      SHAP = 0.004498830737
+    close read read read                      SHAP = 0.004158055902
+    create closekeys openkey closekeys        SHAP = 0.003524143692
+    read read read read                       SHAP = 0.003270880738
+    read create queryinformation queryinformation  SHAP = 0.003241267999
+    openkey querykey enumeratevaluekey querykey  SHAP = 0.003222203212
+    closekeys enumeratekey openkey querykey   SHAP = 0.002956164175
+    openkey querysecuritykey queryvaluekey closekeys  SHAP = 0.002910450881
+    closekeys queryvaluekey enumeratekey closekeys  SHAP = 0.002712202459
+    closekeys enumeratekey enumeratekey closekeys  SHAP = 0.002581737188
+    queryvaluekey closekeys closekeys queryinformation  SHAP = 0.002517434495
+    querysecuritykey queryvaluekey closekeys queryvaluekey  SHAP = 0.002487773137
+    close openkey closekeys openkey           SHAP = 0.002476753158
+    cleanup close read read                   SHAP = 0.002417598382

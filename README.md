@@ -6,14 +6,17 @@ This repository provides the **dataset used in the paper** (including PowerShell
 - Masking malicious code based on model responses
 - Analysis file using VirusTotal
 
-## 1. Install vLLM
+## 1. Install vLLM (optional)
 
-This project uses [vLLM](https://github.com/vllm-project/vllm), an efficient inference engine for large language models.
+This project previously used [vLLM](https://github.com/vllm-project/vllm), an efficient inference engine for large language models, deployed on servers maintained within our research lab. 
+
+All experiments reported in the paper were conducted on university-managed servers, which were accessed directly and did not require local server setup or maintenance.
+
 To install vLLM, please follow the official guide:
 [https://docs.vllm.ai/en/stable/getting_started/installation.html](https://docs.vllm.ai/en/stable/getting_started/installation.html)
 Make sure your environment meets the requirements (e.g., Python ≥ 3.8, CUDA-compatible GPU).
 
-## 2. Launch a vLLM Server with the Model
+## 2. Launch a vLLM Server with the Model (optional)
 
 Before running inference, you need to start a local vLLM server with your chosen model.
 
@@ -54,6 +57,7 @@ python3 generate_prompts-code-domain-SHAP-confidence.py powershell_scripts/shap-
 
 ## 4. Run Inference to Get the Results
 
+### 4.1 Run on vLLM Server
 ```
 python3 inference.py input_prompts_file_name.jsonl output_responses_file_name.jsonl
 ```
@@ -63,6 +67,15 @@ python3 inference.py input_prompts_file_name.jsonl output_responses_file_name.js
 ```
 python3 inference.py prompts-codeonly.jsonl responses-codeonly.jsonl
 ```
+### 4.2 Run on university local LLMs
+```
+python3 inference-university-local.py input_prompts_file_name.jsonl output_responses_file_name.jsonl
+```
+**Note**: You need to specify which LLM to use by modifying the script or adding an input parameter.
+
+**example**:
+```
+python3 inference-university-local.py prompts-codeonly.jsonl responses-codeonly.jsonl
 
 ## 5. Mask Malicious Code
 

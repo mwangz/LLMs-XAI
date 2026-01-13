@@ -1,0 +1,32 @@
+
+Sample: enable-duplicatetoken
+    create cleanup close direnum              SHAP = 0.011164824945
+    openkey openkey closekeys querykey        SHAP = 0.008778853782
+    close read read read                      SHAP = 0.008127635846
+    createnewfile namecreate write queryinformation  SHAP = 0.008020738376
+    write write write queryinformation        SHAP = 0.007567662529
+    write queryinformation cleanup close      SHAP = 0.006705998111
+    create createnewfile namecreate write     SHAP = 0.006293504394
+    threadstop imageunload imageunload imageunload  SHAP = 0.006138949581
+    cleanup close read read                   SHAP = 0.006115463144
+    write write queryinformation cleanup      SHAP = 0.005031879836
+    direnum create cleanup close              SHAP = 0.004122771628
+    queryinformation cleanup close read       SHAP = 0.003925937600
+    read read read create                     SHAP = 0.003922324350
+    namecreate write queryinformation cleanup  SHAP = 0.003882416326
+    create queryinformation read processstart  SHAP = 0.003199505986
+    read processstart querysecurity create    SHAP = 0.002909802810
+    read read create queryinformation         SHAP = 0.002843336700
+    imageunload imageunload imageunload processstop  SHAP = 0.002765147362
+    threadstart threadstop imageunload imageunload  SHAP = 0.002655611402
+    create create close createnewfile         SHAP = 0.002634630757
+    write queryinformation cleanup create     SHAP = 0.002578578328
+    imageload cleanup close cleanup           SHAP = 0.002428906962
+    create queryinformation setdelete deletepath  SHAP = 0.002428076340
+    create create querysecurity cleanup       SHAP = 0.002288654659
+    close create createnewfile write          SHAP = 0.002250463048
+    closekeys queryvaluekey closekeys create  SHAP = 0.002226915133
+    close create create querysecurity         SHAP = 0.002186100454
+    queryinformation cleanup close direnum    SHAP = 0.002165286756
+    openkey openkey openkey closekeys         SHAP = 0.002114566351
+    create read read read                     SHAP = 0.002084027132

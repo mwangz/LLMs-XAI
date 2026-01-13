@@ -1,0 +1,32 @@
+
+Sample: get-wlan-keys
+    openkey closekeys openkey create          SHAP = 0.024552308026
+    openkey openkey closekeys querykey        SHAP = 0.021396148361
+    closekeys openkey create queryinformation  SHAP = 0.016825827007
+    closekeys openkey closekeys openkey       SHAP = 0.015133998897
+    openkey openkey closekeys openkey         SHAP = 0.013904550845
+    openkey closekeys openkey closekeys       SHAP = 0.013332824775
+    close read read read                      SHAP = 0.007325570686
+    queryvaluekey openkey openkey closekeys   SHAP = 0.006769570203
+    queryvaluekey closekeys openkey closekeys  SHAP = 0.006328473668
+    openkey create queryinformation cleanup   SHAP = 0.006165461107
+    openkey openkey closekeys create          SHAP = 0.005343118523
+    openkey closekeys create queryinformation  SHAP = 0.003883364384
+    openkey closekeys openkey querykey        SHAP = 0.003529223388
+    closekeys openkey queryvaluekey querykey  SHAP = 0.003413367584
+    queryvaluekey closekeys closekeys queryinformation  SHAP = 0.003234875939
+    closekeys closekeys enumeratekey closekeys  SHAP = 0.003215398298
+    read create queryinformation queryinformation  SHAP = 0.003077459127
+    create read read read                     SHAP = 0.002825701438
+    imageload imageload create openkey        SHAP = 0.002681970286
+    cleanup close read read                   SHAP = 0.002670937347
+    closekeys openkey openkey querysecurity   SHAP = 0.002609885712
+    processstart openkey queryvaluekey closekeys  SHAP = 0.002448071132
+    closekeys closekeys queryinformation read  SHAP = 0.002419331212
+    queryinformation queryinformation queryinformation querykey  SHAP = 0.002339029454
+    openkey queryinformation read processstart  SHAP = 0.002309061465
+    closekeys queryvaluekey queryinformation queryvaluekey  SHAP = 0.002276610078
+    closekeys create direnum cleanup          SHAP = 0.002054675543
+    openkey openkey querykey openkey          SHAP = 0.002053657307
+    closekeys queryvaluekey enumeratekey closekeys  SHAP = 0.002037939085
+    queryvaluekey imageload imageload imageload  SHAP = 0.002003301913

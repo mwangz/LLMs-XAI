@@ -1,0 +1,32 @@
+
+Sample: 10e71955b56f8471e95e4ad2e6319f23584007dd34a4a52e502b7ed589737f09
+    openkey closekeys openkey create          SHAP = 0.026078509336
+    closekeys openkey create queryinformation  SHAP = 0.016941280294
+    closekeys openkey closekeys openkey       SHAP = 0.008902868895
+    read read read read                       SHAP = 0.007981749578
+    openkey create queryinformation cleanup   SHAP = 0.007093132489
+    queryvaluekey closekeys openkey closekeys  SHAP = 0.006146939638
+    close read read read                      SHAP = 0.006015993712
+    setinformationkey queryvaluekey queryvaluekey queryvaluekey  SHAP = 0.004521849300
+    closekeys openkey queryvaluekey querykey  SHAP = 0.004300232103
+    close create read namecreate              SHAP = 0.003634818296
+    openkey openkey closekeys create          SHAP = 0.003588200484
+    read read read create                     SHAP = 0.003444772072
+    closekeys openkey openkey closekeys       SHAP = 0.003419424331
+    closekeys closekeys queryinformation read  SHAP = 0.003313557183
+    queryvaluekey querykey openkey setinformationkey  SHAP = 0.003214722648
+    cleanup close read read                   SHAP = 0.003122582288
+    threadstop imageunload imageunload imageunload  SHAP = 0.002914989550
+    write write write write                   SHAP = 0.002899949483
+    queryvaluekey closekeys closekeys queryinformation  SHAP = 0.002808105883
+    openkey querykey openkey openkey          SHAP = 0.002786080237
+    write queryinformation cleanup close      SHAP = 0.002742695063
+    openkey closekeys openkey querykey        SHAP = 0.002527285049
+    create read read read                     SHAP = 0.002490534789
+    queryvaluekey openkey openkey openkey     SHAP = 0.002374508642
+    openkey closekeys setinformationkey queryvaluekey  SHAP = 0.002329676004
+    read read create queryinformation         SHAP = 0.002288458027
+    create namecreate queryinformation cleanup  SHAP = 0.002172391518
+    create read namecreate queryinformation   SHAP = 0.002147075841
+    cleanup close create namecreate           SHAP = 0.002113594534
+    create queryinformation queryinformation cleanup  SHAP = 0.002111726708

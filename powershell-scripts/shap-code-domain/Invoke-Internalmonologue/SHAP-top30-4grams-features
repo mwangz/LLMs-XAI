@@ -1,0 +1,32 @@
+
+Sample: invoke-internalmonologue
+    openkey closekeys openkey create          SHAP = 0.025150719068
+    openkey openkey closekeys querykey        SHAP = 0.020044902504
+    openkey openkey closekeys openkey         SHAP = 0.018351132367
+    closekeys openkey create queryinformation  SHAP = 0.018096678208
+    closekeys openkey closekeys openkey       SHAP = 0.016450733601
+    querykey enumeratekey enumeratekey closekeys  SHAP = 0.015287614335
+    closekeys openkey create cleanup          SHAP = 0.013321002513
+    openkey closekeys openkey closekeys       SHAP = 0.011655575678
+    queryvaluekey create close createnewfile  SHAP = 0.009849824844
+    queryvaluekey openkey openkey closekeys   SHAP = 0.008673038656
+    openkey queryvaluekey create close        SHAP = 0.008663638063
+    openkey closekeys openkey querykey        SHAP = 0.008508836557
+    openkey querykey enumeratekey enumeratekey  SHAP = 0.007209128652
+    openkey openkey closekeys create          SHAP = 0.005718589016
+    openkey closekeys create queryinformation  SHAP = 0.005510932142
+    create read read create                   SHAP = 0.004930721912
+    openkey closekeys queryvaluekey imageload  SHAP = 0.004814459890
+    openkey openkey openkey closekeys         SHAP = 0.004541418306
+    openkey create queryinformation cleanup   SHAP = 0.004201582028
+    openkey querysecuritykey queryvaluekey closekeys  SHAP = 0.003835945842
+    queryvaluekey enumeratekey closekeys querykey  SHAP = 0.003320596394
+    queryvaluekey closekeys closekeys enumeratekey  SHAP = 0.003143654165
+    closekeys create queryinformation cleanup  SHAP = 0.002669389807
+    openkey closekeys openkey openkey         SHAP = 0.002510714462
+    close closekeys queryvaluekey closekeys   SHAP = 0.002237528954
+    close queryvaluekey closekeys queryvaluekey  SHAP = 0.002219101365
+    create queryinformation cleanup close     SHAP = 0.002205271655
+    queryvaluekey queryvaluekey closekeys cleanup  SHAP = 0.002171942009
+    closekeys openkey queryvaluekey querykey  SHAP = 0.002127302079
+    imageunload create close createnewfile    SHAP = 0.002125102821

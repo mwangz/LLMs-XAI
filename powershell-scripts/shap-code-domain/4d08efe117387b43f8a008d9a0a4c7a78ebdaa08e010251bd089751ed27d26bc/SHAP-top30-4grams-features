@@ -1,0 +1,32 @@
+
+Sample: 4d08efe117387b43f8a008d9a0a4c7a78ebdaa08e010251bd089751ed27d26bc
+    close read read read                      SHAP = 0.012335493753
+    cleanup close read read                   SHAP = 0.010921424818
+    read create queryinformation queryinformation  SHAP = 0.009849374452
+    openkey openkey closekeys querykey        SHAP = 0.009267337917
+    create read read create                   SHAP = 0.008723805768
+    read read read create                     SHAP = 0.006327906652
+    queryinformation cleanup close read       SHAP = 0.005304059038
+    read read create queryinformation         SHAP = 0.004917204955
+    close read read create                    SHAP = 0.004217649059
+    direnum direnum direnum cleanup           SHAP = 0.003913059159
+    create read read read                     SHAP = 0.003052731864
+    close create create querysecurity         SHAP = 0.002902430497
+    imageunload create close createnewfile    SHAP = 0.002874235344
+    queryinformation queryinformation read create  SHAP = 0.002855375179
+    create direnum direnum direnum            SHAP = 0.002629258789
+    read read read read                       SHAP = 0.002567089844
+    create queryinformation queryinformation queryinformation  SHAP = 0.002495462934
+    close queryinformation queryinformation queryinformation  SHAP = 0.002447982398
+    closekeys openkey queryvaluekey querykey  SHAP = 0.002446642301
+    direnum direnum cleanup close             SHAP = 0.002416639900
+    openkey openkey openkey closekeys         SHAP = 0.002393779270
+    read create create querysecurity          SHAP = 0.002077201832
+    openkey closekeys openkey openkey         SHAP = 0.002044683867
+    read cleanup create direnum               SHAP = 0.002015724686
+    create create querysecurity cleanup       SHAP = 0.001975816682
+    create read namecreate queryinformation   SHAP = 0.001970397078
+    read read read datasent                   SHAP = 0.001950708068
+    cleanup close create namecreate           SHAP = 0.001864715833
+    cleanup create queryinformation cleanup   SHAP = 0.001756699809
+    queryinformation cleanup close imageload  SHAP = 0.001753231274

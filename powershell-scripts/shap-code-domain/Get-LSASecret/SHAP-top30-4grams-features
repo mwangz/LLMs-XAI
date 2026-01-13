@@ -1,0 +1,32 @@
+
+Sample: get-lsasecret
+    openkey closekeys openkey create          SHAP = 0.024007796053
+    openkey openkey closekeys querykey        SHAP = 0.013037176390
+    queryvaluekey closekeys openkey closekeys  SHAP = 0.007729876713
+    close read read read                      SHAP = 0.006185314837
+    create read read create                   SHAP = 0.005928159436
+    closekeys openkey queryvaluekey querykey  SHAP = 0.004237228589
+    openkey openkey closekeys create          SHAP = 0.003902063416
+    create read read read                     SHAP = 0.003681601455
+    close create create imageload             SHAP = 0.003646660620
+    closekeys queryvaluekey closekeys create  SHAP = 0.003437770323
+    openkey openkey closekeys openkey         SHAP = 0.003423599427
+    openkey openkey openkey closekeys         SHAP = 0.002934336152
+    queryinformation queryinformation read create  SHAP = 0.002788321989
+    read create queryinformation queryinformation  SHAP = 0.002755272855
+    openkey closekeys create queryinformation  SHAP = 0.002739249543
+    cleanup close read read                   SHAP = 0.002733210942
+    openkey read read create                  SHAP = 0.002709653578
+    create queryinformation cleanup close     SHAP = 0.002594293160
+    direnum direnum cleanup close             SHAP = 0.002503886714
+    closekeys openkey querykey closekeys      SHAP = 0.002474916155
+    queryvaluekey closekeys cleanup close     SHAP = 0.002406125489
+    create create queryinformation cleanup    SHAP = 0.002337742176
+    queryvaluekey openkey openkey openkey     SHAP = 0.002237938373
+    close create create querysecurity         SHAP = 0.002120417435
+    close create create create                SHAP = 0.002091806778
+    create create querysecurity cleanup       SHAP = 0.002063737283
+    create openkey closekeys openkey          SHAP = 0.002052658298
+    create direnum direnum direnum            SHAP = 0.002047643986
+    closekeys queryvaluekey queryvaluekey closekeys  SHAP = 0.002030281056
+    cleanup close create direnum              SHAP = 0.002003366116

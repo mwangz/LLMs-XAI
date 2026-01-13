@@ -1,0 +1,32 @@
+
+Sample: invoke-wmievent
+    create read read create                   SHAP = 0.010396405624
+    openkey openkey closekeys querykey        SHAP = 0.006561896588
+    imageload create queryinformation cleanup  SHAP = 0.006135279059
+    close read read read                      SHAP = 0.005368298974
+    create create create createnewfile        SHAP = 0.005107904307
+    create create createnewfile queryinformation  SHAP = 0.004719742977
+    read read create queryinformation         SHAP = 0.004484749643
+    imageunload imageunload imageunload threadstop  SHAP = 0.003825433956
+    create read read read                     SHAP = 0.003371803671
+    queryinformation close create cleanup     SHAP = 0.003193099845
+    read read read create                     SHAP = 0.002563161509
+    read read read read                       SHAP = 0.002372098612
+    closekeys queryvaluekey closekeys create  SHAP = 0.002231899202
+    close queryinformation queryinformation queryinformation  SHAP = 0.002141504401
+    openkey closekeys openkey openkey         SHAP = 0.002006050227
+    queryinformation queryinformation read create  SHAP = 0.001978703589
+    imageload cleanup close imageunload       SHAP = 0.001907108509
+    create imageload create queryinformation  SHAP = 0.001706617419
+    close create imageload create             SHAP = 0.001658303871
+    setdelete deletepath queryinformation cleanup  SHAP = 0.001585236935
+    threadstart create queryinformation cleanup  SHAP = 0.001488319373
+    close imageunload imageunload imageunload  SHAP = 0.001483047385
+    cleanup close create imageload            SHAP = 0.001479112984
+    imageunload create close createnewfile    SHAP = 0.001475817174
+    create create create imageunload          SHAP = 0.001396646569
+    close create queryinformation setdelete   SHAP = 0.001368744848
+    queryinformation read create create       SHAP = 0.001333555253
+    read create create querysecurity          SHAP = 0.001257029875
+    create create create create               SHAP = 0.001254752130
+    close imageload create queryinformation   SHAP = 0.001198844787

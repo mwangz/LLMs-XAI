@@ -1,0 +1,32 @@
+
+Sample: invoke-thehash
+    openkey closekeys openkey create          SHAP = 0.025054414992
+    closekeys openkey closekeys openkey       SHAP = 0.024837436318
+    closekeys openkey create queryinformation  SHAP = 0.019647385602
+    openkey openkey closekeys querykey        SHAP = 0.016694451066
+    openkey openkey closekeys openkey         SHAP = 0.014791653453
+    openkey closekeys openkey closekeys       SHAP = 0.013861815088
+    openkey closekeys openkey querykey        SHAP = 0.008725158831
+    openkey create queryinformation cleanup   SHAP = 0.006551936226
+    openkey setinformationkey closekeys closekeys  SHAP = 0.006068887291
+    setinformationkey closekeys closekeys queryvaluekey  SHAP = 0.005942716936
+    queryvaluekey openkey openkey closekeys   SHAP = 0.005861420670
+    openkey openkey closekeys create          SHAP = 0.005841626150
+    openkey closekeys create queryinformation  SHAP = 0.005716754678
+    openkey closekeys openkey openkey         SHAP = 0.005391276101
+    read read read read                       SHAP = 0.005290380156
+    create read read read                     SHAP = 0.004596959766
+    openkey openkey openkey closekeys         SHAP = 0.004457874828
+    closekeys openkey querykey closekeys      SHAP = 0.004089848307
+    openkey openkey queryvaluekey queryvaluekey  SHAP = 0.004050091562
+    close read read read                      SHAP = 0.003800452424
+    closekeys closekeys queryvaluekey querykey  SHAP = 0.003476837090
+    create read read create                   SHAP = 0.003473635347
+    closekeys openkey openkey closekeys       SHAP = 0.003260576447
+    queryinformation cleanup close read       SHAP = 0.002730078261
+    querykey closekeys closekeys closekeys    SHAP = 0.002559663844
+    closekeys closekeys queryinformation read  SHAP = 0.002521166938
+    openkey closekeys closekeys queryvaluekey  SHAP = 0.002503900098
+    close queryinformation queryinformation queryinformation  SHAP = 0.002480090126
+    create queryinformation queryinformation cleanup  SHAP = 0.002449264954
+    queryinformation querykey openkey queryvaluekey  SHAP = 0.002439153872

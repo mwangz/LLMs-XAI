@@ -1,0 +1,32 @@
+
+Sample: get-ipconfig
+    openkey closekeys openkey create          SHAP = 0.025286070382
+    querykey enumeratekey enumeratekey closekeys  SHAP = 0.023483075525
+    closekeys openkey create queryinformation  SHAP = 0.016099023314
+    openkey querykey enumeratekey enumeratekey  SHAP = 0.012060314627
+    openkey openkey closekeys openkey         SHAP = 0.011585275482
+    close read read read                      SHAP = 0.006612628207
+    create read read create                   SHAP = 0.006230879717
+    openkey openkey closekeys create          SHAP = 0.004672704643
+    read read read read                       SHAP = 0.004155713249
+    closekeys openkey querykey closekeys      SHAP = 0.004127215606
+    closekeys queryvaluekey closekeys create  SHAP = 0.004124399692
+    closekeys closekeys queryinformation read  SHAP = 0.003933739728
+    openkey openkey queryvaluekey queryvaluekey  SHAP = 0.003663578449
+    queryvaluekey querykey openkey setinformationkey  SHAP = 0.003305698016
+    queryinformation queryinformation queryinformation querykey  SHAP = 0.003286906909
+    openkey closekeys create queryinformation  SHAP = 0.003279892266
+    create queryinformation queryinformation cleanup  SHAP = 0.003259412070
+    closekeys openkey queryvaluekey querykey  SHAP = 0.003086287818
+    read create queryinformation queryinformation  SHAP = 0.002974197851
+    create read read read                     SHAP = 0.002706127894
+    openkey queryvaluekey queryvaluekey querykey  SHAP = 0.002658537647
+    setinformationkey queryvaluekey queryvaluekey queryvaluekey  SHAP = 0.002616492792
+    imageunload create close createnewfile    SHAP = 0.002245765798
+    closekeys queryvaluekey imageload imageload  SHAP = 0.002133299873
+    querykey openkey querykey enumeratekey    SHAP = 0.002116728986
+    create create querysecurity cleanup       SHAP = 0.002080507508
+    queryinformation queryinformation read create  SHAP = 0.002049473035
+    read read read create                     SHAP = 0.002000782976
+    queryvaluekey closekeys closekeys queryinformation  SHAP = 0.001994345605
+    openkey openkey openkey closekeys         SHAP = 0.001944105715

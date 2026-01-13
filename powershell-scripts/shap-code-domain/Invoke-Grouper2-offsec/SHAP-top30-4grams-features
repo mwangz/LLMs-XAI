@@ -1,0 +1,32 @@
+
+Sample: invoke-grouper2
+    querykey enumeratekey enumeratekey closekeys  SHAP = 0.024680389570
+    enumeratekey enumeratekey closekeys read  SHAP = 0.012465972757
+    openkey openkey closekeys querykey        SHAP = 0.011217808359
+    openkey querykey enumeratekey enumeratekey  SHAP = 0.011095357024
+    closekeys openkey closekeys openkey       SHAP = 0.008139398036
+    close read read read                      SHAP = 0.007533859312
+    queryvaluekey closekeys openkey closekeys  SHAP = 0.006339819446
+    read read read read                       SHAP = 0.006030137356
+    create read read create                   SHAP = 0.005844019787
+    enumeratekey closekeys read read          SHAP = 0.005423018840
+    openkey queryvaluekey create createnewfile  SHAP = 0.004696390461
+    closekeys openkey queryvaluekey querykey  SHAP = 0.004618252535
+    queryvaluekey create createnewfile queryinformation  SHAP = 0.004430442121
+    querykey openkey querykey enumeratekey    SHAP = 0.003729787364
+    openkey openkey openkey closekeys         SHAP = 0.003668345147
+    read create queryinformation queryinformation  SHAP = 0.003643066747
+    openkey openkey closekeys create          SHAP = 0.003581214178
+    closekeys openkey querykey closekeys      SHAP = 0.003558967297
+    openkey openkey queryvaluekey queryvaluekey  SHAP = 0.003470610628
+    read read read create                     SHAP = 0.003360733403
+    create createnewfile namecreate write     SHAP = 0.003355290432
+    setinformationkey queryvaluekey queryvaluekey queryvaluekey  SHAP = 0.003198295659
+    openkey openkey querykey openkey          SHAP = 0.002783283861
+    create queryinformation queryinformation cleanup  SHAP = 0.002603053517
+    queryvaluekey querykey openkey setinformationkey  SHAP = 0.002587933170
+    queryinformation queryinformation read create  SHAP = 0.002587618565
+    direnum direnum direnum cleanup           SHAP = 0.002565280808
+    openkey closekeys create queryinformation  SHAP = 0.002561474941
+    openkey read read create                  SHAP = 0.002500264668
+    openkey openkey openkey queryvaluekey     SHAP = 0.002498686583

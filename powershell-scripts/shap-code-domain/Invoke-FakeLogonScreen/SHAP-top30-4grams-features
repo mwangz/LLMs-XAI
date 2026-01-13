@@ -1,0 +1,32 @@
+
+Sample: invoke-fakelogonscreen
+    openkey closekeys openkey create          SHAP = 0.025175451452
+    closekeys openkey create queryinformation  SHAP = 0.020631533798
+    querykey enumeratekey enumeratekey closekeys  SHAP = 0.020204766735
+    closekeys openkey closekeys openkey       SHAP = 0.018556792092
+    openkey openkey closekeys openkey         SHAP = 0.017957923331
+    openkey closekeys openkey closekeys       SHAP = 0.013749115235
+    openkey closekeys openkey querykey        SHAP = 0.008479430350
+    queryvaluekey openkey openkey closekeys   SHAP = 0.007822802845
+    openkey create queryinformation cleanup   SHAP = 0.007687338875
+    openkey openkey closekeys create          SHAP = 0.005926140407
+    openkey closekeys create queryinformation  SHAP = 0.005603645324
+    closekeys queryvaluekey closekeys create  SHAP = 0.004742651202
+    create read read read                     SHAP = 0.004131142943
+    create read read create                   SHAP = 0.004008053821
+    close read read read                      SHAP = 0.003232477436
+    closekeys openkey enumeratekey querykey   SHAP = 0.003231368608
+    close openkey closekeys openkey           SHAP = 0.003226819193
+    closekeys openkey queryvaluekey querykey  SHAP = 0.003064743574
+    closekeys closekeys queryinformation read  SHAP = 0.003007716174
+    openkey openkey queryvaluekey queryvaluekey  SHAP = 0.002994123370
+    openkey openkey openkey closekeys         SHAP = 0.002793590867
+    queryvaluekey openkey closekeys openkey   SHAP = 0.002304764167
+    queryinformation queryinformation read create  SHAP = 0.002234452796
+    imageunload create close createnewfile    SHAP = 0.002199743400
+    queryvaluekey closekeys closekeys queryinformation  SHAP = 0.002164722474
+    closekeys openkey querykey closekeys      SHAP = 0.002078173363
+    closekeys setinformationkey queryvaluekey closekeys  SHAP = 0.001989583657
+    closekeys queryvaluekey openkey closekeys  SHAP = 0.001884312773
+    cleanup close create create               SHAP = 0.001867392933
+    create create querysecurity cleanup       SHAP = 0.001857857717

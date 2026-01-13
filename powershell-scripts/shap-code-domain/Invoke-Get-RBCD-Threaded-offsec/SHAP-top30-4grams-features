@@ -1,0 +1,32 @@
+
+Sample: invoke-get-rbcd-threaded
+    querykey enumeratekey enumeratekey closekeys  SHAP = 0.025703619186
+    enumeratekey enumeratekey closekeys read  SHAP = 0.013914591671
+    openkey querykey enumeratekey enumeratekey  SHAP = 0.013513714165
+    openkey openkey closekeys querykey        SHAP = 0.011017797906
+    closekeys openkey closekeys openkey       SHAP = 0.007713077186
+    close read read read                      SHAP = 0.006513280561
+    enumeratekey closekeys read read          SHAP = 0.006452437873
+    read read read read                       SHAP = 0.005403482490
+    create read read create                   SHAP = 0.005279659759
+    openkey queryvaluekey create createnewfile  SHAP = 0.004311849792
+    queryvaluekey closekeys openkey closekeys  SHAP = 0.004249766129
+    closekeys openkey queryvaluekey querykey  SHAP = 0.004119315417
+    queryvaluekey create createnewfile queryinformation  SHAP = 0.003930111145
+    closekeys openkey querykey closekeys      SHAP = 0.003764957158
+    closekeys queryvaluekey closekeys create  SHAP = 0.003578025812
+    querykey openkey querykey enumeratekey    SHAP = 0.003225381586
+    create createnewfile namecreate write     SHAP = 0.003064872285
+    closekeys closekeys queryinformation read  SHAP = 0.002981112379
+    cleanup close read read                   SHAP = 0.002897185885
+    openkey openkey querykey openkey          SHAP = 0.002805348890
+    openkey openkey closekeys create          SHAP = 0.002760193946
+    openkey read read create                  SHAP = 0.002675050173
+    openkey openkey queryvaluekey queryvaluekey  SHAP = 0.002608838635
+    setinformationkey queryvaluekey queryvaluekey queryvaluekey  SHAP = 0.002600865922
+    direnum direnum direnum cleanup           SHAP = 0.002543948653
+    read read read create                     SHAP = 0.002361672191
+    queryinformation queryinformation read create  SHAP = 0.002277134151
+    create read read read                     SHAP = 0.002265836005
+    openkey closekeys create queryinformation  SHAP = 0.002235873223
+    create queryinformation queryinformation cleanup  SHAP = 0.002231253998

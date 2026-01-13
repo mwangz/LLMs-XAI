@@ -1,0 +1,32 @@
+
+Sample: invoke-sessiongopher
+    create read read create                   SHAP = 0.008277250817
+    imageload create queryinformation cleanup  SHAP = 0.007773167672
+    threadstop imageunload imageunload imageunload  SHAP = 0.007097985798
+    queryinformation cleanup close read       SHAP = 0.007090551089
+    openkey openkey closekeys querykey        SHAP = 0.006932357413
+    cleanup close read read                   SHAP = 0.005978718977
+    imageunload imageunload imageunload processstop  SHAP = 0.005595259223
+    read create queryinformation queryinformation  SHAP = 0.005427525167
+    imageload create imageload imageload      SHAP = 0.005394693021
+    querysecurity create queryinformation cleanup  SHAP = 0.003664381025
+    create read read read                     SHAP = 0.003448540151
+    imageload imageload create imageload      SHAP = 0.003235534358
+    create imageload imageload imageload      SHAP = 0.003215886953
+    read read create queryinformation         SHAP = 0.003149969149
+    read read read read                       SHAP = 0.002848250461
+    processstop cleanup close close           SHAP = 0.002764349412
+    close read read create                    SHAP = 0.002580666171
+    imageunload imageunload processstop cleanup  SHAP = 0.002575581103
+    queryinformation queryinformation read read  SHAP = 0.002568536698
+    close imageload create queryinformation   SHAP = 0.002527713465
+    openkey closekeys openkey openkey         SHAP = 0.002473088258
+    create create create dataretransmitted    SHAP = 0.002319531268
+    threadstart threadstop imageunload imageunload  SHAP = 0.002303800773
+    imageunload processstop cleanup close     SHAP = 0.002254935872
+    closekeys queryvaluekey closekeys create  SHAP = 0.002212028256
+    read cleanup create direnum               SHAP = 0.002143096619
+    read read read create                     SHAP = 0.002096699835
+    queryinformation read create create       SHAP = 0.002068842482
+    close queryinformation queryinformation queryinformation  SHAP = 0.001935647567
+    openkey closekeys create queryinformation  SHAP = 0.001805828736

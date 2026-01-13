@@ -1,0 +1,32 @@
+
+Sample: set-macattribute
+    openkey closekeys openkey create          SHAP = 0.027100969505
+    closekeys openkey closekeys openkey       SHAP = 0.024863453512
+    closekeys openkey create queryinformation  SHAP = 0.019327964600
+    openkey closekeys openkey closekeys       SHAP = 0.015340950481
+    openkey openkey closekeys openkey         SHAP = 0.015105824360
+    openkey openkey closekeys querykey        SHAP = 0.014071635151
+    closekeys openkey create cleanup          SHAP = 0.012151323877
+    openkey create queryinformation cleanup   SHAP = 0.010135857129
+    openkey closekeys openkey querykey        SHAP = 0.008365406170
+    openkey openkey openkey closekeys         SHAP = 0.007460884329
+    openkey closekeys create queryinformation  SHAP = 0.006302723785
+    setinformationkey closekeys closekeys queryvaluekey  SHAP = 0.006228986246
+    closekeys queryvaluekey closekeys create  SHAP = 0.006098152597
+    openkey openkey closekeys create          SHAP = 0.005918793565
+    closekeys openkey querykey closekeys      SHAP = 0.005105644168
+    openkey closekeys openkey openkey         SHAP = 0.005094627539
+    openkey setinformationkey closekeys closekeys  SHAP = 0.005041717755
+    create read read create                   SHAP = 0.004472682833
+    openkey closekeys queryvaluekey closekeys  SHAP = 0.004159462617
+    create read read read                     SHAP = 0.003665902526
+    cleanup close closekeys queryvaluekey     SHAP = 0.003589449493
+    closekeys closekeys queryinformation read  SHAP = 0.003513473436
+    closekeys openkey openkey closekeys       SHAP = 0.003315664851
+    querykey openkey setinformationkey closekeys  SHAP = 0.003175972420
+    create closekeys openkey closekeys        SHAP = 0.003144544115
+    closekeys enumeratekey openkey create     SHAP = 0.003142340011
+    queryinformation querykey openkey queryvaluekey  SHAP = 0.002798732506
+    close queryvaluekey closekeys queryvaluekey  SHAP = 0.002706232960
+    create queryinformation queryinformation cleanup  SHAP = 0.002664274411
+    queryvaluekey closekeys closekeys queryinformation  SHAP = 0.002620588434

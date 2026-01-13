@@ -1,0 +1,32 @@
+
+Sample: invoke-farmer
+    openkey openkey closekeys querykey        SHAP = 0.008584727188
+    close read read read                      SHAP = 0.006378847904
+    create create create close                SHAP = 0.005183741038
+    imageunload create close createnewfile    SHAP = 0.005087423560
+    create create close createnewfile         SHAP = 0.004837893581
+    cleanup close read read                   SHAP = 0.004690059401
+    create create create cleanup              SHAP = 0.004076793867
+    direnum cleanup close create              SHAP = 0.004005869676
+    create read read read                     SHAP = 0.004001420262
+    cleanup create queryinformation cleanup   SHAP = 0.003306978232
+    read read read read                       SHAP = 0.002927241947
+    queryinformation close create cleanup     SHAP = 0.002886331316
+    create queryinformation queryinformation cleanup  SHAP = 0.002802373106
+    closekeys queryvaluekey closekeys create  SHAP = 0.002736099449
+    read read read create                     SHAP = 0.002674442822
+    create direnum direnum direnum            SHAP = 0.002668583924
+    openkey openkey openkey closekeys         SHAP = 0.002656525093
+    openkey closekeys openkey openkey         SHAP = 0.002595466427
+    read read create queryinformation         SHAP = 0.002537158968
+    close create direnum direnum              SHAP = 0.002525558263
+    queryinformation queryinformation read create  SHAP = 0.002177442656
+    cleanup queryinformation close queryinformation  SHAP = 0.002145547291
+    queryinformation queryinformation queryinformation read  SHAP = 0.002139031136
+    openkey openkey closekeys create          SHAP = 0.002098071859
+    direnum direnum direnum cleanup           SHAP = 0.002073868189
+    closekeys openkey queryvaluekey querykey  SHAP = 0.001920845351
+    close create create querysecurity         SHAP = 0.001860763401
+    read create create querysecurity          SHAP = 0.001780294027
+    create cleanup queryinformation close     SHAP = 0.001735673057
+    cleanup imageload close cleanup           SHAP = 0.001724493651

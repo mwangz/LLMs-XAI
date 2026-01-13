@@ -1,0 +1,32 @@
+
+Sample: 1899ff66b76a3f6302fea0afbc26c8452949345d2ea6d987b683c6a0037f22d0
+    querykey enumeratekey enumeratekey closekeys  SHAP = 0.013761535922
+    create cleanup close direnum              SHAP = 0.011479310449
+    openkey openkey closekeys openkey         SHAP = 0.009538282194
+    openkey querykey enumeratekey enumeratekey  SHAP = 0.008825825422
+    createnewfile namecreate write queryinformation  SHAP = 0.008074051125
+    close read read read                      SHAP = 0.006403983102
+    openkey openkey openkey openkey           SHAP = 0.006052061464
+    querykey openkey setinformationkey queryvaluekey  SHAP = 0.005994038831
+    create read read create                   SHAP = 0.005918537944
+    read read read read                       SHAP = 0.005676803746
+    write write write queryinformation        SHAP = 0.005511978260
+    namecreate write queryinformation cleanup  SHAP = 0.005454684542
+    querykey enumeratevaluekey closekeys create  SHAP = 0.005400629683
+    create createnewfile namecreate write     SHAP = 0.005315540724
+    setinformationkey queryvaluekey queryvaluekey queryvaluekey  SHAP = 0.005150900709
+    openkey setinformationkey queryvaluekey queryvaluekey  SHAP = 0.005074432058
+    queryinformation cleanup close read       SHAP = 0.004990317666
+    enumeratekey enumeratekey enumeratekey querykey  SHAP = 0.004794113875
+    openkey querysecurity create queryinformation  SHAP = 0.004527482341
+    querykey enumeratekey enumeratekey enumeratekey  SHAP = 0.004517120467
+    read create queryinformation queryinformation  SHAP = 0.004497422111
+    openkey create queryinformation cleanup   SHAP = 0.004340565066
+    queryvaluekey querykey openkey setinformationkey  SHAP = 0.004173405535
+    closekeys openkey openkey openkey         SHAP = 0.004034374453
+    write write queryinformation cleanup      SHAP = 0.003988206895
+    write queryinformation cleanup close      SHAP = 0.003899889752
+    threadstop imageunload imageunload imageunload  SHAP = 0.003722425675
+    processstart openkey queryvaluekey closekeys  SHAP = 0.003665909254
+    write queryinformation cleanup create     SHAP = 0.003608066431
+    close create createnewfile write          SHAP = 0.003518550214

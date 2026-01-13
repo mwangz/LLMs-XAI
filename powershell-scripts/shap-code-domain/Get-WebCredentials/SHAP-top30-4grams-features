@@ -1,0 +1,32 @@
+
+Sample: get-webcredentials
+    openkey closekeys openkey create          SHAP = 0.027172886962
+    closekeys openkey create queryinformation  SHAP = 0.025809728835
+    openkey openkey closekeys querykey        SHAP = 0.022987467904
+    closekeys openkey closekeys openkey       SHAP = 0.017876974838
+    openkey openkey closekeys openkey         SHAP = 0.016561699077
+    closekeys openkey create cleanup          SHAP = 0.014735703261
+    queryvaluekey openkey openkey closekeys   SHAP = 0.011655620548
+    openkey closekeys openkey querykey        SHAP = 0.011028961361
+    openkey create queryinformation cleanup   SHAP = 0.007807237655
+    queryvaluekey closekeys openkey closekeys  SHAP = 0.007220283214
+    openkey openkey openkey closekeys         SHAP = 0.005750241822
+    openkey openkey closekeys create          SHAP = 0.005326914322
+    closekeys queryvaluekey closekeys create  SHAP = 0.004884969968
+    openkey querysecuritykey queryvaluekey closekeys  SHAP = 0.004662713167
+    closekeys openkey querykey closekeys      SHAP = 0.004620818116
+    openkey closekeys create queryinformation  SHAP = 0.004541356899
+    openkey querykey enumeratevaluekey querykey  SHAP = 0.003632327010
+    closekeys enumeratekey openkey querykey   SHAP = 0.003310372490
+    closekeys closekeys queryinformation read  SHAP = 0.003211890895
+    closekeys create queryinformation cleanup  SHAP = 0.003139810282
+    closekeys openkey queryvaluekey querykey  SHAP = 0.002933730653
+    cleanup close create create               SHAP = 0.002642876128
+    queryvaluekey closekeys closekeys queryinformation  SHAP = 0.002599016043
+    querykey querykey enumeratevaluekey enumeratevaluekey  SHAP = 0.002528918489
+    queryvaluekey openkey openkey openkey     SHAP = 0.002436991157
+    openkey closekeys openkey closekeys       SHAP = 0.002289411981
+    create read read read                     SHAP = 0.002282855562
+    queryvaluekey closekeys closekeys enumeratekey  SHAP = 0.002213098717
+    closekeys create createnewfile namecreate  SHAP = 0.002112714038
+    queryinformation queryinformation read create  SHAP = 0.002044094625

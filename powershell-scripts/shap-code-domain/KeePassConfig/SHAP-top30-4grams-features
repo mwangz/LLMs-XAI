@@ -1,0 +1,32 @@
+
+Sample: keepassconfig
+    closekeys openkey create cleanup          SHAP = 0.010253024363
+    closekeys openkey enumeratekey querykey   SHAP = 0.008399004331
+    enumeratevaluekey closekeys enumeratekey openkey  SHAP = 0.006488292647
+    queryvaluekey enumeratekey closekeys querykey  SHAP = 0.005396439810
+    openkey closekeys openkey querykey        SHAP = 0.005277876002
+    setinformationkey closekeys queryvaluekey querykey  SHAP = 0.005004695460
+    read create queryinformation queryinformation  SHAP = 0.004654761486
+    closekeys openkey querykey closekeys      SHAP = 0.004091833713
+    closekeys enumeratekey openkey querykey   SHAP = 0.003699137569
+    queryvaluekey create queryinformation close  SHAP = 0.003654128409
+    openkey querykey querykey enumeratevaluekey  SHAP = 0.003268181351
+    querykey querykey enumeratevaluekey enumeratevaluekey  SHAP = 0.002812112424
+    openkey querykey setinformationkey queryvaluekey  SHAP = 0.002597517047
+    create read read create                   SHAP = 0.002589055217
+    closekeys queryvaluekey enumeratekey closekeys  SHAP = 0.002475039326
+    closekeys enumeratevaluekey enumeratekey openkey  SHAP = 0.002361920336
+    create closekeys openkey closekeys        SHAP = 0.002318699096
+    datasent datareceived datasent datasent   SHAP = 0.002145526955
+    querykey enumeratevaluekey querykey enumeratevaluekey  SHAP = 0.001962416811
+    queryvaluekey openkey querykey setinformationkey  SHAP = 0.001958263227
+    cleanup openkey openkey closekeys         SHAP = 0.001665037295
+    queryvaluekey closekeys queryvaluekey querykey  SHAP = 0.001555211590
+    queryvaluekey closekeys closekeys queryinformation  SHAP = 0.001535536068
+    querykey enumeratevaluekey closekeys enumeratekey  SHAP = 0.001495976523
+    closekeys queryvaluekey create imageload  SHAP = 0.001491669980
+    queryvaluekey closekeys closekeys enumeratekey  SHAP = 0.001484975551
+    queryvaluekey queryvaluekey openkey openkey  SHAP = 0.001446130596
+    openkey queryvaluekey querykey openkey    SHAP = 0.001434068534
+    create queryinformation namecreate cleanup  SHAP = 0.001396184092
+    datasent datasent datasent datareceived   SHAP = 0.001333691106

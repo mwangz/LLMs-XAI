@@ -1,0 +1,32 @@
+
+Sample: invoke-ldapsigncheck
+    openkey closekeys openkey create          SHAP = 0.022941215169
+    querykey enumeratekey enumeratekey closekeys  SHAP = 0.021358790345
+    openkey openkey closekeys querykey        SHAP = 0.021309957578
+    closekeys openkey create queryinformation  SHAP = 0.020558194169
+    closekeys openkey closekeys openkey       SHAP = 0.016259698085
+    openkey openkey closekeys openkey         SHAP = 0.014959087882
+    openkey querykey enumeratekey enumeratekey  SHAP = 0.011599397752
+    queryvaluekey closekeys openkey closekeys  SHAP = 0.010870857012
+    queryvaluekey create close createnewfile  SHAP = 0.010583667418
+    enumeratekey enumeratekey closekeys read  SHAP = 0.010050030984
+    openkey queryvaluekey create close        SHAP = 0.009768068241
+    openkey closekeys openkey querykey        SHAP = 0.006965673413
+    openkey create queryinformation cleanup   SHAP = 0.006893134761
+    queryvaluekey openkey openkey closekeys   SHAP = 0.006728036360
+    openkey openkey closekeys create          SHAP = 0.006473374663
+    enumeratekey closekeys read read          SHAP = 0.005883904227
+    close read read read                      SHAP = 0.005841575763
+    create read read create                   SHAP = 0.005720349256
+    openkey closekeys create queryinformation  SHAP = 0.005161667255
+    openkey closekeys queryvaluekey imageload  SHAP = 0.004489319575
+    closekeys queryvaluekey imageload imageload  SHAP = 0.003917013755
+    openkey openkey openkey closekeys         SHAP = 0.003849932210
+    closekeys openkey queryvaluekey querykey  SHAP = 0.003687625654
+    closekeys closekeys queryinformation read  SHAP = 0.003591008495
+    closekeys queryvaluekey closekeys create  SHAP = 0.003451447112
+    direnum direnum cleanup close             SHAP = 0.003326677131
+    create queryinformation queryinformation cleanup  SHAP = 0.003083868190
+    closekeys openkey querykey closekeys      SHAP = 0.002964234920
+    queryvaluekey imageload imageload imageload  SHAP = 0.002845334411
+    create read read read                     SHAP = 0.002645108922

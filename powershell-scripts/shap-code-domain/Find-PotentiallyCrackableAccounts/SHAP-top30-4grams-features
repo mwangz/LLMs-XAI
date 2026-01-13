@@ -1,0 +1,32 @@
+
+Sample: find-potentiallycrackableaccounts
+    openkey closekeys openkey create          SHAP = 0.023536546242
+    openkey openkey closekeys querykey        SHAP = 0.019574008527
+    closekeys openkey create queryinformation  SHAP = 0.018753869277
+    openkey closekeys openkey querykey        SHAP = 0.006754217821
+    close read read read                      SHAP = 0.004935021348
+    openkey openkey closekeys create          SHAP = 0.004241392946
+    read read read create                     SHAP = 0.004131514021
+    openkey openkey openkey closekeys         SHAP = 0.004080248006
+    openkey closekeys openkey openkey         SHAP = 0.003854661426
+    openkey closekeys openkey closekeys       SHAP = 0.003426187806
+    create create create cleanup              SHAP = 0.003243011717
+    openkey closekeys create queryinformation  SHAP = 0.003045456334
+    closekeys queryvaluekey closekeys create  SHAP = 0.002911574549
+    read create create create                 SHAP = 0.002693221165
+    create read read read                     SHAP = 0.002559476285
+    closekeys openkey queryvaluekey querykey  SHAP = 0.002550582653
+    create queryinformation cleanup close     SHAP = 0.002533796416
+    direnum direnum direnum cleanup           SHAP = 0.002366301553
+    datasent datasent datasent read           SHAP = 0.002178334480
+    create create querysecurity cleanup       SHAP = 0.002137247933
+    openkey closekeys setinformationkey queryvaluekey  SHAP = 0.002043298302
+    direnum direnum cleanup close             SHAP = 0.001940001288
+    queryinformation queryinformation queryinformation querykey  SHAP = 0.001679147551
+    cleanup close create create               SHAP = 0.001662920973
+    closekeys closekeys openkey openkey       SHAP = 0.001661031334
+    close create create create                SHAP = 0.001650734246
+    create cleanup close imageload            SHAP = 0.001618972122
+    closekeys queryvaluekey queryvaluekey queryvaluekey  SHAP = 0.001596585570
+    closekeys setinformationkey queryvaluekey closekeys  SHAP = 0.001552339181
+    close queryinformation queryinformation queryinformation  SHAP = 0.001542414888

@@ -1,0 +1,32 @@
+
+Sample: invoke-certify
+    openkey closekeys openkey create          SHAP = 0.024716054303
+    querykey enumeratekey enumeratekey closekeys  SHAP = 0.021165813537
+    closekeys openkey create queryinformation  SHAP = 0.019849862282
+    openkey openkey closekeys querykey        SHAP = 0.018379166038
+    openkey openkey closekeys openkey         SHAP = 0.017759778618
+    closekeys openkey closekeys openkey       SHAP = 0.017149096092
+    openkey queryvaluekey create close        SHAP = 0.010487496715
+    openkey querykey enumeratekey enumeratekey  SHAP = 0.010079550459
+    openkey closekeys openkey querykey        SHAP = 0.010043171542
+    queryvaluekey create close createnewfile  SHAP = 0.009676559123
+    queryvaluekey closekeys openkey closekeys  SHAP = 0.007215640718
+    closekeys openkey enumeratekey querykey   SHAP = 0.007055448919
+    openkey closekeys queryvaluekey imageload  SHAP = 0.006236284469
+    openkey openkey closekeys create          SHAP = 0.005401513886
+    openkey openkey openkey closekeys         SHAP = 0.005367201134
+    openkey closekeys create queryinformation  SHAP = 0.004628215163
+    create read read create                   SHAP = 0.004135947214
+    closekeys queryvaluekey imageload imageload  SHAP = 0.003868645000
+    close openkey closekeys openkey           SHAP = 0.003439019439
+    queryvaluekey imageload imageload imageload  SHAP = 0.002885093889
+    create closekeys openkey closekeys        SHAP = 0.002816714715
+    openkey querysecuritykey queryvaluekey closekeys  SHAP = 0.002694936406
+    openkey querykey querykey enumeratevaluekey  SHAP = 0.002645896696
+    direnum direnum direnum cleanup           SHAP = 0.002477316678
+    closekeys enumeratekey enumeratekey closekeys  SHAP = 0.002437481768
+    openkey queryvaluekey closekeys imageload  SHAP = 0.002268596213
+    queryvaluekey openkey closekeys openkey   SHAP = 0.002266386465
+    create queryinformation cleanup close     SHAP = 0.002205101598
+    closekeys queryvaluekey queryinformation queryvaluekey  SHAP = 0.002187036281
+    querysecuritykey queryvaluekey closekeys queryvaluekey  SHAP = 0.002162353914

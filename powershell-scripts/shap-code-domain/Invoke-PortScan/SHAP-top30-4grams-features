@@ -1,0 +1,33 @@
+
+Sample: invoke-portscan
+    openkey openkey closekeys querykey        SHAP = 0.012286330818
+    cleanup close read read                   SHAP = 0.007415907823
+    close read read read                      SHAP = 0.006289655572
+    create read read create                   SHAP = 0.005997989188
+    read read read read                       SHAP = 0.005252051122
+    create read read read                     SHAP = 0.004877764466
+    openkey closekeys openkey closekeys       SHAP = 0.004678558274
+    openkey openkey queryvaluekey queryvaluekey  SHAP = 0.004353591541
+    create queryinformation queryinformation cleanup  SHAP = 0.004352545687
+    openkey openkey openkey closekeys         SHAP = 0.003571465306
+    openkey openkey closekeys create          SHAP = 0.003517454597
+    openkey openkey closekeys openkey         SHAP = 0.003508828652
+    closekeys openkey queryvaluekey querykey  SHAP = 0.003151418948
+    openkey openkey querykey openkey          SHAP = 0.002991904681
+    openkey closekeys create queryinformation  SHAP = 0.002946149919
+    direnum cleanup close create              SHAP = 0.002821596493
+    setinformationkey querykey openkey queryvaluekey  SHAP = 0.002762665759
+    read create create querysecurity          SHAP = 0.002533146373
+    queryvaluekey closekeys closekeys queryinformation  SHAP = 0.002525267249
+    querykey closekeys closekeys closekeys    SHAP = 0.002524179399
+    queryinformation queryinformation queryinformation querykey  SHAP = 0.002473904164
+    close queryinformation queryinformation queryinformation  SHAP = 0.002447855558
+    closekeys closekeys queryinformation read  SHAP = 0.002443037300
+    queryvaluekey queryvaluekey closekeys read  SHAP = 0.002361432651
+    openkey querykey createkey closekeys      SHAP = 0.002317453454
+    close create create querysecurity         SHAP = 0.002234368552
+    queryinformation querykey openkey queryvaluekey  SHAP = 0.002193465671
+    openkey closekeys openkey openkey         SHAP = 0.002166177054
+    queryvaluekey queryvaluekey queryvaluekey queryvaluekey  SHAP = 0.002144844616
+    queryinformation cleanup close read       SHAP = 0.002063458268
+

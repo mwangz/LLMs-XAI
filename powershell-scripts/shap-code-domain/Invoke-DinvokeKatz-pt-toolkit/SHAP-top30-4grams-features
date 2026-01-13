@@ -1,0 +1,32 @@
+
+Sample: invoke-dinvokekatz
+    openkey closekeys openkey create          SHAP = 0.024162190521
+    closekeys openkey create queryinformation  SHAP = 0.022189663976
+    querykey enumeratekey enumeratekey closekeys  SHAP = 0.020333622545
+    closekeys openkey closekeys openkey       SHAP = 0.019156248838
+    openkey openkey closekeys querykey        SHAP = 0.018785733251
+    openkey openkey closekeys openkey         SHAP = 0.017769207371
+    openkey querykey enumeratekey enumeratekey  SHAP = 0.009688623700
+    queryvaluekey closekeys openkey closekeys  SHAP = 0.009439872397
+    openkey closekeys openkey querykey        SHAP = 0.008816796831
+    openkey openkey closekeys create          SHAP = 0.006109080665
+    closekeys queryvaluekey closekeys create  SHAP = 0.005571396289
+    openkey closekeys queryvaluekey imageload  SHAP = 0.005454614785
+    queryvaluekey imageload imageload imageload  SHAP = 0.005450960177
+    openkey openkey openkey closekeys         SHAP = 0.005051029999
+    create read read create                   SHAP = 0.005022434950
+    closekeys openkey enumeratekey querykey   SHAP = 0.004846166791
+    read read read read                       SHAP = 0.004787024965
+    closekeys queryvaluekey imageload imageload  SHAP = 0.004429648404
+    closekeys openkey querykey closekeys      SHAP = 0.004366362582
+    openkey closekeys create queryinformation  SHAP = 0.004203142218
+    openkey create queryinformation cleanup   SHAP = 0.003793374389
+    create closekeys openkey closekeys        SHAP = 0.003605934889
+    close openkey closekeys openkey           SHAP = 0.003410839424
+    closekeys openkey queryvaluekey querykey  SHAP = 0.002847654907
+    openkey queryvaluekey closekeys imageload  SHAP = 0.002743660915
+    closekeys create queryinformation cleanup  SHAP = 0.002412237848
+    create read read read                     SHAP = 0.002344905965
+    closekeys create createnewfile namecreate  SHAP = 0.002288103100
+    closekeys queryvaluekey enumeratekey closekeys  SHAP = 0.002284189575
+    closekeys queryvaluekey queryinformation queryvaluekey  SHAP = 0.002267978552

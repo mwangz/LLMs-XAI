@@ -1,0 +1,32 @@
+
+Sample: 32a084421d796d7059cb71d81ee59779b55bf556e82ab8d5cb5389fea36d1f33
+    create cleanup close direnum              SHAP = 0.010961527994
+    openkey openkey closekeys querykey        SHAP = 0.008314944943
+    createnewfile namecreate write queryinformation  SHAP = 0.007592769955
+    write write write queryinformation        SHAP = 0.007203473922
+    write write queryinformation cleanup      SHAP = 0.006794373375
+    close read read read                      SHAP = 0.006440933430
+    threadstop imageunload imageunload imageunload  SHAP = 0.006432483112
+    read create queryinformation queryinformation  SHAP = 0.006187003538
+    cleanup close read read                   SHAP = 0.005564353193
+    read read read read                       SHAP = 0.005496975246
+    create read read create                   SHAP = 0.005487838204
+    close create create imageload             SHAP = 0.005431470176
+    write queryinformation cleanup close      SHAP = 0.005298282761
+    queryinformation queryinformation querysecurity queryinformation  SHAP = 0.005049142820
+    cleanup create createnewfile namecreate   SHAP = 0.004751805198
+    create createnewfile namecreate write     SHAP = 0.004535884982
+    queryinformation read queryinformation cleanup  SHAP = 0.004447350700
+    queryinformation cleanup close read       SHAP = 0.004433112803
+    createnewfile queryinformation write write  SHAP = 0.004335204551
+    imageunload imageunload imageunload processstop  SHAP = 0.003989405028
+    write write write write                   SHAP = 0.003978119104
+    namecreate write queryinformation cleanup  SHAP = 0.003912942356
+    create imageload imageload create         SHAP = 0.003823071857
+    create read read read                     SHAP = 0.003546202319
+    queryinformation write write write        SHAP = 0.003451415055
+    direnum create cleanup close              SHAP = 0.003143587499
+    close create create read                  SHAP = 0.003120110960
+    close imageload create read               SHAP = 0.003099619535
+    create queryinformation read queryinformation  SHAP = 0.003068614967
+    create queryinformation read processstart  SHAP = 0.002928509669

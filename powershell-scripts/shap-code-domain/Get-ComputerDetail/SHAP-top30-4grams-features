@@ -1,0 +1,32 @@
+
+Sample: get-computerdetail
+    openkey closekeys openkey create          SHAP = 0.021875915449
+    openkey closekeys openkey closekeys       SHAP = 0.016431083770
+    closekeys openkey create queryinformation  SHAP = 0.016225779109
+    closekeys openkey closekeys openkey       SHAP = 0.015781133536
+    openkey openkey closekeys openkey         SHAP = 0.013551093704
+    openkey closekeys openkey querykey        SHAP = 0.011266705119
+    openkey create queryinformation cleanup   SHAP = 0.007538769451
+    openkey querykey enumeratekey enumeratekey  SHAP = 0.007028530636
+    close read read read                      SHAP = 0.006851407587
+    openkey openkey closekeys create          SHAP = 0.005000438564
+    read create queryinformation queryinformation  SHAP = 0.004810984305
+    openkey querysecuritykey queryvaluekey closekeys  SHAP = 0.004807025655
+    openkey closekeys openkey openkey         SHAP = 0.004330996906
+    datasent datareceived datasent datasent   SHAP = 0.004093512952
+    datasent datasent datasent datareceived   SHAP = 0.003780374628
+    create read read create                   SHAP = 0.003717874580
+    closekeys openkey querykey closekeys      SHAP = 0.003635307414
+    openkey closekeys create queryinformation  SHAP = 0.003083069380
+    closekeys openkey queryvaluekey querykey  SHAP = 0.002786139494
+    querysecuritykey queryvaluekey closekeys queryvaluekey  SHAP = 0.002548724849
+    create read namecreate queryinformation   SHAP = 0.002339822327
+    openkey closekeys closekeys closekeys     SHAP = 0.002320265886
+    create create queryinformation cleanup    SHAP = 0.002082715665
+    queryinformation cleanup close read       SHAP = 0.001999269792
+    openkey closekeys setinformationkey queryvaluekey  SHAP = 0.001879097980
+    enumeratekey openkey create queryinformation  SHAP = 0.001860344935
+    closekeys queryvaluekey queryinformation queryvaluekey  SHAP = 0.001850644516
+    cleanup close read read                   SHAP = 0.001833394780
+    create queryinformation queryinformation cleanup  SHAP = 0.001749763055
+    querykey enumeratekey enumeratekey enumeratekey  SHAP = 0.001687450091

@@ -1,0 +1,32 @@
+
+Sample: invoke-daft
+    querykey enumeratekey enumeratekey closekeys  SHAP = 0.024469493861
+    closekeys openkey closekeys openkey       SHAP = 0.015873363647
+    openkey openkey closekeys querykey        SHAP = 0.015190792500
+    openkey queryvaluekey create close        SHAP = 0.014556735880
+    queryvaluekey create close createnewfile  SHAP = 0.011938378253
+    openkey querykey enumeratekey enumeratekey  SHAP = 0.010245565980
+    openkey closekeys openkey querykey        SHAP = 0.009325953735
+    openkey openkey openkey closekeys         SHAP = 0.005834351790
+    openkey closekeys create queryinformation  SHAP = 0.004898365883
+    openkey querysecuritykey queryvaluekey closekeys  SHAP = 0.004704459915
+    queryvaluekey closekeys openkey closekeys  SHAP = 0.004451152440
+    openkey setinformationkey closekeys closekeys  SHAP = 0.004435372755
+    openkey openkey closekeys create          SHAP = 0.004362529792
+    setinformationkey closekeys closekeys queryvaluekey  SHAP = 0.004303493793
+    create read read create                   SHAP = 0.004245373029
+    close openkey closekeys openkey           SHAP = 0.003632136569
+    closekeys openkey querykey closekeys      SHAP = 0.003337482373
+    closekeys closekeys queryinformation read  SHAP = 0.003207899030
+    openkey closekeys openkey openkey         SHAP = 0.003134346263
+    queryvaluekey closekeys closekeys enumeratekey  SHAP = 0.003033788902
+    queryvaluekey queryvaluekey openkey openkey  SHAP = 0.002910132987
+    imageunload create close createnewfile    SHAP = 0.002744819432
+    create read read read                     SHAP = 0.002738888360
+    closekeys openkey queryvaluekey querykey  SHAP = 0.002662356002
+    closekeys openkey openkey closekeys       SHAP = 0.002444076746
+    openkey closekeys openkey closekeys       SHAP = 0.002412060518
+    close closekeys queryvaluekey queryvaluekey  SHAP = 0.002388240896
+    queryvaluekey closekeys closekeys queryinformation  SHAP = 0.002380611153
+    queryvaluekey openkey openkey openkey     SHAP = 0.002235684204
+    queryvaluekey openkey closekeys openkey   SHAP = 0.002186914120

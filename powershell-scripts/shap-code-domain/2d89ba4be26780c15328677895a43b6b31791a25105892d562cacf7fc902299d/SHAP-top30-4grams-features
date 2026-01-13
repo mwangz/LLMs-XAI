@@ -1,0 +1,32 @@
+Sample: malware_nw0rm_2d89ba4be26780c15328677895a43b6b31791a25105892d562cacf7fc902299d
+    openkey openkey closekeys querykey        SHAP = 0.010358447127
+    close read read read                      SHAP = 0.010011801306
+    create create createnewfile queryinformation  SHAP = 0.009682319819
+    cleanup close read read                   SHAP = 0.009484987746
+    create create create createnewfile        SHAP = 0.005496543434
+    read read read create                     SHAP = 0.005425614129
+    read read create queryinformation         SHAP = 0.004299329884
+    direnum direnum direnum cleanup           SHAP = 0.003677541311
+    create create cleanup threadstop          SHAP = 0.003051676911
+    imageunload create close createnewfile    SHAP = 0.002856111858
+    close read read create                    SHAP = 0.002688372295
+    direnum direnum cleanup close             SHAP = 0.002513412977
+    openkey closekeys openkey openkey         SHAP = 0.002408458222
+    close create create querysecurity         SHAP = 0.002296625826
+    queryinformation cleanup close read       SHAP = 0.002235731730
+    read read read read                       SHAP = 0.002216808541
+    cleanup create queryinformation cleanup   SHAP = 0.002103658306
+    create read read read                     SHAP = 0.002094973988
+    openkey openkey openkey closekeys         SHAP = 0.002082117575
+    queryinformation queryinformation cleanup close  SHAP = 0.002076308713
+    queryinformation queryinformation read create  SHAP = 0.002073139169
+    create queryinformation queryinformation cleanup  SHAP = 0.001984935166
+    read create create querysecurity          SHAP = 0.001942171015
+    openkey closekeys create queryinformation  SHAP = 0.001935197162
+    create direnum direnum direnum            SHAP = 0.001822735860
+    create create create imageunload          SHAP = 0.001788112246
+    read cleanup create direnum               SHAP = 0.001782802843
+    closekeys openkey queryvaluekey querykey  SHAP = 0.001737411922
+    create imageload queryinformation cleanup  SHAP = 0.001696784933
+    close queryinformation queryinformation queryinformation  SHAP = 0.001536452181
+    

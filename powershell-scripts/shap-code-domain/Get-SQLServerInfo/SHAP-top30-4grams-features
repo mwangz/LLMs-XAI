@@ -1,0 +1,32 @@
+
+Sample: get-sqlserverinfo
+    openkey closekeys openkey create          SHAP = 0.029164060140
+    closekeys openkey create queryinformation  SHAP = 0.023998775934
+    openkey openkey closekeys querykey        SHAP = 0.022533665694
+    openkey openkey closekeys openkey         SHAP = 0.019321377344
+    closekeys openkey closekeys openkey       SHAP = 0.018114537292
+    closekeys openkey create cleanup          SHAP = 0.014881240522
+    queryvaluekey openkey openkey closekeys   SHAP = 0.010810855099
+    openkey closekeys openkey querykey        SHAP = 0.010371985104
+    openkey create queryinformation cleanup   SHAP = 0.009482911459
+    queryvaluekey closekeys openkey closekeys  SHAP = 0.008483450407
+    closekeys queryvaluekey closekeys create  SHAP = 0.008284780679
+    openkey openkey openkey closekeys         SHAP = 0.007555515453
+    openkey closekeys create queryinformation  SHAP = 0.006904516767
+    openkey openkey closekeys create          SHAP = 0.006663818216
+    queryvaluekey closekeys closekeys enumeratekey  SHAP = 0.003322712145
+    querysecuritykey queryvaluekey closekeys queryvaluekey  SHAP = 0.003256678677
+    closekeys closekeys queryinformation read  SHAP = 0.003223889190
+    closekeys openkey querykey closekeys      SHAP = 0.003162716233
+    openkey querysecuritykey queryvaluekey closekeys  SHAP = 0.003149202650
+    create read read read                     SHAP = 0.003064544124
+    openkey querysecuritykey queryvaluekey queryvaluekey  SHAP = 0.002921961460
+    queryvaluekey closekeys closekeys queryinformation  SHAP = 0.002879339331
+    closekeys queryvaluekey queryvaluekey openkey  SHAP = 0.002644179656
+    openkey closekeys queryvaluekey closekeys  SHAP = 0.002554947197
+    imageunload create close createnewfile    SHAP = 0.002536300966
+    closekeys openkey openkey closekeys       SHAP = 0.002484632709
+    queryvaluekey queryvaluekey openkey openkey  SHAP = 0.002410412498
+    cleanup close closekeys queryvaluekey     SHAP = 0.002375798896
+    queryinformation queryinformation queryinformation querykey  SHAP = 0.002327736347
+    read read create create                   SHAP = 0.002302665018

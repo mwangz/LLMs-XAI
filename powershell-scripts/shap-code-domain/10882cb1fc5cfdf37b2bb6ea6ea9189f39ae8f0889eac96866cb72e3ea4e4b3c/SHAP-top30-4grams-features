@@ -1,0 +1,32 @@
+
+Sample: 10882cb1fc5cfdf37b2bb6ea6ea9189f39ae8f0889eac96866cb72e3ea4e4b3c
+    openkey closekeys openkey create          SHAP = 0.023072797317
+    openkey openkey closekeys querykey        SHAP = 0.018547700628
+    closekeys openkey closekeys openkey       SHAP = 0.018011460802
+    openkey closekeys openkey closekeys       SHAP = 0.016680911860
+    closekeys openkey create queryinformation  SHAP = 0.014636584956
+    openkey closekeys openkey querykey        SHAP = 0.010188896402
+    openkey openkey closekeys openkey         SHAP = 0.008951258816
+    write write write queryinformation        SHAP = 0.008124125277
+    create read read create                   SHAP = 0.005804340598
+    openkey closekeys create queryinformation  SHAP = 0.005795005122
+    closekeys queryvaluekey closekeys create  SHAP = 0.005777042540
+    create closekeys openkey closekeys        SHAP = 0.005621565779
+    openkey openkey closekeys create          SHAP = 0.005439105817
+    create createnewfile namecreate write     SHAP = 0.004770445020
+    namecreate write queryinformation cleanup  SHAP = 0.004714231716
+    queryinformation queryinformation querysecurity queryinformation  SHAP = 0.004595434409
+    closekeys openkey querykey closekeys      SHAP = 0.004411749056
+    openkey closekeys openkey openkey         SHAP = 0.004393618684
+    setinformationkey closekeys closekeys queryvaluekey  SHAP = 0.004338080483
+    openkey setinformationkey closekeys closekeys  SHAP = 0.003711068234
+    createnewfile namecreate write queryinformation  SHAP = 0.003153729014
+    closekeys openkey enumeratekey querykey   SHAP = 0.003098465991
+    openkey create queryinformation cleanup   SHAP = 0.003070059947
+    querykey openkey setinformationkey closekeys  SHAP = 0.002902939096
+    queryvaluekey closekeys closekeys queryinformation  SHAP = 0.002891488154
+    close queryinformation queryinformation querysecurity  SHAP = 0.002580527173
+    read read read read                       SHAP = 0.002577732754
+    openkey openkey queryvaluekey queryvaluekey  SHAP = 0.002566345497
+    imageunload create close createnewfile    SHAP = 0.002531583931
+    create read read read                     SHAP = 0.002414939368

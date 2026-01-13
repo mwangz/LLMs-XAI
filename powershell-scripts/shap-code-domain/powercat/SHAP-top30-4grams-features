@@ -1,0 +1,32 @@
+
+Sample: powercat
+    read create queryinformation queryinformation  SHAP = 0.010002346366
+    openkey openkey closekeys querykey        SHAP = 0.008261356045
+    queryinformation cleanup close read       SHAP = 0.007273397047
+    close read read read                      SHAP = 0.006116602081
+    queryinformation close queryinformation queryinformation  SHAP = 0.005056942065
+    cleanup close read read                   SHAP = 0.004747513736
+    imageload create queryinformation cleanup  SHAP = 0.004486836369
+    read create create create                 SHAP = 0.003477040277
+    write write queryinformation cleanup      SHAP = 0.003444644807
+    create read read read                     SHAP = 0.003402082771
+    read read create queryinformation         SHAP = 0.003367030198
+    read read read read                       SHAP = 0.002924752548
+    createnewfile queryinformation write write  SHAP = 0.002912649290
+    write queryinformation cleanup close      SHAP = 0.002763938685
+    close read read create                    SHAP = 0.002715205272
+    read read datasent datasent               SHAP = 0.002683444840
+    closekeys queryvaluekey closekeys create  SHAP = 0.002586808210
+    create create create cleanup              SHAP = 0.002579800734
+    queryinformation queryinformation querysecurity queryinformation  SHAP = 0.002468326942
+    close queryinformation queryinformation queryinformation  SHAP = 0.002416225388
+    read read read create                     SHAP = 0.002402897819
+    close create imageload create             SHAP = 0.002369757759
+    querysecurity queryinformation queryinformation cleanup  SHAP = 0.002362251565
+    write write write queryinformation        SHAP = 0.002362247741
+    close imageload create queryinformation   SHAP = 0.002199936944
+    read read create create                   SHAP = 0.001891401439
+    create createnewfile queryinformation write  SHAP = 0.001879351164
+    queryinformation write write write        SHAP = 0.001787342316
+    create imageload imageload imageload      SHAP = 0.001765387303
+    create create querysecurity cleanup       SHAP = 0.001725780910

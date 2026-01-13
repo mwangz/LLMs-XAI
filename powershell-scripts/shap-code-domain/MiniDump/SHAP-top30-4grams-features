@@ -1,0 +1,32 @@
+
+Sample: minidump
+    createnewfile namecreate write queryinformation  SHAP = 0.009366216739
+    openkey openkey closekeys querykey        SHAP = 0.007261966558
+    namecreate write queryinformation cleanup  SHAP = 0.006875624106
+    create cleanup close direnum              SHAP = 0.006843158123
+    queryinformation cleanup close read       SHAP = 0.006012860787
+    cleanup close read read                   SHAP = 0.005540089385
+    create read read create                   SHAP = 0.005053035922
+    create createnewfile namecreate write     SHAP = 0.004607984645
+    imageunload imageunload imageunload processstop  SHAP = 0.004528123913
+    write queryinformation cleanup close      SHAP = 0.004516199665
+    close read read read                      SHAP = 0.004363616867
+    threadstop imageunload imageunload imageunload  SHAP = 0.004217044684
+    queryinformation queryinformation querysecurity queryinformation  SHAP = 0.003965996128
+    create read read read                     SHAP = 0.003765474623
+    write write queryinformation cleanup      SHAP = 0.003473102093
+    direnum create cleanup close              SHAP = 0.003375882990
+    create create create threadstop           SHAP = 0.003033902340
+    write queryinformation cleanup create     SHAP = 0.003025314924
+    create imageload imageload imageload      SHAP = 0.002803586094
+    read read read read                       SHAP = 0.002481019305
+    create create queryinformation setdelete  SHAP = 0.002397890554
+    read read read create                     SHAP = 0.002396602358
+    queryinformation close queryinformation queryinformation  SHAP = 0.002278909016
+    closekeys queryvaluekey closekeys create  SHAP = 0.002268927455
+    openkey closekeys openkey openkey         SHAP = 0.002254041748
+    openkey closekeys create queryinformation  SHAP = 0.002042827261
+    read read create queryinformation         SHAP = 0.001986465894
+    cleanup read read read                    SHAP = 0.001898632994
+    openkey openkey closekeys create          SHAP = 0.001883810390
+    close create queryinformation setdelete   SHAP = 0.001867703742

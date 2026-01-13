@@ -1,0 +1,32 @@
+
+Sample: invoke-powerdump
+    querykey enumeratekey enumeratekey closekeys  SHAP = 0.010695680708
+    namecreate write queryinformation cleanup  SHAP = 0.010183205144
+    createnewfile namecreate write queryinformation  SHAP = 0.008612974803
+    openkey querykey enumeratekey enumeratekey  SHAP = 0.008021385720
+    openkey openkey closekeys openkey         SHAP = 0.007353418457
+    enumeratekey enumeratekey closekeys read  SHAP = 0.007052768741
+    openkey openkey openkey openkey           SHAP = 0.005570146968
+    queryvaluekey querykey openkey setinformationkey  SHAP = 0.005243859845
+    create cleanup close direnum              SHAP = 0.005092337907
+    openkey create queryinformation cleanup   SHAP = 0.004951299073
+    read read read read                       SHAP = 0.004843700246
+    close read read read                      SHAP = 0.003987305952
+    create createnewfile namecreate write     SHAP = 0.003963216147
+    querykey openkey setinformationkey queryvaluekey  SHAP = 0.003753686683
+    imageunload imageunload imageunload processstop  SHAP = 0.003628743689
+    closekeys openkey querykey closekeys      SHAP = 0.003383350329
+    cleanup close read read                   SHAP = 0.003345389364
+    write write write queryinformation        SHAP = 0.003313162063
+    querykey enumeratevaluekey closekeys create  SHAP = 0.003238914632
+    create read read read                     SHAP = 0.003060713882
+    setinformationkey queryvaluekey queryvaluekey queryvaluekey  SHAP = 0.002982241942
+    write queryinformation cleanup create     SHAP = 0.002643759143
+    querykey closekeys closekeys closekeys    SHAP = 0.002628393981
+    read create queryinformation queryinformation  SHAP = 0.002544046186
+    close read create createnewfile           SHAP = 0.002526644186
+    threadstop imageunload imageunload imageunload  SHAP = 0.002508115911
+    querysecurity create queryinformation cleanup  SHAP = 0.002484759019
+    enumeratekey closekeys read read          SHAP = 0.002469307110
+    queryvaluekey queryvaluekey closekeys querykey  SHAP = 0.002443957068
+    closekeys openkey openkey querysecurity   SHAP = 0.002434727029

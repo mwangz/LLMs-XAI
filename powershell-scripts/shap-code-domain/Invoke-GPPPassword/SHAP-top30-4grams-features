@@ -1,0 +1,32 @@
+
+Sample: invoke-gpppassword
+    openkey closekeys openkey create          SHAP = 0.024833231248
+    closekeys openkey create queryinformation  SHAP = 0.022992552704
+    closekeys openkey closekeys openkey       SHAP = 0.019532458942
+    openkey openkey closekeys openkey         SHAP = 0.018084130733
+    querykey enumeratekey enumeratekey closekeys  SHAP = 0.018071408800
+    openkey create queryinformation cleanup   SHAP = 0.009163611187
+    closekeys openkey enumeratekey querykey   SHAP = 0.008473660565
+    openkey querykey enumeratekey enumeratekey  SHAP = 0.008424794447
+    queryvaluekey closekeys openkey closekeys  SHAP = 0.008328941852
+    openkey closekeys openkey querykey        SHAP = 0.007984284021
+    openkey closekeys queryvaluekey imageload  SHAP = 0.006153558398
+    openkey openkey closekeys create          SHAP = 0.006117694344
+    openkey closekeys create queryinformation  SHAP = 0.006054664365
+    queryvaluekey imageload imageload imageload  SHAP = 0.005578915310
+    openkey openkey openkey closekeys         SHAP = 0.005103285064
+    closekeys queryvaluekey imageload imageload  SHAP = 0.003621544626
+    openkey enumeratekey closekeys closekeys  SHAP = 0.002822558074
+    closekeys queryvaluekey querykey setinformationkey  SHAP = 0.002728712893
+    queryvaluekey openkey closekeys openkey   SHAP = 0.002682240028
+    closekeys enumeratekey openkey create     SHAP = 0.002502378905
+    closekeys queryvaluekey queryinformation queryvaluekey  SHAP = 0.002403660813
+    openkey queryvaluekey closekeys imageload  SHAP = 0.002271411063
+    closekeys openkey openkey create          SHAP = 0.002254076242
+    cleanup close closekeys queryvaluekey     SHAP = 0.002197395481
+    openkey closekeys closekeys queryvaluekey  SHAP = 0.002126639687
+    openkey openkey queryvaluekey queryvaluekey  SHAP = 0.002073392380
+    closekeys enumeratekey querykey queryvaluekey  SHAP = 0.001994271349
+    queryvaluekey queryvaluekey openkey openkey  SHAP = 0.001982311591
+    close imageload create read               SHAP = 0.001920334527
+    enumeratevaluekey enumeratekey openkey querykey  SHAP = 0.001891070785

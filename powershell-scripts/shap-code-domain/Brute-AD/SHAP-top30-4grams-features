@@ -1,0 +1,32 @@
+
+Sample: brute-ad
+    openkey closekeys openkey create          SHAP = 0.023711203559
+    closekeys openkey create queryinformation  SHAP = 0.022104439052
+    openkey openkey closekeys querykey        SHAP = 0.020760474082
+    openkey openkey closekeys openkey         SHAP = 0.017553294961
+    closekeys openkey closekeys openkey       SHAP = 0.015753964244
+    closekeys openkey create cleanup          SHAP = 0.013872469157
+    openkey closekeys openkey closekeys       SHAP = 0.012209584902
+    queryvaluekey openkey openkey closekeys   SHAP = 0.010137710254
+    openkey closekeys openkey querykey        SHAP = 0.008879448814
+    queryvaluekey imageload imageload imageload  SHAP = 0.006294816122
+    closekeys queryvaluekey closekeys create  SHAP = 0.006113269939
+    closekeys openkey enumeratekey querykey   SHAP = 0.006020860959
+    openkey openkey closekeys create          SHAP = 0.005861859214
+    openkey closekeys queryvaluekey imageload  SHAP = 0.005710863374
+    queryvaluekey closekeys openkey closekeys  SHAP = 0.005224325107
+    openkey closekeys create queryinformation  SHAP = 0.004287801496
+    openkey querysecuritykey queryvaluekey closekeys  SHAP = 0.003855623670
+    closekeys queryvaluekey imageload imageload  SHAP = 0.003768570997
+    closekeys queryvaluekey queryinformation queryvaluekey  SHAP = 0.003266111163
+    closekeys openkey querykey closekeys      SHAP = 0.003232702958
+    closekeys openkey queryvaluekey querykey  SHAP = 0.002966089717
+    queryvaluekey queryvaluekey openkey openkey  SHAP = 0.002534364798
+    openkey querykey queryvaluekey create     SHAP = 0.002506237153
+    queryvaluekey closekeys closekeys enumeratekey  SHAP = 0.002464508596
+    closekeys openkey openkey closekeys       SHAP = 0.002454722573
+    closekeys create createnewfile namecreate  SHAP = 0.002447834482
+    closekeys enumeratekey openkey create     SHAP = 0.002446100651
+    close closekeys queryvaluekey closekeys   SHAP = 0.002417548014
+    querysecuritykey queryvaluekey closekeys queryvaluekey  SHAP = 0.002412555624
+    cleanup close create create               SHAP = 0.002342157180

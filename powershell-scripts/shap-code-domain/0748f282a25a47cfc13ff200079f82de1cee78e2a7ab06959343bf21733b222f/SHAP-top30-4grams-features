@@ -1,0 +1,32 @@
+
+Sample: 0748f282a25a47cfc13ff200079f82de1cee78e2a7ab06959343bf21733b222f
+    openkey closekeys openkey create          SHAP = 0.015568993040
+    enumeratekey enumeratekey closekeys openkey  SHAP = 0.009872475857
+    openkey closekeys openkey closekeys       SHAP = 0.009664290385
+    closekeys openkey closekeys openkey       SHAP = 0.009226032899
+    write write write queryinformation        SHAP = 0.008789623170
+    create cleanup close direnum              SHAP = 0.008724069480
+    closekeys openkey create queryinformation  SHAP = 0.008492019036
+    openkey querykey enumeratevaluekey enumeratevaluekey  SHAP = 0.007667140037
+    openkey querykey enumeratekey enumeratekey  SHAP = 0.007567189789
+    namecreate write queryinformation cleanup  SHAP = 0.007342665660
+    querykey openkey enumeratekey querykey    SHAP = 0.006972116327
+    enumeratevaluekey create create read      SHAP = 0.006480641989
+    querykey enumeratevaluekey enumeratevaluekey closekeys  SHAP = 0.006175383270
+    createnewfile queryinformation write write  SHAP = 0.006131063042
+    openkey openkey closekeys openkey         SHAP = 0.005909495809
+    openkey closekeys openkey querykey        SHAP = 0.005707335234
+    enumeratevaluekey querykey openkey queryvaluekey  SHAP = 0.005063655617
+    openkey openkey openkey openkey           SHAP = 0.004299428678
+    createnewfile namecreate write queryinformation  SHAP = 0.004185438123
+    enumeratevaluekey enumeratevaluekey enumeratevaluekey create  SHAP = 0.004065245524
+    enumeratevaluekey enumeratevaluekey create create  SHAP = 0.004044516746
+    openkey create queryinformation cleanup   SHAP = 0.004042348362
+    queryvaluekey queryvaluekey closekeys querykey  SHAP = 0.003990489545
+    setinformationkey enumeratekey enumeratekey enumeratekey  SHAP = 0.003794611080
+    querykey openkey enumeratevaluekey querykey  SHAP = 0.003575183202
+    queryvaluekey closekeys enumeratekey querykey  SHAP = 0.003520780270
+    enumeratevaluekey closekeys enumeratekey querykey  SHAP = 0.003487128543
+    create createnewfile namecreate write     SHAP = 0.003454458334
+    querykey enumeratevaluekey closekeys create  SHAP = 0.003433761124
+    openkey openkey querykey enumeratekey     SHAP = 0.003156388811

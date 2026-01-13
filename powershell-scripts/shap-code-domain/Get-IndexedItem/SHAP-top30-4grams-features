@@ -1,0 +1,32 @@
+
+Sample: get-indexeditem
+    openkey closekeys openkey create          SHAP = 0.023621514037
+    openkey openkey closekeys querykey        SHAP = 0.018051333385
+    openkey openkey closekeys openkey         SHAP = 0.016498667476
+    closekeys openkey closekeys openkey       SHAP = 0.016106211177
+    closekeys openkey create queryinformation  SHAP = 0.015500646244
+    closekeys openkey create cleanup          SHAP = 0.012794390675
+    openkey closekeys openkey closekeys       SHAP = 0.012382999705
+    queryvaluekey openkey openkey closekeys   SHAP = 0.010517994002
+    openkey closekeys openkey querykey        SHAP = 0.008159908372
+    openkey closekeys queryvaluekey imageload  SHAP = 0.006150297741
+    queryvaluekey imageload imageload imageload  SHAP = 0.005950801528
+    openkey closekeys create queryinformation  SHAP = 0.005254442741
+    openkey openkey openkey closekeys         SHAP = 0.004919127673
+    closekeys openkey querykey closekeys      SHAP = 0.004546791758
+    closekeys queryvaluekey imageload imageload  SHAP = 0.004195875763
+    openkey closekeys openkey openkey         SHAP = 0.004041267540
+    closekeys openkey enumeratekey querykey   SHAP = 0.003759704744
+    openkey openkey closekeys create          SHAP = 0.003753847879
+    queryvaluekey closekeys closekeys enumeratekey  SHAP = 0.003376716095
+    closekeys queryvaluekey closekeys create  SHAP = 0.003339465282
+    create read read create                   SHAP = 0.003048211365
+    queryvaluekey closekeys closekeys queryinformation  SHAP = 0.002664292792
+    closekeys openkey queryvaluekey querykey  SHAP = 0.002654713650
+    queryvaluekey queryvaluekey openkey openkey  SHAP = 0.002592451150
+    queryvaluekey openkey querykey setinformationkey  SHAP = 0.002180813263
+    closekeys setinformationkey queryvaluekey closekeys  SHAP = 0.002122479586
+    create create queryinformation cleanup    SHAP = 0.002116364189
+    cleanup close closekeys querykey          SHAP = 0.002094981119
+    create read read read                     SHAP = 0.002044672698
+    closekeys closekeys queryinformation read  SHAP = 0.001974918004

@@ -1,0 +1,32 @@
+
+Sample: malware_asyncrat_59d704cc10e83b944fa8cf536d7ab5397c44bfc6b7f1e598aecedb81c39ab027
+    openkey closekeys openkey create          SHAP = 0.014233599524
+    closekeys openkey create queryinformation  SHAP = 0.009261886969
+    openkey openkey closekeys openkey         SHAP = 0.008691943537
+    closekeys openkey closekeys openkey       SHAP = 0.008544603639
+    closekeys openkey create cleanup          SHAP = 0.008393360211
+    createnewfile namecreate write queryinformation  SHAP = 0.007176871097
+    enumeratevaluekey querykey openkey queryvaluekey  SHAP = 0.007031178367
+    enumeratevaluekey create create read      SHAP = 0.006972413631
+    create cleanup close direnum              SHAP = 0.006939020630
+    enumeratevaluekey enumeratevaluekey create create  SHAP = 0.006210111820
+    cleanup close enumeratekey closekeys      SHAP = 0.005945928527
+    openkey querykey enumeratekey enumeratekey  SHAP = 0.005867832431
+    enumeratekey enumeratekey enumeratekey querykey  SHAP = 0.005862345586
+    openkey closekeys openkey closekeys       SHAP = 0.005738442308
+    setinformationkey queryvaluekey queryvaluekey queryvaluekey  SHAP = 0.005706274888
+    enumeratekey enumeratekey closekeys openkey  SHAP = 0.005585272260
+    openkey closekeys openkey querykey        SHAP = 0.005558231203
+    querykey enumeratevaluekey closekeys create  SHAP = 0.005299540453
+    openkey setinformationkey queryvaluekey create  SHAP = 0.005216957543
+    querykey openkey enumeratekey querykey    SHAP = 0.005197953890
+    openkey openkey openkey openkey           SHAP = 0.004907220453
+    write write write queryinformation        SHAP = 0.004393667534
+    createkey queryvaluekey querykey querykey  SHAP = 0.004236279583
+    threadstart imageload imageload openkey   SHAP = 0.004221577088
+    openkey create queryinformation cleanup   SHAP = 0.004161420024
+    queryvaluekey openkey openkey closekeys   SHAP = 0.004085799131
+    create createnewfile namecreate write     SHAP = 0.003989529676
+    openkey querykey enumeratevaluekey querykey  SHAP = 0.003904542485
+    closekeys enumeratekey querykey querykey  SHAP = 0.003820055903
+    queryinformation queryinformation querysecurity queryinformation  SHAP = 0.003806924882

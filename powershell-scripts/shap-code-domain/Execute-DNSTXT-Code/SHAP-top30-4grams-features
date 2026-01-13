@@ -1,0 +1,32 @@
+
+Sample: execute-dnstxt-code
+    openkey closekeys openkey create          SHAP = 0.017650986994
+    closekeys openkey create queryinformation  SHAP = 0.015097214477
+    querykey enumeratekey enumeratekey closekeys  SHAP = 0.014275381626
+    openkey openkey closekeys openkey         SHAP = 0.010633514112
+    closekeys openkey closekeys openkey       SHAP = 0.010353395393
+    openkey closekeys openkey closekeys       SHAP = 0.009219879099
+    create cleanup close direnum              SHAP = 0.009151986958
+    openkey closekeys openkey querykey        SHAP = 0.008334980650
+    openkey querykey enumeratekey enumeratekey  SHAP = 0.006721930819
+    queryvaluekey imageload imageload imageload  SHAP = 0.005638174928
+    setinformationkey queryvaluekey queryvaluekey queryvaluekey  SHAP = 0.005190711721
+    write write write queryinformation        SHAP = 0.004847547990
+    queryvaluekey closekeys create direnum    SHAP = 0.004347696029
+    queryvaluekey closekeys openkey closekeys  SHAP = 0.004282587300
+    openkey closekeys queryvaluekey imageload  SHAP = 0.004230093052
+    direnum create cleanup close              SHAP = 0.003882642305
+    openkey openkey closekeys create          SHAP = 0.003794909059
+    openkey openkey openkey openkey           SHAP = 0.003758261176
+    closekeys openkey enumeratekey querykey   SHAP = 0.003616008082
+    close read read read                      SHAP = 0.003517375744
+    queryinformation queryinformation querysecurity queryinformation  SHAP = 0.003386141102
+    createnewfile namecreate write queryinformation  SHAP = 0.003316149092
+    closekeys openkey querykey closekeys      SHAP = 0.003024418182
+    queryvaluekey queryvaluekey closekeys querykey  SHAP = 0.002878578212
+    close openkey closekeys openkey           SHAP = 0.002860702862
+    queryinformation cleanup close read       SHAP = 0.002828435076
+    threadstop imageunload imageunload imageunload  SHAP = 0.002774041281
+    threadstart imageload imageload openkey   SHAP = 0.002748112739
+    openkey closekeys create queryinformation  SHAP = 0.002614756676
+    read read read read                       SHAP = 0.002607083031

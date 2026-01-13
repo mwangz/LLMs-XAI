@@ -1,0 +1,32 @@
+
+Sample: invoke-gopher
+    openkey closekeys openkey create          SHAP = 0.018744012855
+    closekeys openkey closekeys openkey       SHAP = 0.010591638764
+    openkey openkey closekeys querykey        SHAP = 0.009754425663
+    openkey openkey closekeys openkey         SHAP = 0.006463436698
+    closekeys openkey querykey closekeys      SHAP = 0.006339807843
+    close read read read                      SHAP = 0.006207247041
+    read read read read                       SHAP = 0.004292907450
+    closekeys openkey queryvaluekey querykey  SHAP = 0.003664560434
+    queryvaluekey querykey openkey setinformationkey  SHAP = 0.003562745535
+    create read read create                   SHAP = 0.003329390564
+    openkey openkey closekeys create          SHAP = 0.003149400060
+    cleanup close closekeys querykey          SHAP = 0.002877428107
+    closekeys queryvaluekey closekeys create  SHAP = 0.002816703589
+    openkey closekeys openkey closekeys       SHAP = 0.002614302465
+    queryvaluekey closekeys openkey closekeys  SHAP = 0.002475383810
+    create create queryinformation cleanup    SHAP = 0.002472029156
+    cleanup close create namecreate           SHAP = 0.002356564287
+    queryinformation queryinformation read create  SHAP = 0.002295655955
+    create create create create               SHAP = 0.002115131786
+    openkey closekeys openkey openkey         SHAP = 0.002086968480
+    read read querykey openkey                SHAP = 0.002010500508
+    close queryinformation queryinformation queryinformation  SHAP = 0.001932555766
+    openkey openkey openkey closekeys         SHAP = 0.001915315238
+    queryvaluekey closekeys closekeys queryinformation  SHAP = 0.001897472904
+    datareceived read read read               SHAP = 0.001892243164
+    read read cleanup close                   SHAP = 0.001888920097
+    read read read create                     SHAP = 0.001876727737
+    openkey closekeys create queryinformation  SHAP = 0.001822753723
+    closekeys closekeys closekeys closekeys   SHAP = 0.001678890914
+    queryinformation cleanup close direnum    SHAP = 0.001572534076

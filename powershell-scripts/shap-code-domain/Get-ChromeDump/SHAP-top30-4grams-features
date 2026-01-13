@@ -1,0 +1,32 @@
+
+Sample: get-chromedump
+    openkey closekeys openkey create          SHAP = 0.027701231520
+    closekeys openkey create queryinformation  SHAP = 0.019167267649
+    openkey openkey closekeys openkey         SHAP = 0.018691279252
+    openkey openkey closekeys querykey        SHAP = 0.018493216128
+    closekeys openkey closekeys openkey       SHAP = 0.015146647774
+    closekeys openkey create cleanup          SHAP = 0.012296406032
+    openkey closekeys openkey querykey        SHAP = 0.011450630492
+    queryvaluekey openkey openkey closekeys   SHAP = 0.008362735296
+    openkey create queryinformation cleanup   SHAP = 0.006789637061
+    openkey closekeys create queryinformation  SHAP = 0.006699911202
+    openkey closekeys queryvaluekey imageload  SHAP = 0.006339183148
+    openkey openkey closekeys create          SHAP = 0.006089398159
+    openkey openkey openkey closekeys         SHAP = 0.005593337328
+    read read read read                       SHAP = 0.004982775294
+    closekeys openkey querykey closekeys      SHAP = 0.004853274140
+    close openkey closekeys openkey           SHAP = 0.004648676503
+    queryvaluekey imageload imageload imageload  SHAP = 0.004302359829
+    closekeys queryvaluekey queryinformation queryvaluekey  SHAP = 0.004240999530
+    queryvaluekey closekeys openkey closekeys  SHAP = 0.004024867100
+    closekeys queryvaluekey imageload imageload  SHAP = 0.003948754177
+    closekeys closekeys queryinformation read  SHAP = 0.003272441909
+    create closekeys openkey closekeys        SHAP = 0.003152534620
+    enumeratevaluekey closekeys enumeratekey openkey  SHAP = 0.002965520817
+    queryvaluekey enumeratekey closekeys querykey  SHAP = 0.002793439875
+    closekeys queryvaluekey querykey setinformationkey  SHAP = 0.002783071183
+    openkey setinformationkey closekeys closekeys  SHAP = 0.002589083972
+    setinformationkey closekeys closekeys queryvaluekey  SHAP = 0.002500007050
+    close closekeys queryvaluekey closekeys   SHAP = 0.002383853312
+    queryvaluekey closekeys closekeys queryinformation  SHAP = 0.002299527757
+    querykey querykey enumeratevaluekey enumeratevaluekey  SHAP = 0.002206598192

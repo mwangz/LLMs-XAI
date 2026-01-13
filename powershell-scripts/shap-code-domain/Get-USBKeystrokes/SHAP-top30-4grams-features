@@ -1,0 +1,32 @@
+
+Sample: get-usbkeystrokes
+    openkey closekeys openkey create          SHAP = 0.024358743091
+    closekeys openkey closekeys openkey       SHAP = 0.020757668589
+    openkey openkey closekeys querykey        SHAP = 0.017931276149
+    openkey closekeys openkey querykey        SHAP = 0.011794057690
+    openkey querykey enumeratekey enumeratekey  SHAP = 0.011656161933
+    querykey enumeratekey enumeratekey closekeys  SHAP = 0.010500724595
+    openkey closekeys openkey closekeys       SHAP = 0.010301461681
+    closekeys openkey create queryinformation  SHAP = 0.010063799903
+    openkey openkey closekeys openkey         SHAP = 0.009898503189
+    queryvaluekey closekeys openkey closekeys  SHAP = 0.006092671943
+    closekeys queryvaluekey closekeys create  SHAP = 0.006081672794
+    openkey openkey openkey closekeys         SHAP = 0.005831025380
+    openkey closekeys create queryinformation  SHAP = 0.005585501516
+    closekeys openkey querykey closekeys      SHAP = 0.005292029683
+    openkey openkey closekeys create          SHAP = 0.004771721530
+    read read read read                       SHAP = 0.004444656508
+    close openkey closekeys openkey           SHAP = 0.003504216098
+    closekeys queryvaluekey queryvaluekey openkey  SHAP = 0.003367832513
+    closekeys queryvaluekey imageload imageload  SHAP = 0.003126163532
+    queryvaluekey closekeys closekeys enumeratekey  SHAP = 0.003119603210
+    closekeys openkey enumeratekey querykey   SHAP = 0.003022715745
+    closekeys openkey queryvaluekey querykey  SHAP = 0.002961467174
+    queryvaluekey queryvaluekey openkey openkey  SHAP = 0.002349722596
+    imageunload create close createnewfile    SHAP = 0.002338448570
+    queryvaluekey closekeys closekeys queryinformation  SHAP = 0.002328802276
+    openkey closekeys closekeys queryvaluekey  SHAP = 0.002290325712
+    create create querysecurity cleanup       SHAP = 0.002209439337
+    closekeys closekeys queryinformation read  SHAP = 0.002124700264
+    close create create queryinformation      SHAP = 0.002081552276
+    closekeys closekeys openkey openkey       SHAP = 0.001896396265

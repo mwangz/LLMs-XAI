@@ -1,0 +1,32 @@
+
+Sample: 4b100fc6acbb172dad1ad39444d6351cb46d940340e80f76663b0b2cea7f4695
+    closekeys openkey closekeys openkey       SHAP = 0.014293839687
+    openkey closekeys openkey querykey        SHAP = 0.006451351598
+    close read read read                      SHAP = 0.006271953175
+    queryvaluekey closekeys openkey closekeys  SHAP = 0.006175358549
+    openkey closekeys openkey closekeys       SHAP = 0.004296676497
+    close create create imageload             SHAP = 0.004282419693
+    read read read read                       SHAP = 0.004239762765
+    cleanup close read read                   SHAP = 0.004095689877
+    openkey openkey queryvaluekey queryvaluekey  SHAP = 0.003841009912
+    closekeys openkey queryvaluekey querykey  SHAP = 0.003609056856
+    queryvaluekey querykey openkey setinformationkey  SHAP = 0.003408573062
+    openkey openkey querykey openkey          SHAP = 0.003399658494
+    queryvaluekey closekeys closekeys queryinformation  SHAP = 0.003370317138
+    create read namecreate queryinformation   SHAP = 0.003302059476
+    close create read namecreate              SHAP = 0.003301046640
+    openkey queryvaluekey queryvaluekey querykey  SHAP = 0.002782560997
+    closekeys closekeys queryinformation read  SHAP = 0.002782397189
+    closekeys queryvaluekey queryvaluekey closekeys  SHAP = 0.002763878853
+    closekeys openkey openkey closekeys       SHAP = 0.002692209192
+    read read querykey querykey               SHAP = 0.002688814511
+    create queryinformation queryinformation cleanup  SHAP = 0.002517031477
+    setinformationkey queryvaluekey queryvaluekey queryvaluekey  SHAP = 0.002458538868
+    create read read read                     SHAP = 0.002354995211
+    read read read create                     SHAP = 0.002351836938
+    openkey querykey openkey openkey          SHAP = 0.002166380982
+    openkey queryvaluekey queryvaluekey closekeys  SHAP = 0.002088326405
+    queryvaluekey queryvaluekey closekeys cleanup  SHAP = 0.002017473849
+    queryvaluekey queryvaluekey querykey openkey  SHAP = 0.001999535541
+    create create create cleanup              SHAP = 0.001906801310
+    openkey openkey querykey setinformationkey  SHAP = 0.001815146263

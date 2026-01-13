@@ -1,0 +1,32 @@
+
+Sample: get-creditcarddata
+    openkey closekeys openkey create          SHAP = 0.024738757975
+    closekeys openkey create queryinformation  SHAP = 0.022037039016
+    openkey openkey closekeys openkey         SHAP = 0.015705507199
+    closekeys openkey closekeys openkey       SHAP = 0.014382569202
+    closekeys openkey create cleanup          SHAP = 0.013639983291
+    openkey closekeys openkey querykey        SHAP = 0.008939117117
+    openkey create queryinformation cleanup   SHAP = 0.006290359623
+    openkey closekeys create queryinformation  SHAP = 0.005721696053
+    read read read read                       SHAP = 0.005362958124
+    openkey openkey openkey closekeys         SHAP = 0.005276766490
+    openkey openkey closekeys create          SHAP = 0.004434953996
+    openkey querysecuritykey queryvaluekey closekeys  SHAP = 0.003935712436
+    closekeys queryvaluekey closekeys create  SHAP = 0.003924380000
+    queryvaluekey closekeys openkey closekeys  SHAP = 0.003768457301
+    closekeys enumeratekey openkey querykey   SHAP = 0.003584785492
+    closekeys closekeys queryinformation read  SHAP = 0.003509783921
+    openkey querykey enumeratevaluekey querykey  SHAP = 0.003436364586
+    openkey closekeys queryvaluekey closekeys  SHAP = 0.003316369462
+    enumeratevaluekey closekeys enumeratekey openkey  SHAP = 0.003078326344
+    queryvaluekey closekeys closekeys queryinformation  SHAP = 0.002805234848
+    closekeys openkey queryvaluekey querykey  SHAP = 0.002762483449
+    closekeys openkey querykey closekeys      SHAP = 0.002637588356
+    create read read create                   SHAP = 0.002577673411
+    create cleanup close imageload            SHAP = 0.002482426583
+    openkey closekeys enumeratekey querykey   SHAP = 0.002066553288
+    create read read read                     SHAP = 0.002050573910
+    cleanup close closekeys queryvaluekey     SHAP = 0.002036311174
+    queryvaluekey openkey openkey openkey     SHAP = 0.002026511875
+    read cleanup querykey openkey             SHAP = 0.002013105700
+    openkey querykey openkey openkey          SHAP = 0.001873292747

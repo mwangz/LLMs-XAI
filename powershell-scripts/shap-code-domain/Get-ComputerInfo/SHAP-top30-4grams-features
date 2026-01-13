@@ -1,0 +1,32 @@
+
+Sample: get-computerinfo
+    openkey closekeys openkey create          SHAP = 0.023905148693
+    closekeys openkey create queryinformation  SHAP = 0.017931200056
+    openkey openkey closekeys querykey        SHAP = 0.013757482577
+    openkey openkey closekeys openkey         SHAP = 0.012747288228
+    openkey create queryinformation cleanup   SHAP = 0.009933632682
+    close read read read                      SHAP = 0.007669217729
+    openkey openkey closekeys create          SHAP = 0.005929262384
+    openkey closekeys openkey querykey        SHAP = 0.005699799170
+    read read read read                       SHAP = 0.004723683665
+    setinformationkey queryvaluekey queryvaluekey queryvaluekey  SHAP = 0.004064301801
+    closekeys openkey queryvaluekey querykey  SHAP = 0.004022775082
+    cleanup close read read                   SHAP = 0.003929503756
+    closekeys closekeys queryinformation read  SHAP = 0.003749459418
+    queryvaluekey closekeys closekeys queryinformation  SHAP = 0.003523381587
+    create read read read                     SHAP = 0.003392649956
+    queryvaluekey querykey openkey setinformationkey  SHAP = 0.003302284068
+    openkey openkey queryvaluekey queryvaluekey  SHAP = 0.003289346462
+    openkey closekeys openkey closekeys       SHAP = 0.002922142775
+    openkey closekeys create queryinformation  SHAP = 0.002864469402
+    openkey openkey querykey openkey          SHAP = 0.002779757522
+    read create queryinformation queryinformation  SHAP = 0.002720388295
+    create queryinformation queryinformation cleanup  SHAP = 0.002706604561
+    openkey closekeys openkey openkey         SHAP = 0.002557705414
+    read read create queryinformation         SHAP = 0.002275130002
+    queryvaluekey closekeys queryinformation read  SHAP = 0.002169343409
+    openkey queryvaluekey queryvaluekey closekeys  SHAP = 0.002150781094
+    querykey openkey openkey setinformationkey  SHAP = 0.002112445760
+    queryvaluekey queryvaluekey closekeys cleanup  SHAP = 0.001971711635
+    queryinformation queryinformation queryinformation querykey  SHAP = 0.001965147379
+    openkey queryvaluekey queryvaluekey querykey  SHAP = 0.001923953310

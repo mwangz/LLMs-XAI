@@ -1,0 +1,32 @@
+
+Sample: filelessuacbypass
+    close read read read                      SHAP = 0.008271649460
+    read create queryinformation queryinformation  SHAP = 0.007864597918
+    openkey querysecurity create queryinformation  SHAP = 0.006326557256
+    read namecreate queryinformation read     SHAP = 0.006308803907
+    queryvaluekey closekeys openkey closekeys  SHAP = 0.005893582823
+    queryinformation queryinformation querysecurity queryinformation  SHAP = 0.005347638524
+    read read read read                       SHAP = 0.005169443407
+    create read read create                   SHAP = 0.005099386196
+    closekeys openkey queryvaluekey querykey  SHAP = 0.004626574680
+    queryinformation cleanup close read       SHAP = 0.004509820111
+    setinformationkey queryvaluekey queryvaluekey queryvaluekey  SHAP = 0.004483846745
+    queryvaluekey querykey openkey setinformationkey  SHAP = 0.004393457477
+    openkey openkey closekeys openkey         SHAP = 0.003725344793
+    imageload imageload create openkey        SHAP = 0.003301052932
+    openkey setinformationkey queryvaluekey queryvaluekey  SHAP = 0.003222149134
+    cleanup close read read                   SHAP = 0.003069561594
+    closekeys openkey openkey querysecurity   SHAP = 0.003066615991
+    querysecurity create queryinformation cleanup  SHAP = 0.002808663509
+    openkey openkey queryvaluekey queryvaluekey  SHAP = 0.002775900000
+    create read read read                     SHAP = 0.002764183515
+    openkey openkey querysecurity create      SHAP = 0.002718567623
+    create create querysecurity cleanup       SHAP = 0.002647448874
+    openkey openkey openkey queryvaluekey     SHAP = 0.002487167664
+    read read create queryinformation         SHAP = 0.002352806024
+    openkey closekeys openkey closekeys       SHAP = 0.002342441786
+    create create queryinformation cleanup    SHAP = 0.002327315422
+    closekeys cleanup close create            SHAP = 0.002252721050
+    openkey queryinformation read processstart  SHAP = 0.002190352492
+    openkey queryvaluekey closekeys openkey   SHAP = 0.002160087782
+    queryinformation queryinformation read create  SHAP = 0.002151547895

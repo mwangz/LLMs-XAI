@@ -1,0 +1,32 @@
+
+Sample: invoke-nanodump
+    openkey closekeys openkey create          SHAP = 0.031388499638
+    querykey enumeratekey enumeratekey closekeys  SHAP = 0.025634882253
+    closekeys openkey create queryinformation  SHAP = 0.021668843753
+    openkey querykey enumeratekey enumeratekey  SHAP = 0.016883658433
+    enumeratekey enumeratekey closekeys read  SHAP = 0.014307301192
+    enumeratekey closekeys read read          SHAP = 0.009289420674
+    read read read read                       SHAP = 0.006432320202
+    create read read create                   SHAP = 0.006004038694
+    openkey openkey closekeys openkey         SHAP = 0.005073407620
+    openkey openkey closekeys create          SHAP = 0.005049984497
+    close read read read                      SHAP = 0.003946735170
+    openkey openkey openkey closekeys         SHAP = 0.003413391394
+    create queryinformation queryinformation cleanup  SHAP = 0.003393532324
+    querykey openkey querykey enumeratekey    SHAP = 0.003141810433
+    closekeys openkey queryvaluekey querykey  SHAP = 0.002885630179
+    closekeys closekeys queryinformation read  SHAP = 0.002868174707
+    queryvaluekey closekeys closekeys queryinformation  SHAP = 0.002786129902
+    openkey closekeys create queryinformation  SHAP = 0.002485728364
+    create queryinformation cleanup close     SHAP = 0.002296253288
+    direnum direnum direnum cleanup           SHAP = 0.002229109832
+    openkey openkey queryvaluekey queryvaluekey  SHAP = 0.001770239205
+    cleanup close queryvaluekey closekeys     SHAP = 0.001724473972
+    queryvaluekey closekeys queryinformation read  SHAP = 0.001717918504
+    openkey openkey querykey querykey         SHAP = 0.001555810046
+    create imageload imageload create         SHAP = 0.001552493472
+    queryinformation cleanup close queryvaluekey  SHAP = 0.001416387684
+    queryinformation cleanup read read        SHAP = 0.001345061793
+    closekeys setinformationkey queryvaluekey closekeys  SHAP = 0.001330740568
+    imageload create queryinformation cleanup  SHAP = 0.001275390489
+    cleanup close create create               SHAP = 0.001273596627

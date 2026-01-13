@@ -1,0 +1,32 @@
+
+Sample: get-wlanpass
+    cleanup close read read                   SHAP = 0.008178534976
+    close read read read                      SHAP = 0.007889360692
+    openkey openkey closekeys querykey        SHAP = 0.005541627471
+    queryinformation cleanup close read       SHAP = 0.005260960492
+    imageload create queryinformation cleanup  SHAP = 0.004350878044
+    queryinformation cleanup close threadstop  SHAP = 0.004283657645
+    close read read create                    SHAP = 0.004225217130
+    read read read create                     SHAP = 0.003959781154
+    create read read read                     SHAP = 0.003574270579
+    read read create queryinformation         SHAP = 0.003289664598
+    read read read read                       SHAP = 0.003044451545
+    read cleanup create direnum               SHAP = 0.002209095744
+    closekeys queryvaluekey closekeys create  SHAP = 0.002162754136
+    imageunload create close createnewfile    SHAP = 0.001885637406
+    read read datareceived create             SHAP = 0.001862271187
+    create create querysecurity cleanup       SHAP = 0.001707663284
+    queryinformation read create create       SHAP = 0.001641412601
+    close queryinformation queryinformation queryinformation  SHAP = 0.001534749775
+    queryinformation read processstart querysecurity  SHAP = 0.001485315383
+    queryinformation queryinformation read read  SHAP = 0.001457950335
+    openkey closekeys openkey openkey         SHAP = 0.001441755689
+    close cleanup close create                SHAP = 0.001439626263
+    datareceived read read read               SHAP = 0.001340980942
+    queryinformation queryinformation read create  SHAP = 0.001330340426
+    create imageunload create close           SHAP = 0.001320699872
+    create queryinformation read queryinformation  SHAP = 0.001293777147
+    querykey openkey openkey querykey         SHAP = 0.001253739473
+    close create create querysecurity         SHAP = 0.001246596726
+    openkey closekeys create queryinformation  SHAP = 0.001214769947
+    create queryinformation queryinformation cleanup  SHAP = 0.001196093630

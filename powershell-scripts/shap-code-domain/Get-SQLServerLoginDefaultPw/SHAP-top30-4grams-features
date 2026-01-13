@@ -1,0 +1,33 @@
+
+Sample: get-sqlserverlogindefaultpw
+    openkey closekeys openkey create          SHAP = 0.027691060844
+    closekeys openkey closekeys openkey       SHAP = 0.020115862815
+    closekeys openkey create queryinformation  SHAP = 0.020020533525
+    openkey openkey closekeys querykey        SHAP = 0.019623806042
+    openkey closekeys openkey closekeys       SHAP = 0.017209666364
+    openkey closekeys openkey querykey        SHAP = 0.014049552792
+    openkey openkey closekeys openkey         SHAP = 0.011287749671
+    closekeys openkey create cleanup          SHAP = 0.007732251353
+    closekeys queryvaluekey closekeys create  SHAP = 0.006832636929
+    openkey openkey openkey closekeys         SHAP = 0.006780416609
+    queryvaluekey openkey openkey closekeys   SHAP = 0.006769909222
+    openkey openkey closekeys create          SHAP = 0.006764312314
+    openkey create queryinformation cleanup   SHAP = 0.006700268618
+    openkey closekeys create queryinformation  SHAP = 0.006374513125
+    create read read create                   SHAP = 0.006077350987
+    closekeys openkey querykey closekeys      SHAP = 0.005024171923
+    openkey closekeys openkey openkey         SHAP = 0.004593216120
+    queryvaluekey closekeys closekeys queryinformation  SHAP = 0.003777871669
+    create create queryinformation cleanup    SHAP = 0.002897617011
+    create closekeys openkey closekeys        SHAP = 0.002853978752
+    create read read read                     SHAP = 0.002852561006
+    closekeys closekeys queryinformation read  SHAP = 0.002580608514
+    queryvaluekey closekeys closekeys enumeratekey  SHAP = 0.002474660562
+    queryinformation queryinformation queryinformation read  SHAP = 0.002349822334
+    closekeys queryvaluekey queryvaluekey openkey  SHAP = 0.002294227806
+    queryinformation querykey openkey queryvaluekey  SHAP = 0.002255865238
+    openkey openkey querykey openkey          SHAP = 0.002173696950
+    cleanup close closekeys queryvaluekey     SHAP = 0.002171214848
+    close create create queryinformation      SHAP = 0.002102367391
+    create queryinformation queryinformation cleanup  SHAP = 0.002006245671
+

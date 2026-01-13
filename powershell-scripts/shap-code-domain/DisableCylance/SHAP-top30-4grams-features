@@ -1,0 +1,32 @@
+
+Sample: disablecylance
+    querykey enumeratekey enumeratekey closekeys  SHAP = 0.025113435836
+    openkey openkey closekeys querykey        SHAP = 0.016738099136
+    openkey queryvaluekey create close        SHAP = 0.015132033255
+    openkey querykey enumeratekey enumeratekey  SHAP = 0.013080330772
+    enumeratekey enumeratekey closekeys read  SHAP = 0.011983926786
+    closekeys openkey closekeys openkey       SHAP = 0.011825644604
+    queryvaluekey create close createnewfile  SHAP = 0.011520511265
+    close read read read                      SHAP = 0.007594898834
+    enumeratekey closekeys read read          SHAP = 0.007140355154
+    read read read read                       SHAP = 0.006469095043
+    queryvaluekey closekeys openkey closekeys  SHAP = 0.005481178728
+    openkey closekeys openkey querykey        SHAP = 0.004704897191
+    setinformationkey queryvaluekey queryvaluekey queryvaluekey  SHAP = 0.004208630843
+    closekeys openkey queryvaluekey querykey  SHAP = 0.003819850275
+    cleanup close read read                   SHAP = 0.003516140403
+    queryvaluekey closekeys closekeys queryinformation  SHAP = 0.003341922959
+    querykey openkey queryvaluekey create     SHAP = 0.002980396797
+    closekeys closekeys queryinformation read  SHAP = 0.002815236641
+    direnum direnum cleanup close             SHAP = 0.002706596065
+    create queryinformation queryinformation cleanup  SHAP = 0.002698490317
+    openkey closekeys openkey closekeys       SHAP = 0.002646918808
+    queryvaluekey querykey openkey setinformationkey  SHAP = 0.002497922746
+    read read create create                   SHAP = 0.002356472149
+    read read read create                     SHAP = 0.002317603652
+    openkey openkey queryvaluekey queryvaluekey  SHAP = 0.002292992891
+    imageunload create close createnewfile    SHAP = 0.002281995713
+    create read read read                     SHAP = 0.002187060937
+    closekeys queryvaluekey queryvaluekey closekeys  SHAP = 0.002139029323
+    queryinformation queryinformation read create  SHAP = 0.002130590228
+    direnum direnum direnum cleanup           SHAP = 0.002111373239

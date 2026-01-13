@@ -1,0 +1,32 @@
+
+Sample: 102dd336f8be1d68a34a389851cd0454d6bdf4d93911ba330e48029dd5c520e8
+    openkey closekeys openkey create          SHAP = 0.018764530174
+    closekeys openkey closekeys openkey       SHAP = 0.018516812353
+    openkey openkey closekeys querykey        SHAP = 0.015220869977
+    closekeys openkey create queryinformation  SHAP = 0.013796834480
+    openkey closekeys openkey closekeys       SHAP = 0.012267450751
+    enumeratekey enumeratekey closekeys openkey  SHAP = 0.009532194687
+    openkey queryvaluekey create close        SHAP = 0.009527576755
+    openkey querykey enumeratekey enumeratekey  SHAP = 0.009521563486
+    openkey closekeys openkey querykey        SHAP = 0.009476315924
+    querykey enumeratekey enumeratekey closekeys  SHAP = 0.009313098465
+    queryvaluekey create close createnewfile  SHAP = 0.008626254952
+    openkey openkey closekeys openkey         SHAP = 0.008391955420
+    create cleanup close direnum              SHAP = 0.007011501206
+    enumeratekey enumeratekey closekeys read  SHAP = 0.006613228549
+    close read read read                      SHAP = 0.005649629248
+    openkey create queryinformation cleanup   SHAP = 0.005199160479
+    enumeratevaluekey create create read      SHAP = 0.005095383496
+    openkey openkey closekeys create          SHAP = 0.004986508455
+    openkey setinformationkey enumeratekey enumeratekey  SHAP = 0.003938021913
+    create read read create                   SHAP = 0.003892271719
+    queryinformation querykey openkey setinformationkey  SHAP = 0.003864828549
+    read read read read                       SHAP = 0.003837397142
+    queryvaluekey closekeys closekeys queryinformation  SHAP = 0.003797355249
+    openkey openkey openkey closekeys         SHAP = 0.003704496869
+    enumeratevaluekey enumeratevaluekey create create  SHAP = 0.003554333515
+    querykey enumeratevaluekey closekeys create  SHAP = 0.003486295963
+    queryvaluekey openkey openkey closekeys   SHAP = 0.003426223245
+    closekeys closekeys queryinformation read  SHAP = 0.003151186172
+    closekeys openkey querykey closekeys      SHAP = 0.002828958200
+    closekeys openkey queryvaluekey querykey  SHAP = 0.002803909302

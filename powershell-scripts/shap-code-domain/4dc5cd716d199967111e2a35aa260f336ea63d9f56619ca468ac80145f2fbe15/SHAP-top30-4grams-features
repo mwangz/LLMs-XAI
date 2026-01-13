@@ -1,0 +1,32 @@
+
+Sample: 4dc5cd716d199967111e2a35aa260f336ea63d9f56619ca468ac80145f2fbe15
+    write write write queryinformation        SHAP = 0.007911700891
+    create queryinformation read cleanup      SHAP = 0.006817476126
+    create cleanup close direnum              SHAP = 0.006137072822
+    openkey openkey closekeys querykey        SHAP = 0.005732005984
+    create queryinformation read queryinformation  SHAP = 0.005312548482
+    write queryinformation cleanup close      SHAP = 0.005081091359
+    read write queryinformation cleanup       SHAP = 0.004942558517
+    close create create direnum               SHAP = 0.004779579086
+    close imageload create read               SHAP = 0.004770683537
+    threadstop imageunload imageunload imageunload  SHAP = 0.004318716563
+    close create create imageload             SHAP = 0.004294805848
+    create imageload queryinformation cleanup  SHAP = 0.003788553784
+    write write queryinformation cleanup      SHAP = 0.003705420167
+    create imageload create read              SHAP = 0.003629246611
+    close create queryinformation create      SHAP = 0.003610716699
+    createnewfile namecreate write queryinformation  SHAP = 0.003554090023
+    create imageload imageload create         SHAP = 0.003548689478
+    read create queryinformation queryinformation  SHAP = 0.003395986218
+    write write write write                   SHAP = 0.003323814005
+    queryinformation read cleanup create      SHAP = 0.003302913041
+    queryinformation read write write         SHAP = 0.003183454289
+    close create queryinformation read        SHAP = 0.003133061450
+    direnum create cleanup close              SHAP = 0.003130304273
+    namecreate queryinformation read write    SHAP = 0.002891068257
+    queryinformation read queryinformation cleanup  SHAP = 0.002884640634
+    close create imageload queryinformation   SHAP = 0.002797583375
+    cleanup create queryinformation create    SHAP = 0.002770265957
+    cleanup close imageload imageload         SHAP = 0.002766133769
+    create create create createnewfile        SHAP = 0.002744184618
+    close read read read                      SHAP = 0.002599898717

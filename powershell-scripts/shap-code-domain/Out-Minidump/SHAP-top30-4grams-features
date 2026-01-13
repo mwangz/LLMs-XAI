@@ -1,0 +1,32 @@
+
+Sample: out-minidump
+    cleanup close read read                   SHAP = 0.009043789796
+    close read read read                      SHAP = 0.008690424708
+    queryinformation cleanup close read       SHAP = 0.007054786929
+    openkey openkey closekeys querykey        SHAP = 0.005753190020
+    create read read create                   SHAP = 0.005684260857
+    read create queryinformation queryinformation  SHAP = 0.005347908162
+    imageload create queryinformation cleanup  SHAP = 0.004781519295
+    write write write queryinformation        SHAP = 0.004224161150
+    read read create createnewfile            SHAP = 0.004195764042
+    read read read read                       SHAP = 0.003841244364
+    queryinformation read cleanup create      SHAP = 0.003241238058
+    read read create queryinformation         SHAP = 0.002994732279
+    read create createnewfile namecreate      SHAP = 0.002717332051
+    create read read read                     SHAP = 0.002695548877
+    queryinformation queryinformation cleanup close  SHAP = 0.002589119045
+    closekeys queryvaluekey closekeys create  SHAP = 0.002201536354
+    write queryinformation cleanup close      SHAP = 0.002126252466
+    create queryinformation read cleanup      SHAP = 0.002029774153
+    openkey closekeys openkey openkey         SHAP = 0.001848433296
+    read read read create                     SHAP = 0.001832564519
+    queryinformation cleanup close create     SHAP = 0.001830912088
+    read create create querysecurity          SHAP = 0.001793581099
+    write write write write                   SHAP = 0.001781964539
+    close read read create                    SHAP = 0.001778348366
+    close create imageload create             SHAP = 0.001769837986
+    write write queryinformation cleanup      SHAP = 0.001767569430
+    queryinformation queryinformation read create  SHAP = 0.001703931500
+    imageload imageload imageload cleanup     SHAP = 0.001604040788
+    close queryinformation queryinformation queryinformation  SHAP = 0.001586106794
+    create cleanup close create               SHAP = 0.001575277145

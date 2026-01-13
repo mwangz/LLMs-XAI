@@ -1,0 +1,32 @@
+
+Sample: invoke-adsbackdoor
+    openkey openkey closekeys querykey        SHAP = 0.010337746592
+    close read read read                      SHAP = 0.009225867057
+    datasent datasent read read               SHAP = 0.008324075320
+    create read read create                   SHAP = 0.007409773416
+    createnewfile namecreate write queryinformation  SHAP = 0.005111753155
+    threadstop imageunload imageunload imageunload  SHAP = 0.004101614927
+    create createnewfile namecreate write     SHAP = 0.004045331491
+    close imageload create queryinformation   SHAP = 0.003774501992
+    create create create close                SHAP = 0.003388158909
+    imageunload imageunload imageunload processstop  SHAP = 0.003325472014
+    queryinformation cleanup close read       SHAP = 0.003212106479
+    close create create querysecurity         SHAP = 0.003079500391
+    queryinformation cleanup read threadstop  SHAP = 0.003079285412
+    imageload create queryinformation cleanup  SHAP = 0.003020574855
+    create read read read                     SHAP = 0.002737139975
+    imageload create imageload imageload      SHAP = 0.002438720156
+    imageload cleanup close cleanup           SHAP = 0.002363102452
+    openkey openkey openkey closekeys         SHAP = 0.002270670055
+    closekeys queryvaluekey closekeys create  SHAP = 0.002264713115
+    openkey closekeys openkey openkey         SHAP = 0.002253611895
+    create cleanup close read                 SHAP = 0.002212553852
+    read read read create                     SHAP = 0.002194401340
+    imageunload processstop cleanup close     SHAP = 0.002178178178
+    closekeys closekeys closekeys closekeys   SHAP = 0.002128745091
+    cleanup close create cleanup              SHAP = 0.002116874776
+    closekeys openkey queryvaluekey querykey  SHAP = 0.002103309461
+    namecreate write queryinformation cleanup  SHAP = 0.002027704393
+    openkey openkey closekeys create          SHAP = 0.001995503567
+    queryinformation cleanup close direnum    SHAP = 0.001884637715
+    cleanup close imageload create            SHAP = 0.001881332485

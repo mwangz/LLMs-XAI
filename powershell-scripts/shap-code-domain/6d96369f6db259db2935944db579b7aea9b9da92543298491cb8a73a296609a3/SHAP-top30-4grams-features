@@ -1,0 +1,32 @@
+
+Sample: 6d96369f6db259db2935944db579b7aea9b9da92543298491cb8a73a296609a3
+    openkey closekeys openkey create          SHAP = 0.015785700170
+    openkey openkey closekeys openkey         SHAP = 0.010885042453
+    closekeys openkey create queryinformation  SHAP = 0.009334752210
+    create cleanup close direnum              SHAP = 0.009067811650
+    enumeratevaluekey create create read      SHAP = 0.008933375391
+    openkey closekeys openkey closekeys       SHAP = 0.008307409321
+    closekeys openkey closekeys openkey       SHAP = 0.007792860179
+    enumeratevaluekey enumeratevaluekey create create  SHAP = 0.007749951084
+    cleanup close enumeratekey closekeys      SHAP = 0.007678546295
+    closekeys openkey create cleanup          SHAP = 0.007363598032
+    enumeratevaluekey querykey openkey queryvaluekey  SHAP = 0.007041002569
+    createnewfile namecreate write queryinformation  SHAP = 0.006552801527
+    querykey openkey enumeratekey querykey    SHAP = 0.006320744725
+    setinformationkey queryvaluekey queryvaluekey queryvaluekey  SHAP = 0.006110065085
+    querykey enumeratevaluekey closekeys create  SHAP = 0.006090675620
+    enumeratekey enumeratekey closekeys openkey  SHAP = 0.005712812042
+    openkey queryinformation read create      SHAP = 0.005710796170
+    openkey closekeys create createnewfile    SHAP = 0.005706922994
+    threadstart imageload imageload openkey   SHAP = 0.005602974855
+    openkey querykey enumeratekey enumeratekey  SHAP = 0.005578986894
+    openkey closekeys openkey querykey        SHAP = 0.005515473385
+    setinformationkey enumeratekey enumeratekey enumeratekey  SHAP = 0.005381615421
+    enumeratekey enumeratekey enumeratekey querykey  SHAP = 0.005182937263
+    create createnewfile namecreate write     SHAP = 0.004436166392
+    write write write queryinformation        SHAP = 0.004258965679
+    openkey openkey openkey openkey           SHAP = 0.004093744231
+    queryvaluekey querykey openkey setinformationkey  SHAP = 0.004082330768
+    openkey create queryinformation cleanup   SHAP = 0.004025057591
+    queryinformation cleanup close enumeratekey  SHAP = 0.003987121472
+    queryvaluekey openkey openkey closekeys   SHAP = 0.003867454207

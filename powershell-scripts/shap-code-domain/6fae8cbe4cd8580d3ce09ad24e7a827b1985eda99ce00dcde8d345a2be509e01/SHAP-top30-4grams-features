@@ -1,0 +1,32 @@
+
+Sample: 6fae8cbe4cd8580d3ce09ad24e7a827b1985eda99ce00dcde8d345a2be509e01
+    querykey enumeratekey enumeratekey closekeys  SHAP = 0.022033397037
+    openkey closekeys openkey create          SHAP = 0.020289804020
+    closekeys openkey closekeys openkey       SHAP = 0.010037566726
+    enumeratekey enumeratekey closekeys read  SHAP = 0.009256077031
+    closekeys openkey create queryinformation  SHAP = 0.009015342141
+    close read read read                      SHAP = 0.007547378861
+    openkey querykey enumeratekey enumeratekey  SHAP = 0.007443966485
+    read read read read                       SHAP = 0.006208285076
+    querykey openkey setinformationkey queryvaluekey  SHAP = 0.005602467733
+    setinformationkey queryvaluekey queryvaluekey queryvaluekey  SHAP = 0.005576343260
+    queryinformation queryinformation querysecurity queryinformation  SHAP = 0.005076343726
+    queryvaluekey closekeys openkey closekeys  SHAP = 0.004448591383
+    enumeratekey closekeys read read          SHAP = 0.004272511619
+    closekeys openkey queryvaluekey querykey  SHAP = 0.003968773648
+    openkey openkey closekeys create          SHAP = 0.003962512691
+    openkey closekeys openkey querykey        SHAP = 0.003925897973
+    closekeys queryvaluekey closekeys create  SHAP = 0.003920239597
+    queryvaluekey querykey openkey setinformationkey  SHAP = 0.003714552087
+    create read read create                   SHAP = 0.003692806787
+    queryinformation cleanup close read       SHAP = 0.003389870933
+    cleanup close read read                   SHAP = 0.003353737861
+    openkey setinformationkey queryvaluekey queryvaluekey  SHAP = 0.003308387020
+    openkey openkey setinformationkey queryvaluekey  SHAP = 0.003131976424
+    closekeys closekeys queryinformation read  SHAP = 0.002944172915
+    read create queryinformation queryinformation  SHAP = 0.002900893133
+    querykey querykey openkey setinformationkey  SHAP = 0.002744864121
+    closekeys openkey querykey closekeys      SHAP = 0.002731875533
+    queryvaluekey closekeys closekeys queryinformation  SHAP = 0.002610522607
+    closekeys openkey openkey querysecurity   SHAP = 0.002426132634
+    openkey closekeys queryvaluekey imageload  SHAP = 0.002377465712

@@ -1,0 +1,32 @@
+
+Sample: domainpasswordspray
+    openkey closekeys openkey create          SHAP = 0.024979406692
+    openkey openkey closekeys querykey        SHAP = 0.021065515717
+    closekeys openkey create queryinformation  SHAP = 0.015935603480
+    closekeys openkey closekeys openkey       SHAP = 0.010705885698
+    openkey closekeys openkey querykey        SHAP = 0.009104258134
+    queryvaluekey openkey openkey closekeys   SHAP = 0.008726826218
+    queryvaluekey closekeys openkey closekeys  SHAP = 0.007079999584
+    openkey closekeys create queryinformation  SHAP = 0.004661864679
+    openkey openkey closekeys create          SHAP = 0.004309964336
+    close read read read                      SHAP = 0.004279239996
+    enumeratevaluekey closekeys enumeratekey openkey  SHAP = 0.003844702638
+    close openkey closekeys openkey           SHAP = 0.003707504428
+    openkey querysecuritykey queryvaluekey closekeys  SHAP = 0.003224439763
+    openkey openkey openkey closekeys         SHAP = 0.002748939343
+    queryvaluekey closekeys queryvaluekey openkey  SHAP = 0.002698177971
+    queryvaluekey openkey closekeys openkey   SHAP = 0.002693563854
+    closekeys openkey querykey closekeys      SHAP = 0.002623719216
+    queryvaluekey enumeratekey closekeys querykey  SHAP = 0.002616453257
+    read read create create                   SHAP = 0.002490205114
+    cleanup close create create               SHAP = 0.002435386155
+    openkey openkey queryvaluekey queryvaluekey  SHAP = 0.002418901730
+    querysecuritykey queryvaluekey closekeys queryvaluekey  SHAP = 0.002268275073
+    queryvaluekey closekeys closekeys enumeratekey  SHAP = 0.002159525766
+    read create queryinformation queryinformation  SHAP = 0.002088947388
+    closekeys openkey querykey enumeratekey   SHAP = 0.002005558311
+    closekeys enumeratekey openkey querykey   SHAP = 0.001986090740
+    closekeys closekeys openkey openkey       SHAP = 0.001946497631
+    querykey enumeratevaluekey querykey enumeratevaluekey  SHAP = 0.001828780324
+    closekeys create queryinformation cleanup  SHAP = 0.001815377608
+    queryinformation queryinformation read create  SHAP = 0.001799729785

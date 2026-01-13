@@ -1,0 +1,32 @@
+
+Sample: invoke-bettersafetykatz
+    openkey closekeys openkey create          SHAP = 0.024226143297
+    closekeys openkey create queryinformation  SHAP = 0.022337526326
+    querykey enumeratekey enumeratekey closekeys  SHAP = 0.016869222826
+    openkey querykey enumeratekey enumeratekey  SHAP = 0.015864371631
+    enumeratekey enumeratekey closekeys read  SHAP = 0.014851165787
+    closekeys openkey closekeys openkey       SHAP = 0.014138833270
+    openkey openkey closekeys openkey         SHAP = 0.006610434676
+    enumeratekey closekeys read read          SHAP = 0.006581699367
+    queryvaluekey closekeys openkey closekeys  SHAP = 0.006546392507
+    read read read read                       SHAP = 0.004964184875
+    closekeys openkey querykey closekeys      SHAP = 0.004653081103
+    closekeys queryvaluekey closekeys create  SHAP = 0.004614867221
+    openkey openkey closekeys create          SHAP = 0.004000960067
+    close read read read                      SHAP = 0.003912175054
+    create read read create                   SHAP = 0.002939478025
+    closekeys openkey queryvaluekey querykey  SHAP = 0.002284987390
+    querykey openkey querykey enumeratekey    SHAP = 0.001920599314
+    read read read imageload                  SHAP = 0.001892665060
+    create queryinformation queryinformation cleanup  SHAP = 0.001780872333
+    closekeys querykey openkey queryvaluekey  SHAP = 0.001427081849
+    openkey openkey openkey closekeys         SHAP = 0.001346618874
+    closekeys closekeys read create           SHAP = 0.001264661511
+    queryvaluekey closekeys closekeys enumeratekey  SHAP = 0.001237849785
+    imageunload create close createnewfile    SHAP = 0.001237568619
+    create cleanup close imageload            SHAP = 0.001230830928
+    read read read querykey                   SHAP = 0.001195831117
+    queryvaluekey closekeys closekeys queryinformation  SHAP = 0.001177759184
+    datareceived datasent datasent datareceived  SHAP = 0.001151832590
+    close create create create                SHAP = 0.001118656976
+    close create create queryinformation      SHAP = 0.001112457616

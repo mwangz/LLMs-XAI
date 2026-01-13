@@ -1,0 +1,32 @@
+
+Sample: invoke-amsibypass
+    close create create imageload             SHAP = 0.014179928718
+    openkey openkey closekeys querykey        SHAP = 0.011021212981
+    close read read read                      SHAP = 0.008691467599
+    create read read create                   SHAP = 0.008618738012
+    create create create threadstop           SHAP = 0.004065363900
+    create create create close                SHAP = 0.004024863569
+    create read read read                     SHAP = 0.003940858628
+    openkey openkey openkey closekeys         SHAP = 0.003309365862
+    imageload cleanup close cleanup           SHAP = 0.002935585633
+    create create create queryinformation     SHAP = 0.002851275421
+    cleanup imageload close create            SHAP = 0.002823339812
+    openkey closekeys openkey openkey         SHAP = 0.002789155710
+    imageload create queryinformation cleanup  SHAP = 0.002653340653
+    create queryinformation queryinformation cleanup  SHAP = 0.002495881785
+    create close create create                SHAP = 0.002484886348
+    create create close create                SHAP = 0.002427397029
+    close create create create                SHAP = 0.002350176765
+    close create imageload create             SHAP = 0.002335442211
+    closekeys queryvaluekey closekeys create  SHAP = 0.002281048896
+    closekeys openkey queryvaluekey querykey  SHAP = 0.002272598992
+    queryinformation cleanup imageload close  SHAP = 0.002183171976
+    create create queryinformation cleanup    SHAP = 0.002151172140
+    create create imageload queryinformation  SHAP = 0.002100742601
+    read read read read                       SHAP = 0.002006863505
+    direnum direnum direnum cleanup           SHAP = 0.001964604290
+    create direnum direnum direnum            SHAP = 0.001880708058
+    cleanup close create direnum              SHAP = 0.001852279084
+    direnum direnum cleanup close             SHAP = 0.001847324712
+    openkey closekeys closekeys querykey      SHAP = 0.001826824828
+    create queryinformation create queryinformation  SHAP = 0.001749452593

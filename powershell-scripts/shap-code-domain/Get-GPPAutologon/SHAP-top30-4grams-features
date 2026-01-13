@@ -1,0 +1,32 @@
+
+Sample: get-gppautologon
+    openkey closekeys openkey create          SHAP = 0.026337205875
+    closekeys openkey closekeys openkey       SHAP = 0.021219368611
+    closekeys openkey create queryinformation  SHAP = 0.019040591792
+    openkey openkey closekeys querykey        SHAP = 0.016613828042
+    querykey enumeratekey enumeratekey closekeys  SHAP = 0.016528458368
+    openkey closekeys openkey closekeys       SHAP = 0.013781783222
+    queryvaluekey closekeys openkey closekeys  SHAP = 0.010574975164
+    openkey closekeys openkey querykey        SHAP = 0.008502445617
+    openkey querykey enumeratekey enumeratekey  SHAP = 0.007754755052
+    openkey create queryinformation cleanup   SHAP = 0.007248177107
+    openkey openkey closekeys create          SHAP = 0.006538712393
+    close read read read                      SHAP = 0.006346694984
+    openkey openkey closekeys openkey         SHAP = 0.005952925067
+    queryvaluekey imageload imageload imageload  SHAP = 0.005411011271
+    closekeys queryvaluekey closekeys create  SHAP = 0.005398007990
+    closekeys queryvaluekey imageload imageload  SHAP = 0.004880742299
+    create closekeys openkey closekeys        SHAP = 0.004815571625
+    openkey querysecuritykey queryvaluekey closekeys  SHAP = 0.004527927440
+    openkey closekeys queryvaluekey imageload  SHAP = 0.004360767274
+    closekeys openkey openkey closekeys       SHAP = 0.003315013380
+    openkey queryvaluekey queryvaluekey closekeys  SHAP = 0.002735129020
+    closekeys openkey queryvaluekey querykey  SHAP = 0.002711577750
+    openkey closekeys openkey openkey         SHAP = 0.002538667974
+    closekeys openkey querykey closekeys      SHAP = 0.002509878919
+    openkey openkey queryvaluekey queryvaluekey  SHAP = 0.002343302902
+    enumeratekey querykey openkey enumeratekey  SHAP = 0.002142362528
+    closekeys imageload imageload imageload   SHAP = 0.002065484468
+    querysecuritykey queryvaluekey closekeys queryvaluekey  SHAP = 0.001935643468
+    read read read create                     SHAP = 0.001795426368
+    queryinformation cleanup close queryvaluekey  SHAP = 0.001756338121

@@ -1,0 +1,32 @@
+
+Sample: get-keystrokes
+    openkey closekeys openkey create          SHAP = 0.024455528543
+    closekeys openkey create queryinformation  SHAP = 0.019153421505
+    openkey openkey closekeys querykey        SHAP = 0.014733628814
+    openkey openkey closekeys openkey         SHAP = 0.009978093165
+    openkey create queryinformation cleanup   SHAP = 0.009356702936
+    close read read read                      SHAP = 0.007516376447
+    openkey openkey closekeys create          SHAP = 0.004887207671
+    closekeys openkey queryvaluekey querykey  SHAP = 0.004445045814
+    openkey closekeys create queryinformation  SHAP = 0.004296934147
+    read read read read                       SHAP = 0.004113565815
+    closekeys closekeys queryinformation read  SHAP = 0.003985984127
+    cleanup close read read                   SHAP = 0.003802587181
+    create queryinformation queryinformation cleanup  SHAP = 0.003663765121
+    setinformationkey queryvaluekey queryvaluekey queryvaluekey  SHAP = 0.003594377668
+    create read read read                     SHAP = 0.003265004002
+    queryvaluekey closekeys closekeys queryinformation  SHAP = 0.002947084881
+    read cleanup querykey openkey             SHAP = 0.002748670721
+    openkey openkey openkey closekeys         SHAP = 0.002703033386
+    closekeys setinformationkey queryvaluekey closekeys  SHAP = 0.002644059157
+    read read read create                     SHAP = 0.002584935371
+    queryvaluekey querykey openkey setinformationkey  SHAP = 0.002559866422
+    openkey closekeys openkey closekeys       SHAP = 0.002559173081
+    close create create querysecurity         SHAP = 0.002478257662
+    closekeys queryvaluekey queryinformation queryvaluekey  SHAP = 0.002465659404
+    direnum direnum cleanup close             SHAP = 0.002270949845
+    cleanup close create create               SHAP = 0.002244797996
+    create imageload imageload create         SHAP = 0.002145209109
+    queryvaluekey closekeys queryinformation read  SHAP = 0.002036864296
+    direnum direnum direnum cleanup           SHAP = 0.002006715493
+    create create querysecurity cleanup       SHAP = 0.001803065418

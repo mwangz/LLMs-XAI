@@ -1,0 +1,32 @@
+
+Sample: get-securitypackages
+    create read read create                   SHAP = 0.010216558129
+    close read read read                      SHAP = 0.006651741850
+    read read read read                       SHAP = 0.006365607005
+    create queryinformation queryinformation cleanup  SHAP = 0.005534377387
+    closekeys openkey queryvaluekey querykey  SHAP = 0.005110620328
+    openkey openkey querykey querykey         SHAP = 0.005035621413
+    queryvaluekey querykey openkey setinformationkey  SHAP = 0.004835815303
+    create read read read                     SHAP = 0.004291032272
+    setinformationkey queryvaluekey queryvaluekey queryvaluekey  SHAP = 0.004127537333
+    openkey openkey queryvaluekey queryvaluekey  SHAP = 0.004097141758
+    closekeys closekeys queryinformation read  SHAP = 0.003847625499
+    direnum direnum direnum cleanup           SHAP = 0.003674714680
+    create create queryinformation cleanup    SHAP = 0.003610339112
+    queryvaluekey closekeys closekeys queryinformation  SHAP = 0.003527975595
+    openkey openkey querykey openkey          SHAP = 0.003258700740
+    queryvaluekey queryvaluekey closekeys read  SHAP = 0.003255521710
+    cleanup close create create               SHAP = 0.003180331280
+    closekeys read read read                  SHAP = 0.003000205814
+    openkey setinformationkey queryvaluekey queryvaluekey  SHAP = 0.002916568859
+    closekeys queryvaluekey queryvaluekey closekeys  SHAP = 0.002910939745
+    querykey querykey openkey querykey        SHAP = 0.002713125115
+    direnum direnum cleanup close             SHAP = 0.002688784050
+    querykey openkey openkey querykey         SHAP = 0.002643373790
+    queryinformation queryinformation queryinformation querykey  SHAP = 0.002541408956
+    openkey querykey openkey openkey          SHAP = 0.002504200182
+    queryinformation queryinformation read create  SHAP = 0.002418370333
+    close create create querysecurity         SHAP = 0.002368048455
+    create queryinformation cleanup close     SHAP = 0.002240442071
+    openkey closekeys setinformationkey queryvaluekey  SHAP = 0.002171182248
+    close create create create                SHAP = 0.002157346064

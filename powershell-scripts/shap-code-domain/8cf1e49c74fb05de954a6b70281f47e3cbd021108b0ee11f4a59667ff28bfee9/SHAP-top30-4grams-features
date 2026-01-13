@@ -1,0 +1,32 @@
+
+Sample: 8cf1e49c74fb05de954a6b70281f47e3cbd021108b0ee11f4a59667ff28bfee9
+    close read read read                      SHAP = 0.010808054879
+    read create queryinformation queryinformation  SHAP = 0.009616701578
+    openkey openkey closekeys querykey        SHAP = 0.008403177740
+    cleanup close read read                   SHAP = 0.006062207647
+    queryinformation cleanup close read       SHAP = 0.005736345322
+    create create create threadstop           SHAP = 0.005225643201
+    create read read create                   SHAP = 0.004715842817
+    direnum direnum direnum cleanup           SHAP = 0.004565545242
+    read read read create                     SHAP = 0.004479187285
+    queryinformation close create cleanup     SHAP = 0.003740612505
+    close read read create                    SHAP = 0.003449610949
+    read read create queryinformation         SHAP = 0.003333645765
+    imageload create queryinformation cleanup  SHAP = 0.003258629063
+    create read read read                     SHAP = 0.002866368114
+    close create create querysecurity         SHAP = 0.002802504103
+    openkey closekeys openkey openkey         SHAP = 0.002269630648
+    close queryinformation queryinformation queryinformation  SHAP = 0.002236012889
+    imageunload create close createnewfile    SHAP = 0.002091108981
+    queryinformation queryinformation read create  SHAP = 0.002064442656
+    create queryinformation queryinformation queryinformation  SHAP = 0.002022631010
+    create direnum direnum direnum            SHAP = 0.001992693726
+    read read read read                       SHAP = 0.001902692429
+    create read namecreate queryinformation   SHAP = 0.001858122926
+    openkey closekeys closekeys querykey      SHAP = 0.001836944054
+    openkey openkey closekeys create          SHAP = 0.001813847560
+    closekeys queryvaluekey closekeys create  SHAP = 0.001797967660
+    close create cleanup close                SHAP = 0.001788782906
+    openkey openkey openkey closekeys         SHAP = 0.001776444096
+    close create imageload create             SHAP = 0.001719221347
+    closekeys openkey queryvaluekey querykey  SHAP = 0.001685396685

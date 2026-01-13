@@ -1,0 +1,32 @@
+
+Sample: invoke-get-rbcd-threaded
+    querykey enumeratekey enumeratekey closekeys  SHAP = 0.026923465736
+    openkey closekeys openkey create          SHAP = 0.022377752748
+    closekeys openkey create queryinformation  SHAP = 0.017767349730
+    closekeys openkey closekeys openkey       SHAP = 0.016103414757
+    queryvaluekey closekeys openkey closekeys  SHAP = 0.006893696966
+    queryvaluekey create createnewfile queryinformation  SHAP = 0.005201317684
+    enumeratekey enumeratekey closekeys create  SHAP = 0.005136834921
+    closekeys openkey enumeratekey querykey   SHAP = 0.004764342080
+    openkey closekeys create queryinformation  SHAP = 0.004663190525
+    openkey openkey openkey closekeys         SHAP = 0.004124994695
+    create read read read                     SHAP = 0.003484698275
+    openkey openkey closekeys create          SHAP = 0.003484470304
+    close openkey closekeys openkey           SHAP = 0.003426458947
+    closekeys closekeys queryinformation read  SHAP = 0.003407359564
+    create read read create                   SHAP = 0.003368686626
+    openkey closekeys openkey querykey        SHAP = 0.003303914547
+    openkey queryvaluekey create createnewfile  SHAP = 0.003079871856
+    queryvaluekey closekeys closekeys queryinformation  SHAP = 0.003016088992
+    close create create imageload             SHAP = 0.003009450717
+    imageunload create close createnewfile    SHAP = 0.002859881989
+    openkey openkey queryvaluekey queryvaluekey  SHAP = 0.002834400340
+    closekeys openkey queryvaluekey querykey  SHAP = 0.002786636239
+    closekeys create queryinformation cleanup  SHAP = 0.002669855908
+    close closekeys queryvaluekey queryvaluekey  SHAP = 0.002642217554
+    queryvaluekey closekeys closekeys enumeratekey  SHAP = 0.002218156497
+    openkey querykey querykey openkey         SHAP = 0.002203453333
+    openkey queryvaluekey closekeys closekeys  SHAP = 0.002115596861
+    create create queryinformation cleanup    SHAP = 0.002070201724
+    cleanup close closekeys queryvaluekey     SHAP = 0.002060506242
+    queryvaluekey queryvaluekey openkey openkey  SHAP = 0.001982771965

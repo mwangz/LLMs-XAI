@@ -1,0 +1,32 @@
+
+Sample: get-systemdnsserver
+    openkey closekeys openkey create          SHAP = 0.033054640406
+    closekeys openkey create queryinformation  SHAP = 0.024676992367
+    openkey openkey closekeys querykey        SHAP = 0.021303217899
+    closekeys openkey closekeys openkey       SHAP = 0.020565510892
+    openkey closekeys openkey closekeys       SHAP = 0.016322667076
+    openkey closekeys openkey querykey        SHAP = 0.010841378338
+    openkey openkey closekeys openkey         SHAP = 0.010543847706
+    openkey closekeys create queryinformation  SHAP = 0.007341933361
+    openkey closekeys openkey openkey         SHAP = 0.007311321734
+    queryvaluekey closekeys openkey closekeys  SHAP = 0.007124041888
+    openkey openkey closekeys create          SHAP = 0.005930198140
+    openkey openkey openkey closekeys         SHAP = 0.005644135725
+    create read read create                   SHAP = 0.004259697939
+    queryvaluekey closekeys closekeys queryinformation  SHAP = 0.003899682407
+    openkey querysecuritykey queryvaluekey closekeys  SHAP = 0.003277691423
+    close read read read                      SHAP = 0.003155302852
+    openkey closekeys closekeys queryvaluekey  SHAP = 0.002952515349
+    closekeys closekeys queryinformation read  SHAP = 0.002841480061
+    closekeys openkey openkey closekeys       SHAP = 0.002241479572
+    closekeys queryvaluekey queryvaluekey openkey  SHAP = 0.001891565372
+    create queryinformation queryinformation cleanup  SHAP = 0.001836823247
+    closekeys create queryinformation cleanup  SHAP = 0.001779864535
+    cleanup close create create               SHAP = 0.001732669086
+    querysecuritykey queryvaluekey closekeys queryvaluekey  SHAP = 0.001685722279
+    openkey openkey queryvaluekey queryvaluekey  SHAP = 0.001491662506
+    close create queryinformation cleanup     SHAP = 0.001489954432
+    closekeys queryvaluekey enumeratekey closekeys  SHAP = 0.001455407058
+    close create create queryinformation      SHAP = 0.001428350166
+    closekeys queryvaluekey querykey setinformationkey  SHAP = 0.001372499468
+    create create queryinformation cleanup    SHAP = 0.001365595379

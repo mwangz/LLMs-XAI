@@ -1,0 +1,32 @@
+
+Sample: convertto-shellcode
+    openkey openkey closekeys openkey         SHAP = 0.010323505086
+    create cleanup close direnum              SHAP = 0.010321106546
+    closekeys openkey closekeys openkey       SHAP = 0.007468268296
+    openkey querykey enumeratekey enumeratekey  SHAP = 0.006696302065
+    close read read read                      SHAP = 0.006095892323
+    createnewfile namecreate write queryinformation  SHAP = 0.004984805373
+    read read read read                       SHAP = 0.004881895508
+    write write write queryinformation        SHAP = 0.004514014530
+    queryinformation cleanup close read       SHAP = 0.004265398843
+    create createnewfile namecreate write     SHAP = 0.004216024397
+    read create queryinformation queryinformation  SHAP = 0.003906475413
+    queryvaluekey closekeys openkey closekeys  SHAP = 0.003657811669
+    closekeys openkey querykey closekeys      SHAP = 0.003423804321
+    closekeys openkey queryvaluekey querykey  SHAP = 0.003309328916
+    openkey closekeys queryvaluekey imageload  SHAP = 0.003284825069
+    openkey openkey openkey openkey           SHAP = 0.003113713635
+    setinformationkey queryvaluekey queryvaluekey queryvaluekey  SHAP = 0.003083663766
+    create read read read                     SHAP = 0.003006620946
+    openkey closekeys openkey querykey        SHAP = 0.002966473192
+    write queryinformation cleanup close      SHAP = 0.002860837717
+    namecreate write queryinformation cleanup  SHAP = 0.002815486260
+    imageunload imageunload imageunload processstop  SHAP = 0.002630646059
+    setinformationkey querykey openkey openkey  SHAP = 0.002489918808
+    read read read create                     SHAP = 0.002306208006
+    openkey openkey closekeys create          SHAP = 0.002226730366
+    queryvaluekey querykey openkey setinformationkey  SHAP = 0.002213702886
+    cleanup close read read                   SHAP = 0.002176607955
+    querykey enumeratekey enumeratekey enumeratekey  SHAP = 0.002171589037
+    openkey openkey openkey closekeys         SHAP = 0.002132021082
+    close create createnewfile write          SHAP = 0.002107042053

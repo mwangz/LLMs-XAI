@@ -1,0 +1,32 @@
+
+Sample: invoke-eyewitness
+    openkey closekeys openkey create          SHAP = 0.022717172481
+    closekeys openkey create queryinformation  SHAP = 0.019424891332
+    closekeys openkey closekeys openkey       SHAP = 0.017927930981
+    querykey enumeratekey enumeratekey closekeys  SHAP = 0.013938596764
+    openkey querykey enumeratekey enumeratekey  SHAP = 0.012665502711
+    openkey openkey closekeys openkey         SHAP = 0.011271721621
+    queryvaluekey closekeys openkey closekeys  SHAP = 0.008260306320
+    openkey closekeys openkey querykey        SHAP = 0.007439469649
+    closekeys queryvaluekey closekeys create  SHAP = 0.006985212366
+    openkey openkey openkey closekeys         SHAP = 0.005023502467
+    close openkey closekeys openkey           SHAP = 0.004579760413
+    queryinformation querykey openkey setinformationkey  SHAP = 0.004546580927
+    openkey openkey closekeys create          SHAP = 0.004526793160
+    openkey closekeys create queryinformation  SHAP = 0.003824925882
+    queryvaluekey queryvaluekey openkey openkey  SHAP = 0.003540398330
+    queryvaluekey closekeys closekeys queryinformation  SHAP = 0.003353607828
+    read read read read                       SHAP = 0.003282014688
+    openkey queryvaluekey create createnewfile  SHAP = 0.002767506762
+    queryvaluekey closekeys closekeys enumeratekey  SHAP = 0.002734712302
+    closekeys queryvaluekey queryvaluekey openkey  SHAP = 0.002559964895
+    create read read read                     SHAP = 0.002360097646
+    queryvaluekey create createnewfile queryinformation  SHAP = 0.002263811757
+    openkey queryvaluekey queryvaluekey closekeys  SHAP = 0.002258065411
+    imageunload create close createnewfile    SHAP = 0.002215982105
+    closekeys create queryinformation cleanup  SHAP = 0.002024992205
+    closekeys closekeys closekeys imageunload  SHAP = 0.002004548759
+    openkey queryvaluekey queryvaluekey querykey  SHAP = 0.001885123425
+    close create create queryinformation      SHAP = 0.001879134029
+    openkey openkey queryvaluekey queryvaluekey  SHAP = 0.001876093348
+    close closekeys queryvaluekey queryvaluekey  SHAP = 0.001800172638

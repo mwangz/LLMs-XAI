@@ -1,0 +1,32 @@
+
+Sample: get-system
+    openkey closekeys openkey create          SHAP = 0.024268552706
+    openkey openkey closekeys querykey        SHAP = 0.021331346535
+    closekeys openkey closekeys openkey       SHAP = 0.015879782491
+    openkey openkey closekeys openkey         SHAP = 0.011440608329
+    openkey closekeys openkey closekeys       SHAP = 0.010896125485
+    read create queryinformation queryinformation  SHAP = 0.009989356547
+    queryvaluekey closekeys openkey closekeys  SHAP = 0.007856779854
+    openkey closekeys openkey querykey        SHAP = 0.006881812698
+    close read read read                      SHAP = 0.006170314677
+    openkey closekeys create queryinformation  SHAP = 0.005203007815
+    openkey openkey closekeys create          SHAP = 0.005124352683
+    openkey closekeys queryvaluekey imageload  SHAP = 0.005107270434
+    create closekeys openkey closekeys        SHAP = 0.004900840437
+    openkey querysecuritykey queryvaluekey closekeys  SHAP = 0.004802880921
+    cleanup close read read                   SHAP = 0.004324307598
+    closekeys openkey queryvaluekey querykey  SHAP = 0.004135359883
+    openkey openkey openkey closekeys         SHAP = 0.003854775725
+    openkey closekeys openkey openkey         SHAP = 0.003028017488
+    queryinformation cleanup close read       SHAP = 0.002965364257
+    closekeys closekeys queryinformation read  SHAP = 0.002938851416
+    queryvaluekey closekeys closekeys queryinformation  SHAP = 0.002831477384
+    create create create cleanup              SHAP = 0.002561778049
+    closekeys queryvaluekey openkey closekeys  SHAP = 0.002468432585
+    create queryinformation cleanup close     SHAP = 0.002200504035
+    create read read read                     SHAP = 0.002172276778
+    close create create querysecurity         SHAP = 0.002139473045
+    openkey closekeys queryvaluekey read      SHAP = 0.002074734916
+    queryinformation queryinformation queryinformation read  SHAP = 0.002046524290
+    queryinformation queryinformation queryinformation querykey  SHAP = 0.002034754835
+    direnum direnum cleanup close             SHAP = 0.001983386693

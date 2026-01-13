@@ -1,0 +1,32 @@
+
+Sample: admoduleimport
+    openkey closekeys openkey create          SHAP = 0.023421324756
+    querykey enumeratekey enumeratekey closekeys  SHAP = 0.018391733415
+    closekeys openkey create queryinformation  SHAP = 0.018214819936
+    openkey openkey closekeys querykey        SHAP = 0.017005542105
+    openkey openkey closekeys openkey         SHAP = 0.015985907636
+    closekeys openkey closekeys openkey       SHAP = 0.011992975760
+    closekeys openkey create cleanup          SHAP = 0.009968256926
+    openkey closekeys openkey querykey        SHAP = 0.009839913784
+    openkey queryvaluekey create close        SHAP = 0.009047231043
+    queryvaluekey create close createnewfile  SHAP = 0.007869425290
+    queryvaluekey openkey openkey closekeys   SHAP = 0.007529502572
+    openkey querykey enumeratekey enumeratekey  SHAP = 0.006801383330
+    queryvaluekey closekeys openkey closekeys  SHAP = 0.006687047684
+    openkey openkey openkey closekeys         SHAP = 0.005318350735
+    openkey closekeys queryvaluekey imageload  SHAP = 0.004824977554
+    openkey openkey closekeys create          SHAP = 0.004642088506
+    close read read read                      SHAP = 0.004394268483
+    queryvaluekey imageload imageload imageload  SHAP = 0.003874038511
+    read read read read                       SHAP = 0.003826536714
+    openkey closekeys create queryinformation  SHAP = 0.003586475785
+    create read read create                   SHAP = 0.003581268194
+    closekeys queryvaluekey closekeys create  SHAP = 0.003547859493
+    closekeys create queryinformation cleanup  SHAP = 0.003272643253
+    closekeys queryvaluekey imageload imageload  SHAP = 0.003150548414
+    queryvaluekey enumeratekey closekeys querykey  SHAP = 0.002848579865
+    queryvaluekey openkey closekeys openkey   SHAP = 0.002655921585
+    closekeys openkey openkey closekeys       SHAP = 0.002635923734
+    openkey create queryinformation cleanup   SHAP = 0.002629944670
+    openkey querykey enumeratevaluekey querykey  SHAP = 0.002627765018
+    querykey enumeratevaluekey querykey enumeratevaluekey  SHAP = 0.002601294710

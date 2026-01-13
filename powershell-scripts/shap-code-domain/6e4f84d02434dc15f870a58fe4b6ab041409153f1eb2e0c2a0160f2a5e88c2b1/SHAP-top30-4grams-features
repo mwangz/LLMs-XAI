@@ -1,0 +1,32 @@
+
+Sample: malware_asyncrat_6e4f84d02434dc15f870a58fe4b6ab041409153f1eb2e0c2a0160f2a5e88c2b1
+    openkey closekeys openkey create          SHAP = 0.019838836327
+    closekeys openkey create queryinformation  SHAP = 0.014414214778
+    closekeys openkey closekeys openkey       SHAP = 0.012865094715
+    openkey openkey closekeys querykey        SHAP = 0.012015489736
+    openkey openkey closekeys openkey         SHAP = 0.011246588306
+    openkey closekeys openkey closekeys       SHAP = 0.008853233676
+    close read read read                      SHAP = 0.007937389978
+    openkey create queryinformation cleanup   SHAP = 0.007006041203
+    queryinformation queryinformation querysecurity queryinformation  SHAP = 0.006735107006
+    write write write queryinformation        SHAP = 0.006400918731
+    read read read read                       SHAP = 0.005660294900
+    create createnewfile namecreate write     SHAP = 0.005453789956
+    create read read create                   SHAP = 0.005372387354
+    createnewfile namecreate write queryinformation  SHAP = 0.005329732395
+    openkey querysecurity create queryinformation  SHAP = 0.005308388377
+    openkey closekeys openkey querykey        SHAP = 0.004815301961
+    queryvaluekey closekeys closekeys queryinformation  SHAP = 0.004449029980
+    closekeys openkey queryvaluekey querykey  SHAP = 0.004436922371
+    cleanup create createnewfile namecreate   SHAP = 0.003944509597
+    close create create imageload             SHAP = 0.003834729293
+    queryinformation cleanup create createnewfile  SHAP = 0.003817030776
+    write write queryinformation cleanup      SHAP = 0.003657776458
+    openkey openkey openkey openkey           SHAP = 0.003647432231
+    write queryinformation cleanup close      SHAP = 0.003628276226
+    closekeys closekeys queryinformation read  SHAP = 0.003593023451
+    openkey openkey queryvaluekey queryvaluekey  SHAP = 0.003516663058
+    openkey openkey closekeys create          SHAP = 0.003489366776
+    queryinformation cleanup close read       SHAP = 0.003456048528
+    create read read read                     SHAP = 0.003386506498
+    write queryinformation cleanup create     SHAP = 0.003272105201

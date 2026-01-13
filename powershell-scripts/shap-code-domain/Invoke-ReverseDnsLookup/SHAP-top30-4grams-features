@@ -1,0 +1,32 @@
+
+Sample: invoke-reversednslookup
+    openkey closekeys openkey create          SHAP = 0.026897449466
+    closekeys openkey create queryinformation  SHAP = 0.022707771728
+    closekeys openkey closekeys openkey       SHAP = 0.017952594319
+    openkey openkey closekeys openkey         SHAP = 0.017675174315
+    openkey openkey closekeys querykey        SHAP = 0.016508895163
+    queryvaluekey openkey openkey closekeys   SHAP = 0.010227190353
+    closekeys openkey create cleanup          SHAP = 0.009624468117
+    openkey closekeys openkey querykey        SHAP = 0.007882646878
+    queryvaluekey closekeys openkey closekeys  SHAP = 0.007634094763
+    closekeys queryvaluekey closekeys create  SHAP = 0.007005717613
+    openkey openkey closekeys create          SHAP = 0.006820397456
+    openkey openkey openkey closekeys         SHAP = 0.006284588629
+    closekeys openkey querykey closekeys      SHAP = 0.004711815188
+    openkey closekeys create queryinformation  SHAP = 0.004589129324
+    queryvaluekey enumeratekey closekeys querykey  SHAP = 0.004333686205
+    create read read read                     SHAP = 0.003980422061
+    queryvaluekey closekeys closekeys enumeratekey  SHAP = 0.003724472934
+    openkey closekeys closekeys queryvaluekey  SHAP = 0.002667652603
+    queryinformation querykey openkey queryvaluekey  SHAP = 0.002667578089
+    closekeys openkey openkey closekeys       SHAP = 0.002539038449
+    closekeys closekeys queryinformation read  SHAP = 0.002439036981
+    enumeratekey openkey create queryinformation  SHAP = 0.002157728128
+    queryvaluekey openkey closekeys openkey   SHAP = 0.002155913991
+    queryvaluekey closekeys closekeys queryinformation  SHAP = 0.002141836327
+    queryvaluekey openkey openkey openkey     SHAP = 0.002128209831
+    queryvaluekey closekeys queryvaluekey closekeys  SHAP = 0.002126713254
+    openkey openkey queryvaluekey queryvaluekey  SHAP = 0.001937419388
+    close create create querysecurity         SHAP = 0.001892435346
+    create create querysecurity cleanup       SHAP = 0.001804844742
+    queryinformation queryinformation read create  SHAP = 0.001804788223

@@ -1,0 +1,32 @@
+
+Sample: 53a22de4029b0d5d461c8cf0dbc0ce2166e2e2d6c5f0f842e6932a724950b802
+    write write write queryinformation        SHAP = 0.008576687433
+    create cleanup close direnum              SHAP = 0.008298378000
+    openkey openkey closekeys querykey        SHAP = 0.007557717841
+    write write queryinformation cleanup      SHAP = 0.006333919376
+    createnewfile namecreate write queryinformation  SHAP = 0.006077713935
+    close read read read                      SHAP = 0.005588763715
+    create read read create                   SHAP = 0.005552299985
+    cleanup close read read                   SHAP = 0.005454122093
+    threadstop imageunload imageunload imageunload  SHAP = 0.005219530156
+    read create queryinformation queryinformation  SHAP = 0.005179851955
+    queryinformation read queryinformation cleanup  SHAP = 0.004837867350
+    queryinformation cleanup close read       SHAP = 0.004781474616
+    cleanup create createnewfile namecreate   SHAP = 0.004771281465
+    read read read read                       SHAP = 0.004744021378
+    create createnewfile namecreate write     SHAP = 0.004431056156
+    write write write write                   SHAP = 0.004345929384
+    queryinformation queryinformation querysecurity queryinformation  SHAP = 0.004301157165
+    create imageload imageload create         SHAP = 0.004272898107
+    write queryinformation cleanup close      SHAP = 0.004083729442
+    direnum create cleanup close              SHAP = 0.003919713678
+    queryinformation write write write        SHAP = 0.003823845913
+    createnewfile queryinformation write write  SHAP = 0.003546206964
+    namecreate write queryinformation cleanup  SHAP = 0.003430407938
+    imageunload imageunload imageunload processstop  SHAP = 0.003409096032
+    create read read read                     SHAP = 0.003372785949
+    datasent datasent read read               SHAP = 0.003093409221
+    create queryinformation read queryinformation  SHAP = 0.003025142223
+    imageload queryinformation cleanup close  SHAP = 0.002963161969
+    cleanup cleanup imageunload imageunload   SHAP = 0.002915724188
+    close create create read                  SHAP = 0.002878789545

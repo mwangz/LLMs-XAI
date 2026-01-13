@@ -1,0 +1,32 @@
+
+Sample: http-login
+    openkey closekeys openkey create          SHAP = 0.029089572647
+    closekeys openkey create queryinformation  SHAP = 0.019157350423
+    openkey openkey closekeys querykey        SHAP = 0.018433168340
+    closekeys openkey closekeys openkey       SHAP = 0.018385592603
+    openkey closekeys openkey closekeys       SHAP = 0.015537612854
+    openkey closekeys openkey querykey        SHAP = 0.012416838731
+    openkey openkey closekeys openkey         SHAP = 0.011563350306
+    openkey create queryinformation cleanup   SHAP = 0.008981117681
+    closekeys openkey create cleanup          SHAP = 0.008079979796
+    queryvaluekey imageload imageload imageload  SHAP = 0.007588984182
+    closekeys queryvaluekey closekeys create  SHAP = 0.007516535384
+    openkey openkey closekeys create          SHAP = 0.007176394865
+    queryvaluekey openkey openkey closekeys   SHAP = 0.007085422489
+    queryvaluekey closekeys openkey closekeys  SHAP = 0.005714601062
+    openkey closekeys create queryinformation  SHAP = 0.005532059352
+    openkey openkey openkey closekeys         SHAP = 0.004664315375
+    create read read create                   SHAP = 0.004644753985
+    closekeys queryvaluekey imageload imageload  SHAP = 0.004486331072
+    openkey closekeys openkey openkey         SHAP = 0.003704991021
+    queryvaluekey queryvaluekey openkey openkey  SHAP = 0.003307287290
+    closekeys openkey enumeratekey querykey   SHAP = 0.003249097615
+    openkey closekeys queryvaluekey imageload  SHAP = 0.003085952458
+    create read read read                     SHAP = 0.002985044261
+    closekeys enumeratekey openkey create     SHAP = 0.002829264606
+    enumeratekey openkey create queryinformation  SHAP = 0.002624853135
+    queryvaluekey enumeratekey closekeys querykey  SHAP = 0.002507266931
+    closekeys openkey querykey closekeys      SHAP = 0.002502691642
+    querykey openkey setinformationkey closekeys  SHAP = 0.002464848110
+    queryvaluekey closekeys queryvaluekey create  SHAP = 0.002419488990
+    closekeys openkey openkey closekeys       SHAP = 0.002302211844
