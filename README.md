@@ -76,6 +76,7 @@ python3 inference-university-local.py input_prompts_file_name.jsonl output_respo
 **example**:
 ```
 python3 inference-university-local.py prompts-codeonly.jsonl responses-codeonly.jsonl
+```
 
 ## 5. Mask Malicious Code
 
