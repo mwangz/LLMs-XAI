@@ -3,6 +3,7 @@ function Get-GPPAutologon
     [CmdletBinding()]
     Param ()
     Set-StrictMode -Version 2
+    [System.Reflection.Assembly]::LoadWithPartialName("System.Core") |Out-Null
     function Get-GPPInnerFields 
     {
     [CmdletBinding()]
@@ -59,7 +60,7 @@ function Get-GPPAutologon
             throw 'Machine is not a domain member or User is not a member of the domain.'
         }
         Write-Verbose 'Searching the DC. This could take a while.'
-        $XMlFiles = Get-ChildItem -Path "\\$Env:USERDNSDOMAIN\SYSVOL" -Recurse -ErrorAction SilentlyContinue -Include 'Registry.xml'
+        $XMlFiles = Get-ChildItem -Recurse -ErrorAction SilentlyContinue -Include 'Registry.xml'
         if ( -not $XMlFiles ) {throw 'No preference files found.'}
         Write-Verbose "Found $($XMLFiles | Measure-Object | Select-Object -ExpandProperty Count) files that could contain passwords."
         foreach ($File in $XMLFiles) {

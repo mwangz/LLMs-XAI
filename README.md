@@ -1,6 +1,6 @@
 # Large Language Model Assisted PowerShell Malware Detection and Explanation
 
-This repository provides the **dataset used in the paper** (including PowerShell scripts, SHAP results, and domain knowledge) as well as **automation scripts** for:
+This repository provides the **dataset used in the paper** (including PowerShell scripts and SHAP results) as well as **automation scripts** for:
 - Generating prompts from PowerShell scripts
 - Running inference with large language models (LLMs)
 - Masking malicious code based on model responses
@@ -42,17 +42,17 @@ python3 generate_prompts-codeonly-confidence-levels.py <input_powershell_scripts
 
 **example**:
 ```
-python3 generate_prompts-codeonly-confidence-levels.py powershell_scripts/codeonly prompts-codeonly.jsonl
+python3 generate_prompts-codeonly-confidence-levels.py datasets/codeonly prompts-codeonly.jsonl
 ```
 
-### 3.2 Code+domain knowledge+SHAP
+### 3.2 Code+SHAP
 ```
-python3 generate_prompts-code-domain-SHAP-confidence.py input_powershell_scripts_path output_prompts_file_name.jsonl
+python3 generate_prompts-code-SHAP-confidence.py input_powershell_scripts_path output_prompts_file_name.jsonl
 ```
 
 **example**:
 ```
-python3 generate_prompts-code-domain-SHAP-confidence.py powershell_scripts/shap-code-domain prompts-shap-code-domain.jsonl
+python3 generate_prompts-code-SHAP-confidence.py datasets/shap-code prompts-shap-code.jsonl
 ```
 
 ## 4. Run Inference to Get the Results
@@ -94,18 +94,18 @@ python3 mask-malicious-code.py \
 **example**:
 ```
 python3 mask-malicious-code.py --jsonl_file 'responses-codeonly.jsonl' \
-  --powershell_dir 'powershell_scripts/codeonly' \
+  --powershell_dir 'datasets/codeonly' \
   --output_dir 'cleaned_scripts_confidence_levels_all' \
   --severity_level 1 > log-responses-codeonly-confidence-levels-all.txt
 ```
 ```
 python3 mask-malicious-code.py --jsonl_file 'responses-codeonly.jsonl' \
-  --powershell_dir 'powershell_scripts/codeonly' \
+  --powershell_dir 'datasets/codeonly' \
   --output_dir 'cleaned_scripts_confidence_levels_high' \
   --severity_level 2 > log-responses-codeonly-confidence-levels-high.txt
 ```
 
-### 5.2 Code+domain knowledge+SHAP
+### 5.2 Code+SHAP
 
 **The main difference from codeonly is the parameter severity_level**
 ```
@@ -121,15 +121,15 @@ python3 mask-malicious-code.py \
 **example**:
 ```
 python3 mask-malicious-code.py --jsonl_file "responses-code-SHAP.jsonl" \
-  --powershell_dir "powershell_scripts/codeonly" \
-  --output_dir "cleaned_scripts_DomainK_SHAP_confidence-all" \
-  --severity_level 2 > log-responses-code-domain-shap-confidence-all
+  --powershell_dir "datasets/codeonly" \
+  --output_dir "cleaned_scripts_SHAP_confidence-all" \
+  --severity_level 2 > log-responses-code-shap-confidence-all
 ```
 ```
 python3 mask-malicious-code.py --jsonl_file "responses-code-SHAP.jsonl" \
-  --powershell_dir "powershell_scripts/codeonly" \
-  --output_dir "cleaned_scripts_DomainK_SHAP_confidence-high" \
-  --severity_level 3 > log-responses-code-domain-shap-confidence-high
+  --powershell_dir "datasets/codeonly" \
+  --output_dir "cleaned_scripts_SHAP_confidence-high" \
+  --severity_level 3 > log-responses-code-shap-confidence-high
 ```
 
 ## 6. VirusTotal Community Score

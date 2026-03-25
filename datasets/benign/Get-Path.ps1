@@ -1,0 +1,114 @@
+
+[CmdletBinding(SupportsShouldProcess = $true)]
+
+param (
+	[string] $search,
+	[switch] $sort
+)
+
+Begin
+{
+	function ExpandPath ($path)
+	{
+		$match = [Regex]::Match($path, '\%(.+)\%')
+		if ($match.Success)
+		{
+			$evar = [Environment]::GetEnvironmentVariable( `
+					$match.Value.Substring(1, $match.Value.Length - 2))
+
+			if ($evar -and ($evar.Length -gt 0))
+			{
+				return $path -replace $match.value, $evar
+			}
+		}
+
+		return $path
+	}
+}
+Process
+{
+
+	$0 = 'SYSTEM\CurrentControlSet\Control\Session Manager\Environment'
+	$sysKey = [Microsoft.Win32.Registry]::LocalMachine.OpenSubKey($0, $false <# readonly #>)
+	$sysPaths = $sysKey.GetValue('Path', $null, 'DoNotExpandEnvironmentNames') -split ';'
+	$sysExpos = $sysPaths | ? { $_ -match '\%.+\%' } | % { ExpandPath $_ }
+	$sysKey.Dispose()
+
+	$usrKey = [Microsoft.Win32.Registry]::CurrentUser.OpenSubKey('Environment', $false <# readonly #>)
+	$usrPaths = $usrKey.GetValue('Path', $null, 'DoNotExpandEnvironmentNames') -split ';'
+	$usrExpos = $usrPaths | ? { $_ -match '\%.+\%' } | % { ExpandPath $_ }
+	$usrKey.Dispose()
+
+	if ($VerbosePreference -eq 'Continue')
+	{
+		Write-Host 'Original System Paths' -ForegroundColor DarkYellow
+		Write-Host ($sysPaths -join [Environment]::NewLine) -ForegroundColor DarkGray
+		Write-Host 'Original User Paths' -ForegroundColor DarkYellow
+		Write-Host ($usrPaths -join [Environment]::NewLine) -ForegroundColor DarkGray
+		Write-Host
+	}
+
+	if ($sort) { $paths = $env:Path -split ';' | sort }
+	else { $paths = $env:Path -split ';' }
+
+	$duplicates = @()
+
+	Write-Host
+	$format = "{0,4}  {1}"
+
+	foreach ($path in $paths)
+	{
+		$source = ''
+		if (($sysExpos -contains $path) -or ($sysPaths -contains $path)) { $source += 'M' }
+		if (($usrExpos -contains $path) -or ($usrPaths -contains $path)) { $source += 'U' }
+		if ($source -eq '') { $source += 'P' }
+
+		if ($path.Length -eq 0)
+		{
+			Write-Host '     -- EMPTY --' -ForegroundColor Yellow
+		}
+		elseif ($duplicates.Contains($path))
+		{
+			Write-Host("$format ** DUPLICATE" -f $source, $path) -ForegroundColor Yellow
+		}
+		else
+		{
+			if (!(Test-Path $path))
+			{
+				Write-Host("$format ** NOT FOUND" -f $source, $path) -ForegroundColor Red
+			}
+			elseif ($search -and $path.ToLower().Contains($search.ToLower()))
+			{
+				Write-Host($format -f $source, $path) -ForegroundColor Green
+			}
+			else
+			{
+				if ($source.Contains('P'))
+				{
+					Write-Host($format -f $source, $path) -ForegroundColor White
+				}
+				elseif ($source.Contains('U'))
+				{
+					if ($usrExpos -contains $path) { $source = "*$source" }
+					Write-Host($format -f $source, $path) -ForegroundColor Gray
+				}
+				else
+				{
+					if ($sysExpos -contains $path) { $source = "*$source" }
+					Write-Host($format -f $source, $path) -ForegroundColor DarkGray
+				}
+			}
+		}
+
+		$duplicates += $path
+	}
+
+	Write-Host
+	Write-Host "PATH contains $($env:Path.Length) bytes" -NoNewline
+
+	if (($env:Path).Length -gt ([Int16]::MaxValue * 0.80))
+	{
+		Write-Host ' .. exceeds 80% capacity; consider removing unused entries' -ForegroundColor Red
+	}
+	Write-Host
+}
